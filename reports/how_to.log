@@ -1,0 +1,123 @@
+Traceback (most recent call last):
+  File "C:\Users\ashej\.virtualenvs\jupyter-books-WZpnkDri\Lib\site-packages\jupyter_cache\executors\utils.py", line 51, in single_nb_execution
+    executenb(
+  File "C:\Users\ashej\.virtualenvs\jupyter-books-WZpnkDri\Lib\site-packages\nbclient\client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashej\.virtualenvs\jupyter-books-WZpnkDri\Lib\site-packages\nbclient\util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashej\.virtualenvs\jupyter-books-WZpnkDri\Lib\site-packages\nbclient\util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashej\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ashej\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\ashej\.virtualenvs\jupyter-books-WZpnkDri\Lib\site-packages\nbclient\client.py", line 608, in async_setup_kernel
+    yield
+  File "C:\Users\ashej\.virtualenvs\jupyter-books-WZpnkDri\Lib\site-packages\nbclient\client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "C:\Users\ashej\.virtualenvs\jupyter-books-WZpnkDri\Lib\site-packages\nbclient\client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "C:\Users\ashej\.virtualenvs\jupyter-books-WZpnkDri\Lib\site-packages\nbclient\client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+from ipywidgets import interact, FloatSlider, interactive, fixed
+import matplotlib.patches as mpatches
+from matplotlib.collections import PatchCollection
+
+#imports
+import pandas as pd
+from ipywidgets import interact, interactive, fixed, interact_manual, Layout, Box, VBox, HBox, Button, Output, Tab
+# import ipywidgets as widgets
+from IPython.display import display, display_html
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import norm
+import markdown
+from IPython.core.display import display, HTML
+from myst_nb import glue
+
+out = Output()
+
+mu = 66.4
+sigma = 3.84
+sample_size = 50,
+upper_cond= 66.4+4*3.84
+
+#draws pdf of smampling means)
+def update_plot(change):
+    lower_cond = change['new'] # new slider value 
+    mu = 66.4
+    sigma = 3.84
+    sample_size = 50.0,
+    upper_cond= 66.4+4*3.84
+    sigma_n = sigma/(np.sqrt(sample_size)[0]) #std dev of sampling means
+    with out:
+        clear_output(wait=True)
+        x = np.linspace(-4*sigma_n + mu, 4*sigma_n + mu, 1000) #x-axis values
+        y = norm.pdf(x, mu, sigma_n) # (x-values, location, scale) #norm function
+        #plot
+        fig, axs = plt.subplots()
+        plt.plot(x, y)
+        plt.fill_between(x, y, 0, where = (x > lower_cond) & (x < upper_cond),color = 'pink')
+        plt.axvline(x=66.4, color='red', dashes=(3, 3), zorder=0,linewidth=1)
+        plt.axvline(x=lower_cond, color='blue', dashes=(3, 3), zorder=0,linewidth=1)
+        plt.xlabel('Density')
+        plt.ylabel('Height')
+        plt.text(lower_cond+.1,.6, r'$\bar{}=${}'.format(r'x',round(lower_cond,2)), fontsize=12)
+        prob = 1-norm.cdf(lower_cond, loc=mu, scale=sigma_n)
+        plt.text(67.5,.3, r'prob.={}'.format(round(prob,3)), fontsize=12)
+        ##arrows
+        style="Simple,head_length=15,head_width=15,tail_width=3"
+        arrow = arrow = mpatches.FancyArrowPatch((68,.275), ((lower_cond+68)/2,
+                                                 norm.pdf((lower_cond+68.75)/2, mu, sigma_n)/2),
+                                                 arrowstyle=style)
+        plt.gca().add_patch(arrow)
+#       display(fig)
+        plt.show()
+
+
+style ={'description_width': 'initial'};
+
+interact_layout = Layout(display='flex',
+#                     flex_flow='column', #default for VBox
+                    align_items = 'center',
+#                     align_content = 'center',
+                    justify_content = 'center',
+#                     border = 'solid', #centers widget
+                    )
+
+slider = FloatSlider(description='Sample mean', 
+                                style = style,
+                                min=64.5, max=68.5, 
+                                step = .5, value=67,
+#                                 layout = slider_layout
+                                )
+
+slider_box = Box([slider] , layout = interact_layout) 
+fig_box = Box([out] , layout = interact_layout) 
+slider.observe(update_plot, 'value')
+update_plot({'new': slider.value}) 
+fig_and_slider = VBox(children = [slider_box, fig_box], layout=interact_layout)
+
+display(fig_and_slider)
+------------------
+
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [1;32mIn[7], line 15[0m
+[0;32m     13[0m [38;5;28;01mimport[39;00m [38;5;21;01mseaborn[39;00m [38;5;28;01mas[39;00m [38;5;21;01msns[39;00m
+[0;32m     14[0m [38;5;28;01mfrom[39;00m [38;5;21;01mscipy[39;00m[38;5;21;01m.[39;00m[38;5;21;01mstats[39;00m [38;5;28;01mimport[39;00m norm
+[1;32m---> 15[0m [38;5;28;01mimport[39;00m [38;5;21;01mmarkdown[39;00m
+[0;32m     16[0m [38;5;28;01mfrom[39;00m [38;5;21;01mIPython[39;00m[38;5;21;01m.[39;00m[38;5;21;01mcore[39;00m[38;5;21;01m.[39;00m[38;5;21;01mdisplay[39;00m [38;5;28;01mimport[39;00m display, HTML
+[0;32m     17[0m [38;5;28;01mfrom[39;00m [38;5;21;01mmyst_nb[39;00m [38;5;28;01mimport[39;00m glue
+
+[1;31mModuleNotFoundError[0m: No module named 'markdown'
+ModuleNotFoundError: No module named 'markdown'
+
