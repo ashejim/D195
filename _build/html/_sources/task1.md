@@ -80,7 +80,7 @@ Statistically significant results can be found by applying an appropriate infere
 Inferential statistical methods and testing for statistical significance are covered in [C749 Intro to Data Analysis & Practical Statistics](https://learn.udacity.com/nanodegrees/nd002-wgu-1). For a brief overview, listen to [C964/D195 Statistical Significance](https://d2y36twrtb17ty.cloudfront.net/sessions/d8c9630b-274a-4879-bf27-ae2a011e3dbd/ec782192-a9bf-459f-b091-ae2a011e3dc8-8a3dfb1b-4294-4074-9d33-ae2a011e752c.mp4?invocationId=abd666da-b37f-ec11-828b-12b1cb861383) in the [WGU IT Audio series](https://www.wgu.edu/online-it-degrees/it-audio-series.html#close).
 <!-- Add a stat sign video -->
 
-##### Models
+#### Models
 
 While the rubric explicitly requires "statistical significance," not all non-descriptive rigorous data analysis methods have a known probability space from which to derive a $p-\text{value}$, e.g., many common machine learning models; but using such (statistical or machine learning) models can satisfy the "statistical significance" requirements of tasks 2 and 3.
 <!-- OK there are some things here to get a p-value but they are sus and not highly developed; see that paper I downloaded... -->
@@ -101,7 +101,6 @@ Once you've decided on a topic, complete the approval form following the templat
 
 <!-- TODO: ADD THUMBNAIL IMAGE
 <!-- > [![Task 1 example](https://github.com/ashejim/C964/blob/main/url_images/example_task1-a.png?raw=true#image-thumb)](https://github.com/ashejim/C964/blob/main/resources/example_task1-a.pdf) -->
-> [D195 Topic Approval Form](https://github.com/ashejim/D195/blob/main/resources/D195_Topic_Approval_Form.docx)
 <!-- TODO: CHECK THIS LINK -->
 > [D195 Topic Approval Form](./resources/D195_Topic_Approval_Form.docx)
 
@@ -130,9 +129,7 @@ In most cases, obtaining authorization can be avoided by masking or removing ide
 
 <!-- > [![Waiver Form](https://github.com/ashejim/C769/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7) -->
 
-<!-- :::{note}
-![waiver checkbox](../C769/url_images/waiver-check-1box.png)
-::: -->
+> [D195 Waiver Form](./resources/D195_waiver_form.docx)
 
 (task1:faq)=
 
