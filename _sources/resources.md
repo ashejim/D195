@@ -53,10 +53,12 @@ The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.
 ### Topic Approval Form Template
 
 <!-- > [![Topic Approval Form](https://github.com/ashejim/C769/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D) -->
+> [D195 Topic Approval Form](./resources/D195_Topic_Approval_Form.docx)
 
 ### Waiver Form
 
 <!-- > [![Waiver Form](https://github.com/ashejim/C769/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7)  -->
+> [D195 Waiver Form](./resources/D195_waiver_form.docx)
 
 (resources:task1:overviewvideo)=
 ### Overview Video
@@ -65,19 +67,25 @@ The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.
     src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=e26949a3-9e24-4092-bf52-aedb014e2527&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="C769 Overview" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"
 >
 </iframe> -->
+:::{note}
+🚧 Video in development.👷🏽‍♀️
+:::
 
 ### Task 1 Examples
 
-<!-- See the [Examples](resources:examples) and [Excellence Archive](resources:examples:excellence) sections. -->
+See the [Examples](resources:examples) and [Excellence Archive](resources:examples:excellence) sections.
 
 (resources:task2)=
+
 ## Task 2 Resources
 
 (resources:task2:task2template)=
+
 ### Task 2 Template
 
 Write your proposal following **Task 2: The Proposal template**:
-> [![Task 2: the Proposal template](https://github.com/ashejim/C769/blob/main/url_images/t2_template_thumb.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXQpEzeuOBhBnfhO15di-mQBXkj592jBHZ0ceFGcdVdvJA?e=y0cZTs)
+<!-- > [![Topic Approval Form](https://github.com/ashejim/C769/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D) -->
+> [D195 Task 2 Template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/Ee2j1-f4p_pLp-v-sA6XpkYBRSlZ8pMxBsGAv6_YRsELOw?e=s4odpt)
 
 (resources:task2:task2example)=
 
@@ -88,15 +96,28 @@ See the [Examples](resources:examples) and [Excellence Archive](resources:exampl
 (resources:task2:videos)=
 ### Task 2 Videos
 
+:::{note}
+🚧 Video in development.👷🏽‍♀️
+:::
 
 ## Task 3
 
 (resources:task3)=
-### Completing task 3
 
-#### Video
-<!-- <iframe width="560" height="315" src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=5286bdf6-43c4-479e-8135-72922ac3f6bf&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="G and H: Timeline & Outcome" frameborder="0" style="border: 1px solid #464646;" allowfullscreen allow="autoplay">
-</iframe> -->
+### Task 3 Template
+
+> [D195 Task 3 Template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXd665BhwxJPrzjy35_4pLoB3oQ-2saTvR8B8V5eGKsaPA?e=hPwYxq)
+
+### Task 2 Examples
+
+See the [Examples](resources:examples) and [Excellence Archive](resources:examples:excellence) sections.
+
+### Video
+
+:::{note}
+🚧 Video in development.👷🏽‍♀️
+:::
+
 
 ## Grammar, Sources, and APA
 
@@ -128,6 +149,7 @@ Sources and format should follow [APA guidelines](https://cm.wgu.edu/t5/Writing-
 Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions covering a variety of topics including APA citations and formatting. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860).
 
 (resources:general)=
+
 ## General Resources
 
 ### Student Resources
