@@ -1,0 +1,836 @@
+
+
+<!DOCTYPE html>
+
+
+<html >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Task 2 &#8212; D195 Data Analytics Capstone</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/my_css.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '.history/task2_inprogress_20230720191518';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="None"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/reg_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/reg_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to D195!
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../task1.html">Task 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../task2.html">Task 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../task3.html">Task 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resources.html">D195 Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ci_page.html">Course Faculty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support_this_page.html">Help Support this Website</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F.history/task2_inprogress_20230720191518.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/.history/task2_inprogress_20230720191518.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Task 2</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#do-the-analysis-now">Do the Analysis Now!</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-proposal-overview">A: Proposal Overview</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a1-research-question-or-organizational-need">A1 Research Question or Organizational Need</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#research-question-or-organizational-need">Research Question OR Organizational Need?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-research-question">What is a Research Question?</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a2-context-background">A2 Context &amp; Background</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a3-a3a-summary-of-works-project-relation">A3 &amp; A3A Summary of Works &amp; Project Relation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a4-summary-of-data-analytics-solution">A4 Summary of Data Analytics Solution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a5-benefits-support-of-decision-making-process">A5 Benefits &amp; Support of Decision Making Process</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-data-analytics-project-plan">B: Data Analytics Project Plan</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b1-goals-objectives-deliverables">B1 Goals, Objectives, &amp; Deliverables</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b2-scope-of-project">B2 Scope of Project</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b3-standard-methodology">B3 Standard Methodology</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b4-timeline-milestones">B4 Timeline &amp; Milestones</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b5-resources-costs">B5 Resources &amp; Costs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b6-criteria-for-success">B6 Criteria for Success</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-design-of-data-analytics-solution">C: Design of Data Analytics Solution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#c1-hypothesis">C1 Hypothesis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#c2-c2a-analytical-method">C2 &amp; C2A Analytical Method</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grammar-sources-and-apa">Grammar, Sources, and APA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#faq">FAQ</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-ve-completed-task-2-should-i-send-it-to-my-course-instructor-for-review">I’ve completed task 2. Should I send it to my course instructor for review?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-long-should-task-2-be-is-there-a-page-length-required">How long should task 2 be? Is there a page length required?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-many-submission-attempts-do-i-have">How many submission attempts do I have?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-can-t-find-sources-for-section-a3-summary-of-published-works-what-can-i-do">I can’t find sources for section A3, <em>Summary of Published Works</em>. What can I do?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-task-two-was-returned-for-sources-stating">My task two was returned for <em>sources</em> stating:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-comments-or-suggestions">Questions, comments, or suggestions?</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="task-2">
+<h1>Task 2<a class="headerlink" href="#task-2" title="Permalink to this headline">#</a></h1>
+<!-- TODO START HERE: 7/13/2023 -->
+<p>Write your proposal following <strong>Task 2: Project Proposal template</strong>:</p>
+<blockquote>
+<div><p><a class="reference external" href="https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/Ee2j1-f4p_pLp-v-sA6XpkYBRSlZ8pMxBsGAv6_YRsELOw?e=9dkG8a">Task 2: the Proposal template</a></p>
+</div></blockquote>
+<p>To gauge the level of detail evaluators typically expect, see the <a class="reference internal" href="../resources.html#resources-examples"><span class="std std-ref">task 2 examples</span></a> - passing, albeit not great, projects. A suggetsed path to completing task 2:</p>
+<div class = "tasklist">
+<p><input type="checkbox"> Pass <a class="reference internal" href="../task1.html#task1"><span class="std std-ref">task 1</span></a>.</p>
+<p><input type="checkbox"> Complete the data analysis which includes a statistical test for significance or model with a performance metric. Alternatively, this can be done before writing task 3, but some amount of data investigation should be done before completing A1.</p>
+   <!-- <input type="checkbox"> Watch *all* of the [**Task 2 videos**](resources:task2) (they are short). -->
+<p><input type="checkbox"> Review the corresponding task 2 section and then write that section to meet the rubric requirements independently. Here’s a <em>suggested</em> order:</p>
+   <div class = "tasklist2">
+<p><input type="checkbox"> Complete <span class="xref myst">A1</span>. Most sections must align with your chosen research question or organizational need.</p>
+<p><input type="checkbox"> Complete <span class="xref myst">C4</span> &amp; <a class="reference internal" href="../task2.html#task2-c1"><span class="std std-ref">C1</span></a>. A statistical test or model supporting A1 is <em>the only specific rigorous requirement in tasks 2 and 3 rubrics.</em> With this in place, the project has the necessary foundations to pass.</p>
+<p><input type="checkbox"> Complete <a class="reference internal" href="../task2.html#task2-c2"><span class="std std-ref">C2</span></a>, <span class="xref myst">C3</span>, &amp; <span class="xref myst">C5</span>. These sections describe the details, development, and practical application of C1 &amp; C4.</p>
+<p><input type="checkbox"> Complete <span class="xref myst">C6</span>. Graphs supporting C4 or describing the data used for C4.</p>
+<p><input type="checkbox"> Complete <span class="xref myst">D1</span>-<span class="xref myst">D5</span>. These sections describe the data and data preparation necessary for C or other analyses.</p>
+<p><input type="checkbox"> Complete <a class="reference internal" href="../task2.html#task2-b1"><span class="std std-ref">B1</span></a>-<span class="xref myst">B6</span>, the “business plan” for your project. This will outline and repeat parts C &amp; D from a management perspective.</p>
+<p><input type="checkbox"> Complete <span class="xref myst">A2</span>, <span class="xref myst">A4</span>, <span class="xref myst">A5</span>. summarizing the project and its purpose.</p>
+<p><input type="checkbox"> Complete <span class="xref myst">A3</span>. Include 3 works related to the project.</p>
+   </div>
+<p><input type="checkbox"> Following APA guidelines, <a class="reference internal" href="task2_inprogress_20230720145411.html#task2-grammar"><span class="std std-ref">check grammar and sources</span></a>, review the sources in the <a class="reference internal" href="../resources.html#resources-examples"><span class="std std-ref">task 2 examples</span></a>, export as a pdf, and submit.</p>
+<p><input type="checkbox"> Start <a class="reference internal" href="../task3.html#task3"><span class="std std-ref">task 3</span></a>!</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Sections are assessed independently against the rubric requirements, i.e., when evaluating a section, the evaluator will <em>check for the fulfillment of the requirements within that section</em>. They <em>don’t</em> assess writing style. You can (and sometimes must) reuse content from other areas as needed. It’s not about writing something fun to read -it’s about demonstrating that the requirements are met.</p>
+</div>
+<section id="do-the-analysis-now">
+<span id="task2-do-the-analysis-now"></span><h2>Do the Analysis Now!<a class="headerlink" href="#do-the-analysis-now" title="Permalink to this headline">#</a></h2>
+<p>Task 2 is written as a proposal. However, parts C of task 2 and F of task 3 require a specific type of data analysis. An inductive argument using descriptive methods will not meet the requirements of these sections. Analyzing the data before writing task 2 will help:</p>
+<ol class="arabic simple">
+<li><p>Ensure the minimum requirements of the project will be met.</p></li>
+<li><p>Better align the research question/organizational need with project outcomes.</p></li>
+<li><p>Better align tasks 2 and 3 allowing task 3 to be completed faster.</p></li>
+</ol>
+<p>Though more of an initial time investment, the analysis must be done at some point. Doing it first allows Task 2 to be written to known (rather than anticipated) results and allows Task 3 to be completed by (mostly) rewriting Task 2.</p>
+</section>
+<section id="a-proposal-overview">
+<span id="task2-a"></span><h2>A: Proposal Overview<a class="headerlink" href="#a-proposal-overview" title="Permalink to this headline">#</a></h2>
+<p>The Proposal Overview summarizes one question or organizational need that you intend to answer by collecting and analyzing a set of data. Think of it as a summary meant to be read by upper management or a general audience.</p>
+<p>This part introduces and summarizes a thesis (A1), a literature review (A3), a problem (A2), and your solution (A4 &amp; A5). This section can establish a roadmap for the rest of the paper, but if you write it first expect the need to revisit and revise it once other sections are complete. Remember to keep the introduction concise but informative, providing enough information to clearly meet the requirements of individual sections.</p>
+<section id="a1-research-question-or-organizational-need">
+<span id="task1-a1"></span><h3>A1 Research Question or Organizational Need<a class="headerlink" href="#a1-research-question-or-organizational-need" title="Permalink to this headline">#</a></h3>
+<p>Much of Tasks 2 and 3 must align with this section. Particularly the rigorous method from part C. After investigating your data, you may need to adjust from what was provided in <a class="reference internal" href="../task1.html#task1"><span class="std std-ref">Task 1</span></a>. Making changes from Task 1 is acceptable (and somewhat expected) without resubmitting Task 1. However, we recommend contacting your <a class="reference internal" href="../ci_page.html#ci-page"><span class="std std-ref">assigned course </span></a>instructor if significant changes are necessary.</p>
+<section id="research-question-or-organizational-need">
+<h4>Research Question OR Organizational Need?<a class="headerlink" href="#research-question-or-organizational-need" title="Permalink to this headline">#</a></h4>
+<p>“Research question or organizational need,” is the language of the rubric. Addressing a research question best fits the rubric requirements, and any research question can be described to have an organizational benefit (the pragmatism of which is not assessed). So most projects should choose a research question and advice on this page will favor that direction.</p>
+</section>
+<section id="what-is-a-research-question">
+<h4>What is a Research Question?<a class="headerlink" href="#what-is-a-research-question" title="Permalink to this headline">#</a></h4>
+<p>A research question should identify what your analysis plans to discover. For this project, it should be:</p>
+<ol class="arabic simple">
+<li><p>Narrow/specific enough to define an answerable question.</p></li>
+<li><p>Supportable with a statistical test or model.</p></li>
+<li><p>Feasible within your available time, resources, and abilities.</p></li>
+</ol>
+<p>A good research question should also be interesting, relevant, and novel. However, these characteristics are not directly or indirectly assessed as the capstone is meant to demonstrate proficiencies in analysis -not scientific research. Particularly do not worry about the novelty of projects as we have no shareable list of previous topics or investaigated datasets.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Many of the rubric requirements must align with A1. Particularly <a class="reference internal" href="task2_inprogress_20230720145411.html#task2-c"><span class="std std-ref">part C</span></a>](task2:C). If you’ve followed the recommendation of first completing the analysis, your research question can be directly related to your <a class="reference internal" href="../task2.html#task2-c1"><span class="std std-ref">hypothesis</span></a></p>
+</div>
+ <!--TODO HERE  -->
+<!-- :::{sidebar} Watch 
+<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=db8381ab-1659-49e9-b5fc-ebb844c66944&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="A1, A2, anb A3: The Proposal" style="border: 1px solid #464646;" class="center" allowfullscreen allow="autoplay">
+</iframe>
+::: -->
+</section>
+</section>
+<section id="a2-context-background">
+<span id="task2-a2"></span><h3>A2 Context &amp; Background<a class="headerlink" href="#a2-context-background" title="Permalink to this headline">#</a></h3>
+<p>Briefly detail the project’s background and provide enough context making the purpose of your project clear.</p>
+</section>
+<section id="a3-a3a-summary-of-works-project-relation">
+<span id="task2-a3"></span><h3>A3 &amp; A3A Summary of Works &amp; Project Relation<a class="headerlink" href="#a3-a3a-summary-of-works-project-relation" title="Permalink to this headline">#</a></h3>
+<p>Think of this section as a literature review where you summarize a work (A3) and then relate it to your project (A3A). They need only connect to an aspect of your project; they don’t need to align with it entirely. You can use anything created by an industry professional, e.g., online articles, whitepapers, technical documentation, etc. Most importantly, you must have <strong>three</strong> different works cited following <a class="reference internal" href="task2_inprogress_20230720145411.html#task2-grammar"><span class="std std-ref">APA guidelines</span></a> using in-text citations, e.g., (Author, year). Typically, papers cite sources as needed, but for evaluation purposes, they added this section to demonstrate research.</p>
+<ol class="arabic simple">
+<li><p><strong>Review a work.</strong> For example, online articles, blogs, case studies, white papers, videos, etc.</p></li>
+<li><p><strong>Summarize the work.</strong> Simply tell your reader what’s in the resource you reviewed, no need to offer an opinion or analyze it -simply summarize the content. We recommend 1-2 paragraphs per work.</p></li>
+<li><p><strong>Relate the work to your project.</strong> Following the summary, describe how the work expands the context of the problem or supports the implementation solution.</p></li>
+<li><p><strong>Include an APA style in-text citation,</strong> e.g., (Author, year); follow  [APA guidelines and use the MS reference tool] see (task2:grammar)</p></li>
+</ol>
+<ul class="simple">
+<li><p><a class="reference external" href="https://wgu.libguides.com/friendly.php?s=library">WGU’s library</a></p></li>
+<li><p><a class="reference external" href="https://scholar.google.com/">google.scholar.com</a></p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Stuck? Return to this section later. You will likely collect sources while conducting research for other sections. The works do not have to be a one-to-one match to your project. What’s accepted is very broad.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can search <a class="reference external" href="https://wgu.libguides.com/friendly.php?s=library">WGU’s library</a> and other open-source libraries using <a class="reference external" href="https://scholar.google.com/">google.scholar.com</a> Go to &gt;’Google.scholar&gt;setting&gt;libraires&gt;’
+and then add WGU and other libraries.</p>
+<img src="https://github.com/ashejim/C769/blob/main/url_images/google_scholar_demo.gif?raw=true" height="300px" />
+</div>
+</section>
+<section id="a4-summary-of-data-analytics-solution">
+<span id="task2-a4"></span><h3>A4 Summary of Data Analytics Solution<a class="headerlink" href="#a4-summary-of-data-analytics-solution" title="Permalink to this headline">#</a></h3>
+<p>Summarize the proposed solution. Include a summary of the analytic method(s) and its implementation summarized in <span class="xref myst">B3</span> and detailed in <span class="xref myst">C4</span>. Detail how the solution:</p>
+<ul class="simple">
+<li><p>Will be realistically implemented.</p></li>
+<li><p>Address the research question or organizational need.</p></li>
+</ul>
+</section>
+<section id="a5-benefits-support-of-decision-making-process">
+<span id="task1-a5"></span><h3>A5 Benefits &amp; Support of Decision Making Process<a class="headerlink" href="#a5-benefits-support-of-decision-making-process" title="Permalink to this headline">#</a></h3>
+<p>Describe how the soltuion from A4 will:</p>
+<ul class="simple">
+<li><p>Provide a benefit and why.</p></li>
+<li><p>Assist in decision-making and why.</p></li>
+</ul>
+<p>The benefit can directly or indirectly be related to solution assisting in decision-making.</p>
+</section>
+</section>
+<section id="b-data-analytics-project-plan">
+<span id="task2-b"></span><h2>B: Data Analytics Project Plan<a class="headerlink" href="#b-data-analytics-project-plan" title="Permalink to this headline">#</a></h2>
+<p>In this part, you will discuss the design details of your data analytics solution. Think of it as a business plan for <a class="reference internal" href="task2_inprogress_20230720145411.html#task2-c"><span class="std std-ref">part C</span></a> targetting middle management.</p>
+<section id="b1-goals-objectives-deliverables">
+<span id="task2-b1"></span><h3>B1 Goals, Objectives, &amp; Deliverables<a class="headerlink" href="#b1-goals-objectives-deliverables" title="Permalink to this headline">#</a></h3>
+<p><strong>Goals</strong> and <strong>objectives</strong> are very similar. Goals are broader, defining the end you are trying to achieve (e.g., improving customer service). You need at least one goal. Objectives are more specific, often measurable steps supporting the goal (e.g., real-time inventory updates for customers). Goals and objectives can be considered high-level and mid-management tasks, respectively. <strong>Deliverables</strong> are tangible tasks completed supporting the objectives (e.g., an inventory status screen reporting real-time inventory to customers).</p>
+<p>For this section, you must:</p>
+<ul class="simple">
+<li><p>Describe each goal (every project should have at least one)</p></li>
+<li><p>Describe each objective and how the objectives support the goal(s).</p></li>
+<li><p>Describe each deliverable, and how each deliverable supports an objective.</p></li>
+</ul>
+<p>Each goal, objective, and deliverable should align with each other, the project as described in section A, and the timeline provided in section B4. A nested bullet point format will help evaluators identify descriptions and intended alignment.</p>
+<div class="tip admonition">
+<p class="admonition-title">Example</p>
+<ul class="simple">
+<li><p>Goal 1: The goal of this project is to …</p>
+<ul>
+<li><p>Objective 1.1: Determine if …
+- Deliverable 1.1.1: The deliverable for this objective is …
+- Deliverable 1.1.2: The deliverable for this objective is …</p></li>
+<li><p>Objective 1.2: Provide a …
+- Deliverable 1.2.1: The deliverable for this objective is …</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Also, see part B1 of these <span class="xref myst">examples</span>.</p>
+</section>
+<section id="b2-scope-of-project">
+<h3>B2 Scope of Project<a class="headerlink" href="#b2-scope-of-project" title="Permalink to this headline">#</a></h3>
+<p>Describe:</p>
+<ul class="simple">
+<li><p>What the project will entail.</p></li>
+<li><p>What the project will <em>not</em> entail.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Don’t forget the “not” part!
+You must include at least <em>one</em> specific item outside the project’s scope. Overlooking this is one of the most common reasons for returns.</p>
+</div>
+</section>
+<section id="b3-standard-methodology">
+<h3>B3 Standard Methodology<a class="headerlink" href="#b3-standard-methodology" title="Permalink to this headline">#</a></h3>
+<p>The methodology is the process you will follow when implementing your solution. Include specific details to adequately describe the steps that will take place in each phase. In this section, you must:</p>
+<ol class="arabic simple">
+<li><p>Identify a “standard” methodology used to plan the project, e.g., Waterfall or ADDIE.</p></li>
+<li><p>Describe the project steps to be completed in each phase of the methodology, e.g., analysis, design, etc.</p></li>
+</ol>
+<p>The second step provides a detailed implementation plan also outlined in <span class="xref myst">section A2</span>. If using a less-known methodology, relate it to a “standard” one.</p>
+</section>
+<section id="b4-timeline-milestones">
+<h3>B4 Timeline &amp; Milestones<a class="headerlink" href="#b4-timeline-milestones" title="Permalink to this headline">#</a></h3>
+<p>Provide a timeline aligning with the milestones and deliverables described in section <a class="reference internal" href="../task2.html#task2-b1"><span class="std std-ref">B1</span></a>. While a table is not specifically required, it provides a succinct presentation satisfying the requirements of B.4., and it is what evaluators have come to expect.</p>
+<!-- to customize admonitions
+https://pradyunsg.me/furo/reference/admonitions/ -->
+<div class="hint admonition">
+<p class="admonition-title">Example</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Milestone or Deliverable</p></th>
+<th class="head"><p>Duration</p></th>
+<th class="head"><p>Projected Start Date</p></th>
+<th class="head"><p>Projected End date</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Some milestones</p></td>
+<td><p>7 days</p></td>
+<td><p>7/23/2022</p></td>
+<td><p>7/30/2022</p></td>
+</tr>
+<tr class="row-odd"><td><p>Some deliverables</p></td>
+<td><p>14 days</p></td>
+<td><p>7/16/2022</p></td>
+<td><p>7/30/2022</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(\vdots\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\vdots\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\vdots\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\vdots\)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="b5-resources-costs">
+<h3>B5 Resources &amp; Costs<a class="headerlink" href="#b5-resources-costs" title="Permalink to this headline">#</a></h3>
+<p>Include a list of all necessary resources and the approximate cost of each resource.</p>
+<div class="hint admonition">
+<p class="admonition-title">Example</p>
+<ol class="arabic simple">
+<li><p>Item 1: $1000</p></li>
+<li><p>Item 2: No cost</p></li>
+<li><p>Item 3: $100</p></li>
+</ol>
+</div>
+<p>Be realistic as possible when estimating costs. However, this is not a business project and values are not rigorously assessed. The minimum number of listed items is two.</p>
+</section>
+<section id="b6-criteria-for-success">
+<h3>B6 Criteria for Success<a class="headerlink" href="#b6-criteria-for-success" title="Permalink to this headline">#</a></h3>
+<p>Provide specific objective means of assessing success. You should base these criteria on successful execution and correct interpretation of your methods -not the results. It is acceptable that a test fails to find results statistically significant provided <em>the conclusion and methods are appropriate.</em></p>
+</section>
+</section>
+<section id="c-design-of-data-analytics-solution">
+<h2>C: Design of Data Analytics Solution<a class="headerlink" href="#c-design-of-data-analytics-solution" title="Permalink to this headline">#</a></h2>
+<p>In this section, you will discuss the details of your data analytics solution targetting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus we recommend completing at least a rough outline of this part before investing time in parts A and B.</p>
+<section id="c1-hypothesis">
+<span id="task2-c1"></span><h3>C1 Hypothesis<a class="headerlink" href="#c1-hypothesis" title="Permalink to this headline">#</a></h3>
+<p>Provide a hypothesis supporting the research question or organizational need given in section A1. The minimum required hypothesis is one. Your hypothesis must be supportable by a hypothesis test or model.</p>
+<p>If using a statistical test, you’ll conduct a hypothesis test and you should state the alternative hypothesis you’ll use here. For models, state a claim supportable by the metric you plan to use to measure the model’s success.</p>
+</section>
+<section id="c2-c2a-analytical-method">
+<span id="task2-c2"></span><h3>C2 &amp; C2A Analytical Method<a class="headerlink" href="#c2-c2a-analytical-method" title="Permalink to this headline">#</a></h3>
+<p>Identify the statistical test or model which will support each hypothesis given in section C1 and summarize how the method will be performed or developed. The minimum required method is one per hypothesis.<br />
+….
+And that’s as far as I got. TODO: Pickup here.</p>
+<!-- TODO HERE!! 7/20/2023-->
+</section>
+</section>
+<section id="grammar-sources-and-apa">
+<h2>Grammar, Sources, and APA<a class="headerlink" href="#grammar-sources-and-apa" title="Permalink to this headline">#</a></h2>
+<p>It’s easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions!</p>
+<p>Check your grammar using <a class="reference external" href="https://www.grammarly.com/">Grammarly.com</a> <img alt="grammarly_icon" src="https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon" /> (it’s what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in <em>Professional Communication</em>. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Students have reported missed mistakes when using the Google Doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.</p>
+</div>
+<p>Sources and format should follow <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524">APA guidelines</a>. Avoid reference errors by using the <a class="reference external" href="https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5">MS Word Reference Tool</a> to create and manage references and review this guide on how to <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333">Avoid Common APA errors</a>.</p>
+<p>Get the best writing help from the writing experts: <a class="reference external" href="https://my.wgu.edu/success-centers/writing-center">WGU Writing Center</a>. While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&amp;A sessions. See a list of upcoming events here: <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860">Writing Center Live Events</a>.</p>
+</section>
+<section id="faq">
+<span id="task2-faq"></span><h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">#</a></h2>
+<section id="i-ve-completed-task-2-should-i-send-it-to-my-course-instructor-for-review">
+<h3>I’ve completed task 2. Should I send it to my course instructor for review?<a class="headerlink" href="#i-ve-completed-task-2-should-i-send-it-to-my-course-instructor-for-review" title="Permalink to this headline">#</a></h3>
+<p>If you have specific questions or concerns -yes. However, in most cases, it’s best just to submit. What suffices as “sufficient detail” is highly subjective. We can always tell you to add more, but if you’ve done your best to fulfill the requirements, submit it and let them tell you which (if any) parts need to be rewritten. At best, it passes; at worst, we address the issues cited by the evaluator -and then it passes. Responding to the more narrow focus of the evaluator’s comments is generally easier than overworking the entire project.</p>
+<p>You have <em>unlimited</em> submissions but limited time. And, typically this is the best and most efficient approach.</p>
+</section>
+<section id="how-long-should-task-2-be-is-there-a-page-length-required">
+<h3>How long should task 2 be? Is there a page length required?<a class="headerlink" href="#how-long-should-task-2-be-is-there-a-page-length-required" title="Permalink to this headline">#</a></h3>
+<p>No. The individual evaluator determines what qualifies as “sufficient detail” and will vary depending on the project and writing style. If you feel you’ve met the requirements, simply move on to the next section. Upon submission, it will pass, or they will request more details.</p>
+</section>
+<section id="how-many-submission-attempts-do-i-have">
+<h3>How many submission attempts do I have?<a class="headerlink" href="#how-many-submission-attempts-do-i-have" title="Permalink to this headline">#</a></h3>
+<p>You have unlimited submissions (as with all WGU performance assessments). Furthermore, a project requiring multiple submissions is not precluded from being given an excellence award. However, do attempt to fully meet <em>each</em> requirement as submissions falling significantly short of the minimum requirements may be <em>locked</em> from further submissions without instructor approval. Moreover, such submissions do not receive meaningful evaluator comments.</p>
+</section>
+<section id="i-can-t-find-sources-for-section-a3-summary-of-published-works-what-can-i-do">
+<h3>I can’t find sources for section A3, <em>Summary of Published Works</em>. What can I do?<a class="headerlink" href="#i-can-t-find-sources-for-section-a3-summary-of-published-works-what-can-i-do" title="Permalink to this headline">#</a></h3>
+<p>You are likely overinterpreting what’s required. Rarely are submissions sent back because cited works are unsuitable. You can use any referenceable work created by a professional which can be <em>related</em> to your project -it does not need to align with your project entirely. For example, an article about your chosen analytical method or tools would suffice.</p>
+</section>
+<section id="my-task-two-was-returned-for-sources-stating">
+<h3>My task two was returned for <em>sources</em> stating:<a class="headerlink" href="#my-task-two-was-returned-for-sources-stating" title="Permalink to this headline">#</a></h3>
+<blockquote>
+<div><p>“In-text citations could not be found for portions of the task that have been quoted or paraphrased… “
+<strong>What does this comment mean?</strong></p>
+</div></blockquote>
+<p>It indicates they could not find a matching in-text citation for every source on your reference list. Check that each reference has a match following APA style, e.g., (Author, year), and remove any references without matches. Use the <a class="reference external" href="https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5">MS Word Reference Tool</a> to create, manage references, and avoid such errors. Follow the in-text citations and the reference page format of the <a class="reference internal" href="../resources.html#resources-examples"><span class="std std-ref">tasks 2 and 3 examples</span></a>.</p>
+</section>
+</section>
+<section id="questions-comments-or-suggestions">
+<h2>Questions, comments, or suggestions?<a class="headerlink" href="#questions-comments-or-suggestions" title="Permalink to this headline">#</a></h2>
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="ashejim/C769"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/></section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./.history"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#do-the-analysis-now">Do the Analysis Now!</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-proposal-overview">A: Proposal Overview</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a1-research-question-or-organizational-need">A1 Research Question or Organizational Need</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#research-question-or-organizational-need">Research Question OR Organizational Need?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-research-question">What is a Research Question?</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a2-context-background">A2 Context &amp; Background</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a3-a3a-summary-of-works-project-relation">A3 &amp; A3A Summary of Works &amp; Project Relation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a4-summary-of-data-analytics-solution">A4 Summary of Data Analytics Solution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a5-benefits-support-of-decision-making-process">A5 Benefits &amp; Support of Decision Making Process</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-data-analytics-project-plan">B: Data Analytics Project Plan</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b1-goals-objectives-deliverables">B1 Goals, Objectives, &amp; Deliverables</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b2-scope-of-project">B2 Scope of Project</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b3-standard-methodology">B3 Standard Methodology</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b4-timeline-milestones">B4 Timeline &amp; Milestones</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b5-resources-costs">B5 Resources &amp; Costs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b6-criteria-for-success">B6 Criteria for Success</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-design-of-data-analytics-solution">C: Design of Data Analytics Solution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#c1-hypothesis">C1 Hypothesis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#c2-c2a-analytical-method">C2 &amp; C2A Analytical Method</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grammar-sources-and-apa">Grammar, Sources, and APA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#faq">FAQ</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-ve-completed-task-2-should-i-send-it-to-my-course-instructor-for-review">I’ve completed task 2. Should I send it to my course instructor for review?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-long-should-task-2-be-is-there-a-page-length-required">How long should task 2 be? Is there a page length required?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-many-submission-attempts-do-i-have">How many submission attempts do I have?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-can-t-find-sources-for-section-a3-summary-of-published-works-what-can-i-do">I can’t find sources for section A3, <em>Summary of Published Works</em>. What can I do?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-task-two-was-returned-for-sources-stating">My task two was returned for <em>sources</em> stating:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-comments-or-suggestions">Questions, comments, or suggestions?</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dr. Jim Ashe
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
