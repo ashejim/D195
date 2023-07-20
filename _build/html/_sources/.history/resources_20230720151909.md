@@ -1,0 +1,214 @@
+(resources)=
+
+# D195 Resources
+
+<!-- hack to open links in new tab -->
+<head>
+    <base target="_blank">
+</head>
+
+- **[Your Course Instructor](ci_page)**
+
+- **[ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=Assigned%20course%20instructor&subject=C769&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A)**
+
+(resources:examples)=
+
+## Examples
+
+These examples are more on-par with average passing tasks. Use them as guidelines (every project is different) for what evaluators accept in fulfillment of the requirements.  
+
+`````{tab-set}
+````{tab-item} Example set 1
+> Task 1: [topic approval form example](./resources/D195/D195_task1_example-b.pdf)
+> Task 2: [Propject proposal example](./resources/D195/D195_task2_example-b.pdf)
+> Task 3: [Propject conculsion example](./resources/D195/D195_task3_example-b.pdf)
+````
+````{tab-item} Example set 2
+> Task 1: [topic approval form example](./resources/D195/D195_task1_example-c.pdf)
+> Task 2: [Propject proposal example](./resources/D195/D195_task2_example-c.pdf)
+> Task 3: [Propject conculsion example](./resources/D195/D195_task3_example-c.pdf)
+````
+````{tab-item} Example set 3
+> Task 1: [topic approval form example](./resources/D195/D195_task1_example-d.pdf)
+> Task 2: [Propject proposal example](./resources/D195/D195_task2_example-d.pdf)
+> Task 3: [Propject conculsion example](./resources/D195/D195_task3_example-d.pdf)
+````
+````{tab-item} Example set 4
+> Task 1: [topic approval form example](./resources/D195/D195_task1_example-e.pdf)
+> Task 2: [Propject proposal example](./resources/D195/D195_task2_example-e.pdf)
+> Task 3: [Propject conculsion example](./resources/D195/D195_task3_example-e.pdf)
+````
+`````
+
+(resources:examples:excellence)=
+
+### Excellence Archive
+
+The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx) includes a wide range of completed projects. When reviewing archived capstones, keep in mind that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these as examples of what's needed to meet the requirements. For a more down-to-earth example of what's required, see the above [Examples](resources:examples) section.
+
+## Task 1 Resources
+
+(resources:task1:task1template)=
+
+### Topic Approval Form Template
+
+<!-- > [![Topic Approval Form](https://github.com/ashejim/C769/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D) -->
+> [D195 Topic Approval Form](./resources/D195_Topic_Approval_Form.docx)
+
+### Waiver Form
+
+<!-- > [![Waiver Form](https://github.com/ashejim/C769/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7)  -->
+> [D195 Waiver Form](./resources/D195_waiver_form.docx)
+
+(resources:task1:overviewvideo)=
+### Overview Video
+
+<!-- <iframe 
+    src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=e26949a3-9e24-4092-bf52-aedb014e2527&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="C769 Overview" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"
+>
+</iframe> -->
+:::{note}
+🚧 Video in development.👷🏽‍♀️
+:::
+
+### Task 1 Examples
+
+See the [Examples](resources:examples) and [Excellence Archive](resources:examples:excellence) sections.
+
+(resources:task2)=
+
+## Task 2 Resources
+
+(resources:task2:task2template)=
+
+### Task 2 Template
+
+Write your proposal following **Task 2: The Proposal template**:
+<!-- > [![Topic Approval Form](https://github.com/ashejim/C769/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D) -->
+> [D195 Task 2 Template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/Ee2j1-f4p_pLp-v-sA6XpkYBRSlZ8pMxBsGAv6_YRsELOw?e=s4odpt)
+
+(resources:task2:task2example)=
+
+### Task 2 Examples
+
+See the [Examples](resources:examples) and [Excellence Archive](resources:examples:excellence) sections.
+
+(resources:task2:videos)=
+### Task 2 Videos
+
+:::{note}
+🚧 Video in development.👷🏽‍♀️
+:::
+
+## Task 3
+
+(resources:task3)=
+
+### Task 3 Template
+
+> [D195 Task 3 Template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXd665BhwxJPrzjy35_4pLoB3oQ-2saTvR8B8V5eGKsaPA?e=hPwYxq)
+
+### Task 2 Examples
+
+See the [Examples](resources:examples) and [Excellence Archive](resources:examples:excellence) sections.
+
+### Video
+
+:::{note}
+🚧 Video in development.👷🏽‍♀️
+:::
+
+
+## Grammar, Sources, and APA
+
+- [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon)
+- [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5)
+- [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center)
+- [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860)
+- [APA resource hub](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524)
+- [Guide to Avoiding Common APA errors](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333).
+
+(resources:general:grammar:grammarly)=
+
+### Grammarly.com
+
+Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
+
+:::{warning}
+Students have reported missed mistakes when using the Google doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.
+:::
+
+Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass, they can help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q & A sessions covering a variety of topics which include general writing and grammar help. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860) 
+
+(resources:general:grammar:sources)=
+
+### Sources and APA formatting
+
+Sources and format should follow [APA guidelines](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524). Avoid reference errors by using the [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5) to create and manage references and review this guide on how to [Avoid Common APA errors](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333).
+
+Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions covering a variety of topics including APA citations and formatting. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860).
+
+(resources:general)=
+
+## General Resources
+
+### Student Resources
+
+- [Writing Center](https://my.wgu.edu/success-centers/writing-center)
+
+- [Student Resource Hub](https://resource-hub.wgu.edu/)
+
+(resources:general:cohort)=
+
+### Webinars and Cohorts
+
+#### Writing Center Live Events
+
+The Writing Center offers live Q&A sessions covering a variety of topics such as citing sources with APA, avoiding plagiarism, hacks, strategies, tools, etc. Session dates and topics are updated monthly. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860)
+
+(resources:general:libraries)=
+
+### Libraries
+
+- [WGU's library](https://wgu.libguides.com/friendly.php?s=library)
+- [google.scholar.com](https://scholar.google.com/) 
+
+:::{tip}
+You can search [WGU's library](https://wgu.libguides.com/friendly.php?s=library) and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' and then add WGU and other libraries.
+
+<img src="./_images/google_scholar_demo.gif" height="200px" alt = "short moive demonstraiting how to use google.scholar.com." />
+:::
+
+(resources:general:welcomeemail)=
+### Welcome email
+
+We've tried to provide everything you need here on this website as a more complete and readily available resource than the "welcome email," i.e., the *non-automated* introductory email from your assigned course instructor containing the tips and resources needed to get started in the right direction. However, we often get asked for the email, and I suppose this website would be incomplete without it. So here is an example of a "welcome email."
+
+```{admonition} A Welcome Email
+Welcome to D195! Please review our [D195 website](https://ashejim.github.io/D195/intro.html) to get almost everything you need. The capstone can be very similar to a combination of tasks 1 and 2 from the [Intro to Data Analysis& Practical Statistics (Udacity Data Analyst nanodegree part 1/5)](https://learn.udacity.com/nanodegrees/nd002-wgu-1) course you passed in fullfilment of the C749 -Intro to Data Science course. Additionally, review these [task 1, task 2, and task 3 examples](resources: examples). 
+Your first step is choosing a topic.
+
+1. Review the Proposal (task 2) and Conclusion Report(task 3) rubric requirements found on your D195 COS page, particularly C of task 2 and F of task 3; review the [task 1, task 2, and task 3 examples](resources: examples). Consider an argument supportable using a statistical significance; listen to [C964/D195 Statistical Significance](https://d2y36twrtb17ty.cloudfront.net/sessions/d8c9630b-274a-4879-bf27-ae2a011e3dbd/ec782192-a9bf-459f-b091-ae2a011e3dc8-8a3dfb1b-4294-4074-9d33-ae2a011e752c.mp4?invocationId=abd666da-b37f-ec11-828b-12b1cb861383) in the [WGU IT Audio series](https://www.wgu.edu/online-it-degrees/it-audio-series.html#close).
+2. Choose your dataset first; avoid proposing a project for which you do not yet have data, and avoid choosing a dataset before understanding the Task 2 and 3 requirements. A popular place for datasets is [kaggle.com](https://www.kaggle.com/datasets). You will need to make an argument supporting a hypothesis using appropriate data analytic methods; consider an idea supportable with hypothesis testing, e.g., claims about correlations, means, proportions, etc., as using statistical significance best fits the requirements. 
+3. Explore your data before settling on a topic. It is also advisable to complete your data analysis before completing the Proposal (task 2) as you won't need to anticipate results. Furthermore, completing task 3 and aligning it to task 2 will be easier. 
+4. Compose your Topic Approval Form using the [D195 Topic Approval Form](https://github.com/ashejim/D195/blob/main/resources/D195_Topic_Approval_Form.docx) and send it to your [assigned course instructor](ci_page). If more information is needed, I'll let you know. Use this   task 1 example as a guide to the expected detail.
+5.Submit the Topic Approval Form (signed by your assigned instruictor).
+
+Let us know if you have any questions. Emails are best (and fastest) for specific questions -appointments for general discussions. Though whatever your preference is fine.
+
+```
+
+(resources:general: pacing)=
+
+### Pacing Guide
+
+<!-- |          Normal      | Accelerated                          |Instructions/Steps|
+|----------------|-------------------------------|-----------------------------|
+| Week 1 | Days 2-3 | Follow the steps in the <a href="https://ashejim.github.io/C769/task1.html">Task 1 Guide</a>.<ol><li>Watch the <a href="https://ashejim.github.io/C769/intro.html"> welcome video</a>.</li><li>Having trouble defining a topic? <a href="https://ashejim.github.io/C769/ci_page.html">Contact your course intructor</a>.</li><li>Email your completed topic approval form to <a href="https://ashejim.github.io/C769/ci_page.html">your course intructor</a>.</li><li>Submit your <em>signed</em> approval form to Assessments, and get started on the next step!</li></ol>|
+| Week 2 | Days 4-8 | Follow the steps in the <a href="https://ashejim.github.io/C769/task2.html">Task 2 Guide</a>.<ol><li>Watch all the <a href="https://ashejim.github.io/C769/resources.html#task-2-videos">Task 2 Videos</a>.</li><li> Watch the <a href="https://ashejim.github.io/C769/task2.html#sections-g-and-h-timeline-outcomes">sections G and H video</a>, review the corresponding sections in the <a href="https://ashejim.github.io/C769/resources.html#examples">Task 2 examples</a>, and then write sections G and H.  </li><li>Watch the <a href="https://ashejim.github.io/C769/task2.html#sections-e-and-f-methodology-goals">sections E and F video</a>, review the corresponding sections in the <a href="https://ashejim.github.io/C769/resources.html#examples">Task 2 examples</a>, and then write sections E and F.</li> </ol>|
+| Week 3 | Days 9-13 | Continue following the <a href="https://ashejim.github.io/C769/task2.html">Task 2 Guide</a>. <ol><li> Watch the <a href="https://ashejim.github.io/C769/task2.html#sections-c-and-d-rationale-and-current-environment">sections C and D video</a>, review the corresponding sections in the <a href="https://ashejim.github.io/C769/resources.html#examples">Task 2 examples</a>, and then write sections C and D. </li><li>Watch the <a href="https://ashejim.github.io/C769/task2.html#sections-a1-a2-and-a3-overview">section A video</a>, review the corresponding section in the <a href="https://ashejim.github.io/C769/resources.html#examples">Task 2 examples</a>, and then write section A (review and reuse content from C, D, and E).</li><li>Watch the <a href="https://ashejim.github.io/C769/task2.html#sections-b-and-b1-review-of-other-work-relations-of-artifacts">section B video</a>, review the corresponding section in the <a href="https://ashejim.github.io/C769/resources.html#examples">Task 2 examples</a>, and then write section B.</li><li>Check <a href="https://ashejim.github.io/C769/task2.html#sources-and-grammar">grammar, sources, APA formatting</a>, and submit! Immediately move on to task 3.</li></ol>|
+| Week 4 | Day 14+ | Follow the steps in the <a href="https://ashejim.github.io/C769/task3.html">Task 3 Guide</a>.<ol><li>Watch the <a href="https://ashejim.github.io/C769/task3.html#writing-task-3">Task 3 Video</a>.</li><li>Using the <em>Task 3 template</em>, follow instructions for how to modify task 2 sections to fit the task 3 requirements.</li><li>Check <a href="https://ashejim.github.io/C769/task2.html#sources-and-grammar">grammar, sources, APA formatting</a>, and submit!</li></ol>| -->
+
+```{warning}
+Be aware that task 2 and 3 evaluations often take the full three days. Therefore, if you are approaching the end of your term, don't wait on task 2 to start task 3 and submit task 3 early enough to have it returned, revised, and resubmitted.
+```

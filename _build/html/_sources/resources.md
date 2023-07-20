@@ -1,6 +1,6 @@
 (resources)=
 
-# D195 Resources
+# Resources
 
 <!-- hack to open links in new tab -->
 <head>
@@ -19,24 +19,24 @@ These examples are more on-par with average passing tasks. Use them as guideline
 
 `````{tab-set}
 ````{tab-item} Example set 1
-> Task 1: [topic approval form example](./resources/D195/D195_task1_example-b.pdf)
-> Task 2: [Propject proposal example](./resources/D195/D195_task2_example-b.pdf)
-> Task 3: [Propject conculsion example](./resources/D195/D195_task3_example-b.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-b.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-b.pdf)  
+> Task 3: [Propject conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-b.pdf)
 ````
 ````{tab-item} Example set 2
-> Task 1: [topic approval form example](./resources/D195/D195_task1_example-c.pdf)
-> Task 2: [Propject proposal example](./resources/D195/D195_task2_example-c.pdf)
-> Task 3: [Propject conculsion example](./resources/D195/D195_task3_example-c.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-c.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-c.pdf)  
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-c.pdf)
 ````
 ````{tab-item} Example set 3
-> Task 1: [topic approval form example](./resources/D195/D195_task1_example-d.pdf)
-> Task 2: [Propject proposal example](./resources/D195/D195_task2_example-d.pdf)
-> Task 3: [Propject conculsion example](./resources/D195/D195_task3_example-d.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-d.pdf)
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-d.pdf)
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-d.pdf)
 ````
 ````{tab-item} Example set 4
-> Task 1: [topic approval form example](./resources/D195/D195_task1_example-e.pdf)
-> Task 2: [Propject proposal example](./resources/D195/D195_task2_example-e.pdf)
-> Task 3: [Propject conculsion example](./resources/D195/D195_task3_example-e.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-e.pdf)
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-e.pdf)
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-e.pdf)
 ````
 `````
 

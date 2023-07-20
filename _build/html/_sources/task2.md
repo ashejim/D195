@@ -4,9 +4,10 @@
 Write your proposal following **Task 2: Project Proposal template**:
 > [Task 2: the Proposal template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/Ee2j1-f4p_pLp-v-sA6XpkYBRSlZ8pMxBsGAv6_YRsELOw?e=9dkG8a)
 
-To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not great, projects. A suggetsed path to completing task 2:
+To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not great, projects.
 
-<div class = "tasklist">
+
+<!-- <div class = "tasklist">
 
    <input type="checkbox"> Pass [task 1](task1).
 
@@ -14,7 +15,7 @@ To gauge the level of detail evaluators typically expect, see the [task 2 exampl
 
    <!-- <input type="checkbox"> Watch *all* of the [**Task 2 videos**](resources:task2) (they are short). -->
 
-   <input type="checkbox"> Review the corresponding task 2 section and then write that section to meet the rubric requirements independently. Here's a *suggested* order:
+   <!-- <input type="checkbox"> Review the corresponding task 2 section and then write that section to meet the rubric requirements independently. Here's a *suggested* order:
 
    <div class = "tasklist2">
 
@@ -40,7 +41,7 @@ To gauge the level of detail evaluators typically expect, see the [task 2 exampl
 
    <input type="checkbox"> Start [task 3](task3)!
 
-</div>
+</div> --> -->
 
 :::{tip}
 Sections are assessed independently against the rubric requirements, i.e., when evaluating a section, the evaluator will *check for the fulfillment of the requirements within that section*. They *don't* assess writing style. You can (and sometimes must) reuse content from other areas as needed. It's not about writing something fun to read -it's about demonstrating that the requirements are met.
@@ -74,7 +75,7 @@ This part introduces and summarizes a thesis (A1), a literature review (A3), a p
 
 ### A1 Research Question or Organizational Need
 
-Much of Tasks 2 and 3 must align with this section. Particularly the rigorous method from part C. After investigating your data, you may need to adjust from what was provided in [Task 1](task1). Making changes from Task 1 is acceptable (and somewhat expected) without resubmitting Task 1. However, we recommend contacting your [assigned course ](ci_page)instructor if significant changes are necessary.
+Much of Tasks 2 and 3 must align with this section. Particularly the rigorous method from part C. After investigating your data, you may need to adjust from what was provided in [Task 1](task1). Making changes from Task 1 is acceptable (and somewhat expected) without resubmitting Task 1. However, we recommend contacting your [assigned course instructor](ci_page) if significant changes are necessary.
 
 #### Research Question OR Organizational Need?
 
@@ -88,7 +89,7 @@ A research question should identify what your analysis plans to discover. For th
 2. Supportable with a statistical test or model.
 3. Feasible within your available time, resources, and abilities.
  
-A good research question should also be interesting, relevant, and novel. However, these characteristics are not directly or indirectly assessed as the capstone is meant to demonstrate proficiencies in analysis -not scientific research. Particularly do not worry about the novelty of projects as we have no shareable list of previous topics or investaigated datasets.
+A good research question should also be interesting, relevant, and novel. However, these characteristics are not directly or indirectly assessed as the capstone is meant to demonstrate proficiencies in analysis -not scientific research. Particularly do not worry about the novelty of projects as we have no shareable list of previous topics or investigated datasets.
 
 :::{note}
 Many of the rubric requirements must align with A1. Particularly [part C](task2:C)](task2:C). If you've followed the recommendation of first completing the analysis, your research question can be directly related to your [hypothesis](task2:C1)  
@@ -145,7 +146,7 @@ Summarize the proposed solution. Include a summary of the analytic method(s) and
 
 ### A5 Benefits & Support of Decision Making Process
 
-Describe how the soltuion from A4 will:
+Describe how the solution from A4 will:
 
 - Provide a benefit and why.
 - Assist in decision-making and why.
@@ -156,7 +157,7 @@ The benefit can directly or indirectly be related to solution assisting in decis
 
 ## B: Data Analytics Project Plan
 
-In this part, you will discuss the design details of your data analytics solution. Think of it as a business plan for [part C](task2:C) targetting middle management.
+In this part, you will discuss the design details of your data analytics solution. Think of it as a business plan for [part C](task2:C) targeting middle management.
 
 (task2:B1)=
 
@@ -168,7 +169,7 @@ For this section, you must:
 
 - Describe each goal (every project should have at least one) 
 
-- Describe each objective and how the objectives support the goal(s). 
+- Describe each objective and how the objectives support the goal(s).
 
 - Describe each deliverable, and how each deliverable supports an objective.
 
@@ -251,89 +252,22 @@ In this section, you will discuss the details of your data analytics solution ta
 ### C1 Hypothesis
 
 
-Provide a hypothesis supporting the research question or organizational need given in section A1. The minimum required hypothesis is one. Your hypothesis must be supportable by a hypothesis test or model. 
+Provide a hypothesis supporting the research question or organizational need given in section A1. The minimum required hypothesis is one. Your hypothesis must be supportable by a hypothesis test or model.
 
 If using a statistical test, you'll conduct a hypothesis test and you should state the alternative hypothesis you'll use here. For models, state a claim supportable by the metric you plan to use to measure the model's success.
 
 (task2:C2)=
+
 ### C2 & C2A Analytical Method
 
 Identify the statistical test or model which will support each hypothesis given in section C1 and summarize how the method will be performed or developed. The minimum required method is one per hypothesis.  
 
-<!-- TODO HERE!! -->
-## Sections C and D: Rationale and Current Environment
-
-:::{sidebar} Watch
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=1fff04ae-4974-4999-b147-7fcb8d934904&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="C and D: Rationale & Current Envrionment" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" class="center">
-</iframe>
+:::{warning} ...and that's as far as I got. 
+🚧 This site is under construction!! Refer to the [Task 2 template](resources:task2) for quidance on the remaining sections. 👷🏽‍♀️
 :::
 
-(task2:C)=
-
-### Rationale
-
-The **Project Rationale** provides a comprehensive picture of *why* the project is needed. Describe the business, technical, and/or user needs. Internal and external environmental factors might also be included. 
-
-(task2:D)=
-
-### Current Environment
-
-In the **Current Project Environment** section, describe:
-
-1. The client's current state, e.g., number of employees, tech, software, etc.
-2. What's wrong with the client's current state?
-3. Why your solution fixes it?
-
-:::{tip}
-Sections are checked against the rubric requirements *individually*. So when the rubric is redundant, *be redundant* -adding appropriate detail or emphasis.  
-:::
-
-## Sections E and F: Methodology & Goals...
-
-:::{sidebar} Watch
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=e3d9d9d5-03c9-425f-abff-ac4c015c1410&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="E and F: Methodology & Goals" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" class ="center">
-</iframe>
-:::
-
-(task2:E)=
-### Methodology
-
-In this section, you must
-
-1. Identify a "standard" methodology used to plan the project, e.g., ADDIE or SDLC.
-2. Describe the project steps to be completed in each phase of the methodology, e.g., analysis, design, etc.
-Step 2 will provide a detailed implementation plan outline in section A2. Relate it to a "standard" methodology if using a less known methodology. 
-
-
-## Sections G and H: Timeline & Outcomes
-
-:::{sidebar} Watch
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=a1daad4d-43f7-40e5-86be-ab7fe69ab76b&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="G and H: Timeline & Outcome" frameborder="0" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" class ="center">
-</iframe>
-:::
-
-(task2:G)=
-### Project Timeline with Milestones
-
-Create a table providing the *Duration*, *Projected start date*, and *Anticipated end date* for each milestone and deliverable. No additional information is needed. 
-
-|Milestone or Deliverable  |Duration  | Projected Start Date| Projected End date
---- | --- | ---| ---|
-|Some milestones |7 days|7/23/2022|7/30/2022|
-|Some deliverables |14 days|7/16/2022|7/30/2022|
-|$\vdots$ |$\vdots$ |$\vdots$ |$\vdots$ |
-
-```{note}
-*All* dates must be in the future. Task 2 is a proposal. Write as if you are trying to convince the client to adopt your plan. Even if based on an already completed project, you should write task 2 as though it's yet to be done.
-```
-
-(task2:H)=
-### Outcome
-
-Provide objective, measurable criteria for success. You need specific details so that the conclusion report, task 3, can comparatively be used to show the project was a success. Time-based metrics work best, for example, from page 18 of the [task 2 example](https://github.com/ashejim/C769/blob/main/resources/examples/BSNOS/example_task2-bsnos-a.pdf),
->...This project will be considered a success when the wireless network maintains has maintained 90% uptime a week for a month and when 75% of new member and loan documentation is processed over the credit union {cite:p}`task_2_example`.
-
-(task2:grammar)=
+TODO: Pickup here.
+<!-- TODO HERE!! 7/20/2023-->
 
 ## Grammar, Sources, and APA
 
