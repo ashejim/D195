@@ -1,0 +1,39 @@
+[
+{
+    "question": "\n        An instruction set has 6 steps and each step takes one clock cycle. What is the number of cycles needed to complete the instruction sets using a pipelined process to complete 60 instruction sets?\n  Hi it's $\\pi$       ",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "65",
+            "correct": true,
+            "feedback": " "
+        },
+        {
+            "answer": "360",
+            "correct": false,
+            "feedback": " "
+        },
+        {
+            "answer": "5.983",
+            "correct": false,
+            "feedback": " "
+        },
+        {
+            "answer": "1.1",
+            "correct": false,
+            "feedback": " "
+        },
+        {
+            "answer": "1.083",
+            "correct": false,
+            "feedback": " "
+        },
+        {
+            "answer": "6.0",
+            "correct": false,
+            "feedback": " "
+        }
+    ]
+}
+
+]

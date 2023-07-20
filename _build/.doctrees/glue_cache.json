@@ -1,0 +1,70 @@
+{
+  "test_stuff": {
+    "cool_text": {
+      "data": {
+        "text/plain": "'here is some text!'"
+      },
+      "metadata": {
+        "scrapbook": {
+          "mime_prefix": "",
+          "name": "cool_text"
+        }
+      },
+      "output_type": "display_data"
+    }
+  },
+  "older_stuff\\notebooks": {
+    "boot_clo": {
+      "data": {
+        "text/plain": "2.9886042525116636"
+      },
+      "metadata": {
+        "scrapbook": {
+          "mime_prefix": "",
+          "name": "boot_clo"
+        }
+      },
+      "output_type": "display_data"
+    },
+    "boot_mean": {
+      "data": {
+        "text/plain": "3.0010626754621237"
+      },
+      "metadata": {
+        "scrapbook": {
+          "mime_prefix": "",
+          "name": "boot_mean"
+        }
+      },
+      "output_type": "display_data"
+    },
+    "boot_chi": {
+      "data": {
+        "text/plain": "3.013469150324101"
+      },
+      "metadata": {
+        "scrapbook": {
+          "mime_prefix": "",
+          "name": "boot_chi"
+        }
+      },
+      "output_type": "display_data"
+    },
+    "ht-distfig": {
+      "data": {
+        "application/papermill.record/image/png": null,
+        "application/papermill.record/text/plain": "<Figure size 432x288 with 1 Axes>"
+      },
+      "metadata": {
+        "scrapbook": {
+          "mime_prefix": "application/papermill.record/",
+          "name": "ht-distfig"
+        },
+        "filenames": {
+          "image/png": "D:\\OneDrive - Western Governors University\\jupyter-books\\D195\\_build\\jupyter_execute\\older_stuff\\notebooks_8_3.png"
+        }
+      },
+      "output_type": "display_data"
+    }
+  }
+}
