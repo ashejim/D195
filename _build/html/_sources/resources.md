@@ -29,13 +29,13 @@ These examples are more on-par with average passing tasks. Use them as guideline
 > Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-c.pdf)
 ````
 ````{tab-item} Example set 3
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-d.pdf)
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-d.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-d.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-d.pdf)  
 > Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-d.pdf)
 ````
 ````{tab-item} Example set 4
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-e.pdf)
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-e.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-e.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-e.pdf)  
 > Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-e.pdf)
 ````
 `````
