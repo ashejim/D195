@@ -6,7 +6,6 @@ Write your proposal following **Task 2: Project Proposal template**:
 
 To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not great, projects.
 
-
 <!-- <div class = "tasklist">
 
    <input type="checkbox"> Pass [task 1](task1).
@@ -41,7 +40,7 @@ To gauge the level of detail evaluators typically expect, see the [task 2 exampl
 
    <input type="checkbox"> Start [task 3](task3)!
 
-</div> --> -->
+</div> -->
 
 :::{tip}
 Sections are assessed independently against the rubric requirements, i.e., when evaluating a section, the evaluator will *check for the fulfillment of the requirements within that section*. They *don't* assess writing style. You can (and sometimes must) reuse content from other areas as needed. It's not about writing something fun to read -it's about demonstrating that the requirements are met.
@@ -245,12 +244,11 @@ Provide specific objective means of assessing success. You should base these cri
 
 ## C: Design of Data Analytics Solution
 
-In this section, you will discuss the details of your data analytics solution targetting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus we recommend completing at least a rough outline of this part before investing time in parts A and B.
+In this part, you will discuss the details of your data analytics solution targetting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus we recommend completing at least a rough outline of this part before investing time in parts A and B.
 
 (task2:C1)=
 
 ### C1 Hypothesis
-
 
 Provide a hypothesis supporting the research question or organizational need given in section A1. The minimum required hypothesis is one. Your hypothesis must be supportable by a hypothesis test or model.
 
@@ -260,14 +258,68 @@ If using a statistical test, you'll conduct a hypothesis test and you should sta
 
 ### C2 & C2A Analytical Method
 
-Identify the statistical test or model which will support each hypothesis given in section C1 and summarize how the method will be performed or developed. The minimum required method is one per hypothesis.  
+Identify (C2) and justify (C2A) each statistical test or model which will support each hypothesis given in section C1. Summarize how each method will be performed or developed. The minimum required method is one per hypothesis.
 
-:::{warning} ...and that's as far as I got. 
-🚧 This site is under construction!! Refer to the [Task 2 template](resources:task2) for quidance on the remaining sections. 👷🏽‍♀️
-:::
+### C3 Tools & Environment
 
-TODO: Pickup here.
-<!-- TODO HERE!! 7/20/2023-->
+Identify the tools, e.g., IDE, languages, libraries, etc., which will be used to complete the analytical method(s) described in section C2.
+
+### C4 & C4A Methods & Metrics to Evaluate Statistical Significance
+
+For each **statistical test**, provide the following information (C4):
+
+- A null hypothesis (the opposite of your hypothesis).
+- The planned statistical test.
+- The metric(s) generated from that test (e.g., a t-stat) from which probability (the $p$-value) is derived.
+- The alpha value (denoted $\alpha$; usually 1% or 5%) that will be used to determine statistical significance (e.g., if $\alpha = .05$ and $p$-value $= .025$ then the null hypothesis will be rejected and there is sufficient evidence to support the hypothesis).  
+
+For each **model**, provide the following information (C4):
+
+- The type of model, e.g., supervised regression, supervised classification, etc.  
+- The algorithm(s) to be used to develop the model.
+- The metric(s) to be used to assess performance.  
+- The benchmark to which the above metric(s) will be compared to determine the success of the model(s), e.g., “If the correlation coefficient is $\geq .6$, the model will be considered successful…”  
+
+For each statistical test or model, describe why it is an appropriate choice (C4A). This may repeat (verbatim) parts of section C2A.
+
+### C5 Practical Significance
+
+Practical significance refers to how meaningful your findings are in practical application. Results are practically significant when the difference is large enough to be meaningful in real life. This is subjective. But at minimum discuss some criteria to judge the practical significance and how this will be used to support the research question or organizational need from A1. Consider including an example of how the client might apply your work discussed in sections C1 through C4A.  
+
+### C6 Visual Communication
+
+Task 3, the Project Report, must include graphic visualizations (at least two) for visually communicating elements of your project (see Task 3: G2). Describe a plan to include at least two visualizations of the data, statistical test(s), or model(s); and describe the tools you’ll use to generate the images.  
+
+## D Description of Dataset
+
+This part discusses the current state of your data (pre-processed). Write from the assumption that the data sources have been identified, collected, and previewed, but not in any other way processed.
+
+### D1 Source of Data
+
+Simply identify each data source. The minimum number of sources is one.
+
+### D2 Appropriateness of Dataset
+
+Describe why each data source provided in section D1 is appropriate for supporting the research question or organizational need from section A1.
+
+### D3 Data Collection Methods
+
+Describe how each data source listed in section D.1 was collected, e.g., “the data was collected by downloading the .csv file from *<www.kaggle.com/data_source_link.html*.”>  
+
+### D4 Observations on Quality & Completeness of Data
+
+Describe both the quality and completeness of the data and any accommodation needed. Often, data is already clean and complete, but it is still necessary to comment on both.
+
+### D5 & D5A Data Governance, Privacy, Security, Ethical, Legal, & Regulatory Compliances 
+
+Specifically, address how each of the following relates to your data and project (D5):  
+
+- Data governance.
+- privacy.
+- Security.
+- Ethical, legal, and regulatory compliance considerations.
+
+Describe any necessary precautions (D5A). In cases where an item is not relevant, you must explain why. You only need to discuss measures for handling human data if you collected that data
 
 ## Grammar, Sources, and APA
 

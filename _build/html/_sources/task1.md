@@ -98,10 +98,10 @@ Examples include:
 ## Topic Approval
 
 Once you've decided on a topic, complete the approval form following the template:
-
 <!-- TODO: ADD THUMBNAIL IMAGE
 <!-- > [![Task 1 example](https://github.com/ashejim/C964/blob/main/url_images/example_task1-a.png?raw=true#image-thumb)](https://github.com/ashejim/C964/blob/main/resources/example_task1-a.pdf) -->
 <!-- TODO: CHECK THIS LINK -->
+
 > [D195 Topic Approval Form](./resources/D195_Topic_Approval_Form.docx)
 
 Include a rough outline of your research question or organizational need, supporting inferential method or model, and implementation. **Email the completed form to** **[your course instructor](ci_page)** who will either approve it with their signature or provide feedback.

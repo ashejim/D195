@@ -11,6 +11,13 @@
 Write your conclusion following **Task 3: Conclusion Report Template**:
 > [Task 3: the Conclusion template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXd665BhwxJPrzjy35_4pLoB3oQ-2saTvR8B8V5eGKsaPA?e=OWwVw8)
 
+:::{warning} ...and that's as far as I got. 
+🚧 This site is under construction!! Refer to the [Task 2 [template](resources:task2) for guidance on the remaining sections. 👷🏽‍♀️
+:::
+
+TODO: Pickup here.
+<!-- TODO HERE!! 7/20/2023-->
+
 ## Grammar, Sources, and APA
 
 It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions!

@@ -8,8 +8,8 @@
 
 Welcome! For the Data Analytics and ~Management~ capstone project, you’ll first propose a research question OR organizational need for which your data analysis will provide a solution, and then you conduct the analysis and present your results. The problem, the solution, and the presentation as a final product are up to you! The capstone allows you to demonstrate the application of skills collected throughout the BSDMDA program.
 
-:::{margin} Wait why is ~Managment~?
-This is a data analytics project. While data management skills will be helpful, the rubric only requires data management as indirectly determined by the needs of your data analysis.
+:::{margin} Wait why is ~~Managment~~?
+This is a data analytics project. While data management skills will be helpful and often needed, the rubric only requires data management as indirectly determined by the needs of your data analysis.
 :::
 
 The capstone includes three parts:
