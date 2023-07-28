@@ -1,16 +1,17 @@
 :::{warning}
-🚧 This site is under construction! If something makes sense, then it's probably good advice. If not, it's probably unfinished, unreviewed, or just plain nonsense. *I haven't even had time to proof read anything. 👷🏽‍♀️
+🚧 This site is under construction! If something makes sense, then it's probably good advice. If not, it's probably unfinished, unreviewed, or just plain nonsense. *I haven't even had time to proofread anything. 👷🏽‍♀️
 
 **Nothing on this website is an official WGU resource developed by the WGU product development.** See your COS page to review the official resources.
 :::
 
 # Welcome to D195!
 
-Welcome! For the Data Analytics and ~Management~ capstone project, you’ll first propose a research question OR organizational need for which your data analysis will provide a solution, and then you conduct the analysis and present your results. The problem, the solution, and the presentation as a final product are up to you! The capstone allows you to demonstrate the application of skills collected throughout the BSDMDA program.
-
-:::{margin} Wait why is ~~Managment~~?
+:::{margin} Wait why is <s>Managment</s>?
 This is a data analytics project. While data management skills will be helpful and often needed, the rubric only requires data management as indirectly determined by the needs of your data analysis.
 :::
+
+Welcome! For the Data Analytics and <s>Management</s> capstone project, you’ll first propose a research question OR organizational need for which your data analysis will provide a solution, and then you conduct the analysis and present your results. The problem, the solution, and the presentation as a final product are up to you! The capstone allows you to demonstrate the application of skills collected throughout the BSDMDA program.
+
 
 The capstone includes three parts:
 
@@ -28,9 +29,11 @@ The capstone includes three parts:
 
 **Task 1**
 ^^^
+
 ```{image} ./url_images/idea-b.png
 :height: 100
 ```
+
 Choose a topic and get approval.
 +++
 Task 1 details {fas}`arrow-right`
@@ -44,9 +47,11 @@ Task 1 details {fas}`arrow-right`
 
 **Task 2**
 ^^^
+
 ```{image} ./url_images/big_data.png
 :height: 100
 ```
+
 The Proposal -a detailed paper outlining your question/problem and planned data analysis solution.
 +++
 Task 2 details {fas}`arrow-right`
@@ -60,9 +65,11 @@ Task 2 details {fas}`arrow-right`
 
 **Task 3**
 ^^^
+
 ```{image} ./url_images/f_present.png
 :height: 100
 ```
+
 The Conclusion -an overview video and detailed paper describing the implementation and results.
 +++
 Task 3 details {fas}`arrow-right`
