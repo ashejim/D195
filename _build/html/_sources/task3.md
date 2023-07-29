@@ -4,11 +4,15 @@
 
 The Conclusion -an overview video and detailed paper describing the implementation and results.
 
+:::{tip}
+For task 3, you will need to include a short Panopto video walking through your project and demonstrating the data analysis tools used. Go ahead and request access, [Panopto Access](https://wgu.hosted.panopto.com/), as gaining permission may *take up to 48 hours*.
+:::
+
 ## Have you Completed the Analysis Yet?
 
 If you've followed our advice of completing the analysis before writing the proposal, Task 3 will mostly involve updating Task 2 to fit the Task 3 template and creating a summary video. If not, conduct your analysis now. Variances between Tasks 2 and 3 are allowed and may be appropriate if the analysis outcomes differ from what was expected.
 
-:::{warning} ...and that's as far as I got. 
+:::{warning} ...and that's as far as I got.
 🚧 This site is under construction!! Refer to the [Task 2 template](resources:task2) for guidance on the remaining sections. 👷🏽‍♀️
 :::
 
@@ -23,6 +27,32 @@ To gauge the level of detail evaluators typically expect, see the [task 2 exampl
 :::{tip}
 Sections are assessed independently against the rubric requirements, i.e., when evaluating a section, the evaluator will *check for the fulfillment of the requirements within that section*. They *don't* assess writing style. You can (and sometimes must) reuse content from other areas as needed. It's not about writing something fun to read -it's about demonstrating that the competencies as defined by the rubric requirements are met.
 :::
+
+:::{margin} The similarity check will not check for plagiarism against your content.
+You are allowed and encouraged to reuse content from Task 2 (or any of your own professional or academic works). As Task 3 is a conclusion report of what has already passed in Task 2, it's expected that the two will overlap quite a bit/
+:::
+
+### A: Project Highlights
+
+This part provides a summary of your project that includes the below items:
+
+- The research question or organizational need that your capstone addressed (see task 2 section A1). If it needs to be revised from Task 2, you can do so here.  
+- The scope of your project (see task 2 section B2).
+- An overview of your solution, including any tools and methodologies used (see task 2 sections B3 and C3).
+
+You are allowed to reuse content from Task 2 as needed (where relevant, update the tense to the past as Task 3 is a conclusion report).  This part can be thought of as a summary intended for all stakeholders including upper management.
+
+### B: Project Execution
+
+This part summarizes the project’s execution and any variances from the execution plan provided in Task 2. It must include the following:
+
+- The project plan (see Task 2 section B1).
+- The project planning methodology (see Task 2 section B3).
+- Project timeline and milestones (see Task 2 section B4).
+
+If an item did not vary from Task 2, explain that there were no variances and why. You can reuse content from Task 2 as needed. This part can be thought of as a summary intended for middle management.
+
+### C: Data Collection Process
 
 TODO: Pickup here.
 <!-- TODO HERE!! 7/20/2023-->
@@ -41,6 +71,24 @@ Sources and format should follow [APA guidelines](https://cm.wgu.edu/t5/Writing-
 
 Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860).
 
+## Overview Video
+
+:::{tip}
+For the overview video, you must use WGU's Panopto video service. You must request access, [Panopto Access](https://wgu.hosted.panopto.com/) and gaining permission may *take up to 48 hours*.
+:::
+
+The video provides an overview presentation of your project. Evaluators want to get a bird’s-eye view of your report and see how you conducted your analysis.
+
+Here are the items you should cover:
+
+1.	A summary of your research question or organizational need.
+2.	A demonstration of the functionality of any code you used for your data analytics solution
+3. An outline of the findings and implications of your analysis
+ 
+The video should summarize your project's purpose and findings. You can think of this as a “water cooler” version of your report. The evaluator should be able to watch the video and understand your project’s purpose and main argument. Then, for step 2, bring your code (or software analysis) on screen and step through how you conducted your analysis.
+
+There is no required length (maximum or minimum), but as it's an overview 5-15 minutes is typically appropriate. Multimedia presentation tools, such as Powerpoint, are not required but can help make a more effective presentation. Neither are you required to be on screen.
+
 (task3:faq)=
 
 ## FAQ
@@ -49,11 +97,13 @@ Get the best writing help from the writing experts: [WGU Writing Center](https:/
 
 The most common reasons for returned task 3's:
 
-1. Grammar
-2. Sources
-3. Insufficient details for section X.
+1. Grammar or Sources
+2. "Insufficient details..." for one or more of the sections.
+3. Missing technical details in F1.
+4. No explicit examples in F2.
+5. The data analysis tools (e.g., Python code) was not shown in the video.
 
-1 and 2 are easily avoidable. Being cited for "insufficient details" is a matter of subjectivity, but it is also easy to fix -just add more details. Since Task 3 mostly implements the already passed plan of Task 2 -it is mostly already passed.
+The first item is easily avoidable. Being cited for "insufficient details" is a matter of subjectivity, but it is also easy to fix -just add more details. Since Task 3 mostly implements the already passed plan of Task 2 -it is mostly already passed.
 
 ### How long should task 3 be?
 
