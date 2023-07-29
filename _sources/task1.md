@@ -1,4 +1,5 @@
 (task1)=
+
 # Task 1
 <!-- hack to open links in new tab -->
 <head>
@@ -114,9 +115,10 @@ Directly emailing your assigned course instructor is the fastest and often best 
 
 - Use your WGU email.
 - Provide a subject, your capstone course, and your program mentor's name (if not in your signature)
-- Clearly state your questions or requests. 
+- Clearly state your questions or requests.
 
 (task1:waiverform)=
+
 ## Waiver Form
 
 <!-- Everyone must submit a waiver form stating either their project is not based on restricted information OR use of any restricted information is authorized. -->
@@ -143,10 +145,6 @@ No. Usually, students email the approval form to their instructor. We then sign 
 
 No. Minor changes from task 1 to task 2 are expected and allowed *without updating the approval form*. Evaluators will not rigorously compare tasks 1 and 2. Task 2 is where the work is, and even with complete topic changes at most, you might need to revise the approval form (if at all). So never let task 1 dictate what you do in task 2. However, deviating significantly from what was approved could put you at risk of completing a project not meeting the requirements. So while small changes do not need review, substantial changes should be discussed with your assigned course instructor.
 
-### Can I use projects from other WGU courses?
-
-Yes! You can use any of your work or academic projects (at WGU or elsewhere) provided no proprietary information is used without permission. Don't worry about self-plagiarism, as the similarity check will identify and ignore it. Just as in reusing work projects, expect to modify and remold past academic assignments to meet the rubric requirements.
-
 ### Do I need an "electronic signature" as specified in the official rubric?
 
 You can type in your name, use a "fancy" font, or insert an image of your signature.  
@@ -172,13 +170,30 @@ Yes, contact your assigned course instructor or see the sample [welcome email](r
 
 Yes, cohorts run regularly. Enrollment typically opens on Mondays and closes Wednesdays. You can find the link to sign-up under the *Explore Cohort* section on your C769 COS page. If the section is not visible, either enrollment has closed or the cohort will not be available that week. See [Webinars and Cohorts](resources:cohort) for more details. -->
 
+### Can I use projects from other WGU courses?
+
+Yes! You can use any of your work or academic projects (at WGU or elsewhere) provided no proprietary information is used without permission. Don't worry about self-plagiarism, as the similarity check will identify and ignore it. Just as in reusing work projects, expect to modify and remold past academic assignments to meet the rubric requirements.
+
+### How complex does my data or analytic method need to be?
+
+It must be complex enough to meet the needs of your project. There is no explicit minimal complexity for either. However, the data must meet the needs of the research question and the method must be appropriate for both the data and the research question which may indirectly require a minimal complexity. For example, testing for correlation inherently requires two variables and parametric methods often need a minimal sample number to assume normality.
+
+### Are there any restrictions on which datasets I can choose?
+
+Only that data must be legally available to use and share with evaluators. For example, using data belonging to a current employer would require submitting a [waiver form](task1:waiverform).
+
+- You *can* use any dataset found on [kaggle.com](https://www.kaggle.com/datasets).
+- You *can* use simulated data.
+- You *can* use data used for previous projects (submitted by you or others).
+- You only need to apply for [IRB review](https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-IRB-and-Human-Subject-Protections-FAQ/ta-p/2002) if you are *collecting* data involving human participants (this is rarely needed). Otherwise, your project is in IRB compliance.
+
 ## Questions, comments, or suggestions?
 
 <script
    type="text/javascript"
    src="https://utteranc.es/client.js"
    async="async"
-   repo="ashejim/C769"
+   repo="ashejim/D195"
    issue-term="pathname"
    theme="github-light"
    label="💬 comment"
