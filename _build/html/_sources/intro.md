@@ -32,6 +32,7 @@ The capstone includes three parts:
 
 ```{image} ./url_images/idea-b.png
 :height: 100
+:alt: Task 1 logo. A light bulb turning on above a head. 
 ```
 
 Choose a topic and get approval.
@@ -50,6 +51,7 @@ Task 1 details {fas}`arrow-right`
 
 ```{image} ./url_images/big_data.png
 :height: 100
+:alt: Task 2 logo. Layers of charts and graphs indicating data analysis. 
 ```
 
 The Proposal -a detailed paper outlining your question/problem and planned data analysis solution.
@@ -68,6 +70,7 @@ Task 2 details {fas}`arrow-right`
 
 ```{image} ./url_images/f_present.png
 :height: 100
+:alt: Task 3 logo. A person pointing to a chart presenting analysis results. 
 ```
 
 The Conclusion -an overview video and detailed paper describing the implementation and results.

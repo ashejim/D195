@@ -94,6 +94,7 @@ Write your proposal following **Task 2: The Proposal template**:
 See the [Examples](resources:examples) and [Excellence Archive](resources:examples:excellence) sections.
 
 (resources:task2:videos)=
+
 ### Task 2 Videos
 
 :::{note}
@@ -108,7 +109,7 @@ See the [Examples](resources:examples) and [Excellence Archive](resources:exampl
 
 > [D195 Task 3 Template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXd665BhwxJPrzjy35_4pLoB3oQ-2saTvR8B8V5eGKsaPA?e=hPwYxq)
 
-### Task 2 Examples
+### Task 3 Examples
 
 See the [Examples](resources:examples) and [Excellence Archive](resources:examples:excellence) sections.
 
