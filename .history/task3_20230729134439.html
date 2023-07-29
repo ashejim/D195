@@ -1,0 +1,625 @@
+
+
+<!DOCTYPE html>
+
+
+<html >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Task 3 &#8212; D195 Data Analytics Capstone</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/my_css.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '.history/task3_20230729134439';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="None"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/emp_rule_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/emp_rule_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to D195!
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../task1.html">Task 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../task2.html">Task 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../task3.html">Task 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resources.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ci_page.html">Course Faculty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support_this_page.html">Help Support this Website</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F.history/task3_20230729134439.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/.history/task3_20230729134439.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Task 3</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#have-you-completed-the-analysis-yet">Have you Completed the Analysis Yet?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-task-3">Writing Task 3</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-project-highlights">A: Project Highlights</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b-project-execution">B: Project Execution</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grammar-sources-and-apa">Grammar, Sources, and APA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-video">Overview Video</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#faq">FAQ</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-most-common-reasons-task-3-does-not-pass">What are the most common reasons task 3 does not pass?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-long-should-task-3-be">How long should task 3 be?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-capstone-is-not-a-real-project-what-do-i-do-for-the-deliverables">My capstone is not a real project. What do I do for the deliverables?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-ve-completed-task-3-but-task-2-is-still-in-the-assessment-queue-should-i-wait-until-task-2-passes-before-i-submit-task-2">I’ve completed task 3, but task 2 is still in the assessment queue. Should I wait until task 2 passes before I submit task 2?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-comments-or-suggestions">Questions, comments, or suggestions?</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="task-3">
+<span id="task3"></span><h1>Task 3<a class="headerlink" href="#task-3" title="Permalink to this headline">#</a></h1>
+<p>The Conclusion -an overview video and detailed paper describing the implementation and results.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For task 3, you will need to include a short Panopto video walking through your project and demonstrating the data analysis tools used. Go ahead and request access, <a class="reference external" href="https://wgu.hosted.panopto.com/">Panopto Access</a>, as gaining permission may <em>take up to 48 hours</em>.</p>
+</div>
+<section id="have-you-completed-the-analysis-yet">
+<h2>Have you Completed the Analysis Yet?<a class="headerlink" href="#have-you-completed-the-analysis-yet" title="Permalink to this headline">#</a></h2>
+<p>If you’ve followed our advice of completing the analysis before writing the proposal, Task 3 will mostly involve updating Task 2 to fit the Task 3 template and creating a summary video. If not, conduct your analysis now. Variances between Tasks 2 and 3 are allowed and may be appropriate if the analysis outcomes differ from what was expected.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>…and that’s as far as I got.
+🚧 This site is under construction!! Refer to the <a class="reference internal" href="../resources.html#resources-task2"><span class="std std-ref">Task 2 template</span></a> for guidance on the remaining sections. 👷🏽‍♀️</p>
+</div>
+</section>
+<section id="writing-task-3">
+<h2>Writing Task 3<a class="headerlink" href="#writing-task-3" title="Permalink to this headline">#</a></h2>
+<p><strong>Almost time to graduate!</strong> Write your proposal following <strong>Task 2: Project Proposal template</strong>:</p>
+<blockquote>
+<div><p><a class="reference external" href="https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXd665BhwxJPrzjy35_4pLoB3oQ-2saTvR8B8V5eGKsaPA?e=OWwVw8">Task 3: the Conclusion template</a></p>
+<!-- > TODO: using OneDrive link as the doc is still in development. Eventually will replace the link with a relative link to the repo. -->
+</div></blockquote>
+<p>To gauge the level of detail evaluators typically expect, see the <a class="reference internal" href="../resources.html#resources-examples"><span class="std std-ref">task 2 examples</span></a> - passing, albeit not great, projects. Individual sections should be written to individually meet their respective rubric section requirements.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Sections are assessed independently against the rubric requirements, i.e., when evaluating a section, the evaluator will <em>check for the fulfillment of the requirements within that section</em>. They <em>don’t</em> assess writing style. You can (and sometimes must) reuse content from other areas as needed. It’s not about writing something fun to read -it’s about demonstrating that the competencies as defined by the rubric requirements are met.</p>
+</div>
+<aside class="margin sidebar">
+<p class="sidebar-title">The similarity check will not check for plagiarism against your content.</p>
+<p>You are allowed and encouraged to reuse content from Task 2 (or any of your own professional or academic works). As Task 3 is a conclusion report of what has already passed in Task 2, it’s expected that the two will overlap quite a bit/</p>
+</aside>
+<section id="a-project-highlights">
+<h3>A: Project Highlights<a class="headerlink" href="#a-project-highlights" title="Permalink to this headline">#</a></h3>
+<p>This part provides a summary of your project that includes the below items:</p>
+<ul class="simple">
+<li><p>The research question or organizational need that your capstone addressed (see task 2 section A1). If it needs to be revised from Task 2, you can do so here.</p></li>
+<li><p>The scope of your project (see task 2 section B2).</p></li>
+<li><p>An overview of your solution, including any tools and methodologies used (see task 2 sections B3 and C3).</p></li>
+</ul>
+<p>You are allowed to reuse content from Task 2 as needed (where relevant, update the tense to the past as Task 3 is a conclusion report).  This part can be thought of as summary intended for all stakeholders.</p>
+</section>
+<section id="b-project-execution">
+<h3>B: Project Execution<a class="headerlink" href="#b-project-execution" title="Permalink to this headline">#</a></h3>
+<p>This part summarizes the project’s execution and any variances from the execution plan provided in Task 2. It must include the following:</p>
+<ul class="simple">
+<li><p>The project plan (see Task 2 section B1).</p></li>
+<li><p>The project planning methodology (see Task 2 section B3).</p></li>
+<li><p>Project timeline and milestones (see Task 2 section B4).</p></li>
+</ul>
+<p>If an item did not vary from Task 2, explain that there were no variances and why. You can reuse content from Task 2 as needed.</p>
+<p>TODO: Pickup here.</p>
+<!-- TODO HERE!! 7/20/2023-->
+</section>
+</section>
+<section id="grammar-sources-and-apa">
+<h2>Grammar, Sources, and APA<a class="headerlink" href="#grammar-sources-and-apa" title="Permalink to this headline">#</a></h2>
+<p>It’s easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions!</p>
+<p>Check your grammar using <a class="reference external" href="https://www.grammarly.com/">Grammarly.com</a> <img alt="grammarly_icon" src="https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon" /> (it’s what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in <em>Professional Communication</em>. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Students have reported missed mistakes when using the ‘Google doc’ Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.</p>
+</div>
+<p>Sources and format should follow <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524">APA guidelines</a>. Avoid reference errors by using the <a class="reference external" href="https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5">MS Word Reference Tool</a> to create and manage references and review this guide on how to <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333">Avoid Common APA errors</a>.</p>
+<p>Get the best writing help from the writing experts: <a class="reference external" href="https://my.wgu.edu/success-centers/writing-center">WGU Writing Center</a>. While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&amp;A sessions. See a list of upcoming events here: <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860">Writing Center Live Events</a>.</p>
+</section>
+<section id="overview-video">
+<h2>Overview Video<a class="headerlink" href="#overview-video" title="Permalink to this headline">#</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For the overview video, you must use WGU’s Panopto video service. You must request access, <a class="reference external" href="https://wgu.hosted.panopto.com/">Panopto Access</a> and gaining permission may <em>take up to 48 hours</em>.</p>
+</div>
+<p>The video provides an overview presentation of your project. Evaluators want to get a bird’s-eye view of your report and see how you conducted your analysis.</p>
+<p>Here are the items you should cover:</p>
+<ol class="arabic simple">
+<li><p>A summary of your research question or organizational need.</p></li>
+<li><p>A demonstration of the functionality of any code you used for your data analytics solution</p></li>
+<li><p>An outline of the findings and implications of your analysis</p></li>
+</ol>
+<p>The video should summarize your project’s purpose and findings. You can think of this as a “water cooler” version of your report. The evaluator should be able to watch the video and understand your project’s purpose and main argument. Then, for step 2, bring your code (or software analysis) on screen and step through how you conducted your analysis.</p>
+<p>There is no required length (maximum or minimum), but as it’s an overview 5-15 minutes is typically appropriate. Multimedia presentation tools, such as Powerpoint, are not required but can help make a more effective presentation. Neither are you required to be on screen.</p>
+</section>
+<section id="faq">
+<span id="task3-faq"></span><h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">#</a></h2>
+<section id="what-are-the-most-common-reasons-task-3-does-not-pass">
+<h3>What are the most common reasons task 3 does not pass?<a class="headerlink" href="#what-are-the-most-common-reasons-task-3-does-not-pass" title="Permalink to this headline">#</a></h3>
+<p>The most common reasons for returned task 3’s:</p>
+<ol class="arabic simple">
+<li><p>Grammar or Sources</p></li>
+<li><p>“Insufficient details…” for one or more of the sections.</p></li>
+<li><p>Missing technical details in F1.</p></li>
+<li><p>No explicit examples in F2.</p></li>
+<li><p>The data analysis tools (e.g., Python code) was not shown in the video.</p></li>
+</ol>
+<p>The first item is easily avoidable. Being cited for “insufficient details” is a matter of subjectivity, but it is also easy to fix -just add more details. Since Task 3 mostly implements the already passed plan of Task 2 -it is mostly already passed.</p>
+</section>
+<section id="how-long-should-task-3-be">
+<h3>How long should task 3 be?<a class="headerlink" href="#how-long-should-task-3-be" title="Permalink to this headline">#</a></h3>
+<p>Review the <a class="reference internal" href="../resources.html#resources-examples"><span class="std std-ref">task 3 examples</span></a>. As Task 3 mainly rewrites Task 2, but more succinctly, task 3 is typically shorter in length. However, there is no minimum page requirement, and they will assess Task 3 somewhat independently of Task 2.</p>
+</section>
+<section id="my-capstone-is-not-a-real-project-what-do-i-do-for-the-deliverables">
+<h3>My capstone is not a real project. What do I do for the deliverables?<a class="headerlink" href="#my-capstone-is-not-a-real-project-what-do-i-do-for-the-deliverables" title="Permalink to this headline">#</a></h3>
+<p>See <span class="xref myst">section I</span>. You only need to provide <em>examples</em> of actual deliverables you might provide to clients demonstrating a project’s completion.</p>
+</section>
+<section id="i-ve-completed-task-3-but-task-2-is-still-in-the-assessment-queue-should-i-wait-until-task-2-passes-before-i-submit-task-2">
+<span id="task3-faq-timeline"></span><h3>I’ve completed task 3, but task 2 is still in the assessment queue. Should I wait until task 2 passes before I submit task 2?<a class="headerlink" href="#i-ve-completed-task-3-but-task-2-is-still-in-the-assessment-queue-should-i-wait-until-task-2-passes-before-i-submit-task-2" title="Permalink to this headline">#</a></h3>
+<p>If you’re nearing the end of your term, you should submit task 3 as soon as it’s ready. If task 2 gets returned, task 3 will also automatically be returned. However, if it passes, task 3 will keep its place in the assessment queue.</p>
+</section>
+</section>
+<section id="questions-comments-or-suggestions">
+<h2>Questions, comments, or suggestions?<a class="headerlink" href="#questions-comments-or-suggestions" title="Permalink to this headline">#</a></h2>
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="ashejim/D195"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/></section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./.history"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#have-you-completed-the-analysis-yet">Have you Completed the Analysis Yet?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-task-3">Writing Task 3</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-project-highlights">A: Project Highlights</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b-project-execution">B: Project Execution</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grammar-sources-and-apa">Grammar, Sources, and APA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-video">Overview Video</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#faq">FAQ</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-most-common-reasons-task-3-does-not-pass">What are the most common reasons task 3 does not pass?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-long-should-task-3-be">How long should task 3 be?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-capstone-is-not-a-real-project-what-do-i-do-for-the-deliverables">My capstone is not a real project. What do I do for the deliverables?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-ve-completed-task-3-but-task-2-is-still-in-the-assessment-queue-should-i-wait-until-task-2-passes-before-i-submit-task-2">I’ve completed task 3, but task 2 is still in the assessment queue. Should I wait until task 2 passes before I submit task 2?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-comments-or-suggestions">Questions, comments, or suggestions?</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dr. Jim Ashe
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
