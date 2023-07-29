@@ -62,9 +62,12 @@ Though more of an initial time investment, the analysis must be done at some poi
 Throughout this page, we will be assuming you have completed the data analysis.
 :::
 
+## Write Task 2
+
+
 (task2:A)=
 
-## A: Proposal Overview
+### A: Proposal Overview
 
 The Proposal Overview summarizes one question or organizational need that you intend to answer by collecting and analyzing a set of data. Think of it as a summary meant to be read by upper management or a general audience.
 
@@ -72,15 +75,15 @@ This part introduces and summarizes a thesis (A1), a literature review (A3), a p
 
 (task1: A1)=
 
-### A1 Research Question or Organizational Need
+#### A1 Research Question or Organizational Need
 
 Much of Tasks 2 and 3 must align with this section. Particularly the rigorous method from part C. After investigating your data, you may need to adjust from what was provided in [Task 1](task1). Making changes from Task 1 is acceptable (and somewhat expected) without resubmitting Task 1. However, we recommend contacting your [assigned course instructor](ci_page) if significant changes are necessary.
 
-#### Research Question OR Organizational Need?
+##### Research Question OR Organizational Need?
 
 "Research question or organizational need," is the language of the rubric. Addressing a research question best fits the rubric requirements, and any research question can be described to have an organizational benefit (the pragmatism of which is not assessed). So most projects should choose a research question and advice on this page will favor that direction.
 
-#### What is a Research Question?
+##### What is a Research Question?
 
 A research question should identify what your analysis plans to discover. For this project, it should be:
 
@@ -103,13 +106,13 @@ Many of the rubric requirements must align with A1. Particularly [part C](task2:
 
 (task2: A2)=
 
-### A2 Context & Background
+#### A2 Context & Background
 
 Briefly detail the project's background and provide enough context making the purpose of your project clear.
 
 (task2: A3)=
 
-### A3 & A3A Summary of Works & Project Relation
+#### A3 & A3A Summary of Works & Project Relation
 
 Think of this section as a literature review where you summarize a work (A3) and then relate it to your project (A3A). They need only connect to an aspect of your project; they don't need to align with it entirely. You can use anything created by an industry professional, e.g., online articles, whitepapers, technical documentation, etc. Most importantly, you must have **three** different works cited following [APA guidelines](task2:grammar) using in-text citations, e.g., (Author, year). Typically, papers cite sources as needed, but for evaluation purposes, they added this section to demonstrate research.
 
@@ -134,7 +137,7 @@ and then add WGU and other libraries.
 
 (task2: A4)=
 
-### A4 Summary of Data Analytics Solution
+#### A4 Summary of Data Analytics Solution
 
 Summarize the proposed solution. Include a summary of the analytic method(s) and its implementation summarized in [B3](task2:B3) and detailed in [C4](task2:C4). Detail how the solution:
 
@@ -143,7 +146,7 @@ Summarize the proposed solution. Include a summary of the analytic method(s) and
 
 (task1: A5)=
 
-### A5 Benefits & Support of Decision Making Process
+#### A5 Benefits & Support of Decision-Making Process
 
 Describe how the solution from A4 will:
 
@@ -154,13 +157,13 @@ The benefit can directly or indirectly be related to solution assisting in decis
 
 (task2:B)=
 
-## B: Data Analytics Project Plan
+### B: Data Analytics Project Plan
 
 In this part, you will discuss the design details of your data analytics solution. Think of it as a business plan for [part C](task2:C) targeting middle management.
 
 (task2:B1)=
 
-### B1 Goals, Objectives, & Deliverables
+#### B1 Goals, Objectives, & Deliverables
 
 **Goals** and **objectives** are very similar. Goals are broader, defining the end you are trying to achieve (e.g., improving customer service). You need at least one goal. Objectives are more specific, often measurable steps supporting the goal (e.g., real-time inventory updates for customers). Goals and objectives can be considered high-level and mid-management tasks, respectively. **Deliverables** are tangible tasks completed supporting the objectives (e.g., an inventory status screen reporting real-time inventory to customers).
 
@@ -187,7 +190,7 @@ Each goal, objective, and deliverable should align with each other, the project 
 
 Also, see part B1 of these [examples](resouces).
 
-### B2 Scope of Project
+#### B2 Scope of Project
 
 Describe:
 
@@ -199,7 +202,7 @@ Describe:
 You must include at least *one* specific item outside the project's scope. Overlooking this is one of the most common reasons for returns.
 :::
 
-### B3 Standard Methodology
+#### B3 Standard Methodology
 
 The methodology is the process you will follow when implementing your solution. Include specific details to adequately describe the steps that will take place in each phase. In this section, you must:
 
@@ -208,7 +211,7 @@ The methodology is the process you will follow when implementing your solution. 
 
 The second step provides a detailed implementation plan also outlined in [section A2](task2:A2). If using a less-known methodology, relate it to a "standard" one.
 
-### B4 Timeline & Milestones
+#### B4 Timeline & Milestones
 
 Provide a timeline aligning with the milestones and deliverables described in section [B1](task2:B1). While a table is not specifically required, it provides a succinct presentation satisfying the requirements of B.4., and it is what evaluators have come to expect.
 
@@ -224,7 +227,7 @@ https://pradyunsg.me/furo/reference/admonitions/ -->
 |$\vdots$ |$\vdots$ |$\vdots$ |$\vdots$ |
 :::
 
-### B5 Resources & Costs
+#### B5 Resources & Costs
 
 Include a list of all necessary resources and the approximate cost of each resource.
 
@@ -238,17 +241,17 @@ Include a list of all necessary resources and the approximate cost of each resou
 
 Be realistic as possible when estimating costs. However, this is not a business project and values are not rigorously assessed. The minimum number of listed items is two.
 
-### B6 Criteria for Success
+#### B6 Criteria for Success
 
 Provide specific objective means of assessing success. You should base these criteria on successful execution and correct interpretation of your methods -not the results. It is acceptable that a test fails to find results statistically significant provided *the conclusion and methods are appropriate.*
 
-## C: Design of Data Analytics Solution
+### C: Design of Data Analytics Solution
 
 In this part, you will discuss the details of your data analytics solution targetting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus we recommend completing at least a rough outline of this part before investing time in parts A and B.
 
 (task2:C1)=
 
-### C1 Hypothesis
+#### C1 Hypothesis
 
 Provide a hypothesis supporting the research question or organizational need given in section A1. The minimum required hypothesis is one. Your hypothesis must be supportable by a hypothesis test or model.
 
@@ -256,15 +259,15 @@ If using a statistical test, you'll conduct a hypothesis test and you should sta
 
 (task2:C2)=
 
-### C2 & C2A Analytical Method
+#### C2 & C2A Analytical Method
 
 Identify (C2) and justify (C2A) each statistical test or model which will support each hypothesis given in section C1. Summarize how each method will be performed or developed. The minimum required method is one per hypothesis.
 
-### C3 Tools & Environment
+#### C3 Tools & Environment
 
 Identify the tools, e.g., IDE, languages, libraries, etc., which will be used to complete the analytical method(s) described in section C2.
 
-### C4 & C4A Methods & Metrics to Evaluate Statistical Significance
+#### C4 & C4A Methods & Metrics to Evaluate Statistical Significance
 
 For each **statistical test**, provide the following information (C4):
 
@@ -282,35 +285,35 @@ For each **model**, provide the following information (C4):
 
 For each statistical test or model, describe why it is an appropriate choice (C4A). This may repeat (verbatim) parts of section C2A.
 
-### C5 Practical Significance
+#### C5 Practical Significance
 
 Practical significance refers to how meaningful your findings are in practical application. Results are practically significant when the difference is large enough to be meaningful in real life. This is subjective. But at minimum discuss some criteria to judge the practical significance and how this will be used to support the research question or organizational need from A1. Consider including an example of how the client might apply your work discussed in sections C1 through C4A.  
 
-### C6 Visual Communication
+#### C6 Visual Communication
 
 Task 3, the Project Report, must include graphic visualizations (at least two) for visually communicating elements of your project (see Task 3: G2). Describe a plan to include at least two visualizations of the data, statistical test(s), or model(s); and describe the tools you’ll use to generate the images.  
 
-## D Description of Dataset
+### D Description of Dataset
 
 This part discusses the current state of your data (pre-processed). Write from the assumption that the data sources have been identified, collected, and previewed, but not in any other way processed.
 
-### D1 Source of Data
+#### D1 Source of Data
 
 Simply identify each data source. The minimum number of sources is one.
 
-### D2 Appropriateness of Dataset
+#### D2 Appropriateness of Dataset
 
 Describe why each data source provided in section D1 is appropriate for supporting the research question or organizational need from section A1.
 
-### D3 Data Collection Methods
+#### D3 Data Collection Methods
 
 Describe how each data source listed in section D.1 was collected, e.g., “the data was collected by downloading the .csv file from *<www.kaggle.com/data_source_link.html*.”>  
 
-### D4 Observations on Quality & Completeness of Data
+#### D4 Observations on Quality & Completeness of Data
 
 Describe both the quality and completeness of the data and any accommodation needed. Often, data is already clean and complete, but it is still necessary to comment on both.
 
-### D5 & D5A Data Governance, Privacy, Security, Ethical, Legal, & Regulatory Compliances 
+#### D5 & D5A Data Governance, Privacy, Security, Ethical, Legal, & Regulatory Compliances 
 
 Specifically, address how each of the following relates to your data and project (D5):  
 
@@ -321,7 +324,7 @@ Specifically, address how each of the following relates to your data and project
 
 Describe any necessary precautions (D5A). In cases where an item is not relevant, you must explain why. You only need to discuss measures for handling human data if you collected that data
 
-## Grammar, Sources, and APA
+### Grammar, Sources, and APA
 
 It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions!
 
@@ -336,6 +339,7 @@ Sources and format should follow [APA guidelines](https://cm.wgu.edu/t5/Writing-
 Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860).
 
 (task2:faq)=
+
 ## FAQ
 
 ### I've completed task 2. Should I send it to my course instructor for review?
@@ -356,12 +360,27 @@ You have unlimited submissions (as with all WGU performance assessments). Furthe
 
 You are likely overinterpreting what's required. Rarely are submissions sent back because cited works are unsuitable. You can use any referenceable work created by a professional which can be *related* to your project -it does not need to align with your project entirely. For example, an article about your chosen analytical method or tools would suffice.
 
-### My task two was returned for *sources* stating:
+### My task two was returned for *Sources* stating citations are missing, but I properly cited everything
+
+If the evaluator wrote something like:
 
 > "In-text citations could not be found for portions of the task that have been quoted or paraphrased... "
 **What does this comment mean?**
 
 This indicates they could not find a matching in-text citation for every source on your reference list. Check that each reference has a match following APA style, e.g., (Author, year), and remove any references without matches. Use the [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5) to create, manage references, and avoid such errors. Follow the in-text citations and the reference page format of the [tasks 2 and 3 examples](resources:examples).
+
+### How complex does my data or analytic method need to be?
+
+It must be complex enough to meet the needs of your project. There is no explicit minimal complexity for either. However, the data must meet the needs of the research question and the method must be appropriate for both the data and the research question which may indirectly require a minimal complexity. For example, testing for correlation inherently requires two variables and parametric methods often need a minimal sample number to assume normality.
+
+### Are there any restrictions on which datasets I can choose?
+
+Only that data must be legally available to use and share with evaluators. For example, using data belonging to a current employer would require submitting a [waiver form](task1:waiverform).
+
+- You *can* use any dataset found on [kaggle.com](https://www.kaggle.com/datasets).
+- You *can* use simulated data.
+- You *can* use data used for previous projects (submitted by you or others).
+- You only need to apply for [IRB review](https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-IRB-and-Human-Subject-Protections-FAQ/ta-p/2002) if you are *collecting* data involving human participants (this is rarely needed). Otherwise, your project is in IRB compliance.  
 
 ## Questions, comments, or suggestions?
 
@@ -369,7 +388,7 @@ This indicates they could not find a matching in-text citation for every source 
    type="text/javascript"
    src="https://utteranc.es/client.js"
    async="async"
-   repo="ashejim/C769"
+   repo="ashejim/D195"
    issue-term="pathname"
    theme="github-light"
    label="💬 comment"
