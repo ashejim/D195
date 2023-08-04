@@ -50,6 +50,7 @@ The [Math Center](https://my.wgu.edu/success-centers/math-center) provides a sup
 :height: 200px
 :align: center
 :target: https://my.wgu.edu/success-centers/math-center
+```
 
 (ci_other:cis)=
 
@@ -76,3 +77,5 @@ The [Math Center](https://my.wgu.edu/success-centers/math-center) provides a sup
 Dr. James Ashe is a dedicated maths, computer science, and statistics teacher with over 20 years of experience teaching in an online, large university, small college, HBCU, and community college setting. In 2016 he joined WGU to help students in the newly created Math Center. In 2018 Jim joined IT to contribute to the new Computer Science program. Currently, he supports the IT, data analytics, and computer science capstone. Though his research studied abstract objects, experimentation, creating examples, and producing necessitated a lot of coding. It was here that he developed a love for programming and computer science. He has a Ph.D. and MS in mathematics from the University of Tennessee and a BS in history with a minor in art from East Tennessee State University. Jim and his wife reside in Asheville, NC, with their four children, four cats, a dog, and an undetermined number of chickens. In his nonexistent spare time, he enjoys reading and kayaking. 
 
 ## Volunteers, please?
+
+Any faculty willing to help our students, please let me know! [jim.ashe@wgu.edu](mailto:jim.ashe@wgu.edu?subject=D195%20capstone%)
