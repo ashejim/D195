@@ -1,32 +1,71 @@
-
+(cipage)=
+# Course Faculty
 <!-- hack to open links in new tab -->
 <head>
     <base target="_blank">
 </head>
 
-(ci_page)=
-# Course Faculty
+The purpose of the capstone is to showcase knowledge and skills accumulated throughout your BSDMDA degree program. Helping you integrate your accumulative expertise into a passing capstone is the primary responsibility of your assigned D195 course instructor. However, the capstone was designed by WGU with the expectation that the necessary skills have already been mastered. So questions regarding those skills, e.g., statitics, coding, analysis, etc.; may be outside the scope of your assigned course instructor's expertise (the capstone faculty team supports *all* capstones in the undergraduate IT college).
 
-One of your most important resources is your assigned C769 instructor, who will actively monitor your progress and offer one-on-one advice. Your instructor can discuss your progress, help you understand and fulfill the requirements, give you tools to successfully navigate the capstone, and help you revise returned submissions. Throughout your engagement with this course, it is expected that you continue communicating with your program mentor. Your program mentor will help you set weekly study goals, recommend specific learning materials, and tell you what to expect in this course and how it aligns with your program’s competencies.
-
-```{note}
-Approval forms should be sent to your *assigned course instructor.* If they are out of the office for more than two days or no instructor has yet assigned, contact:
-[ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=Your%20course%20instructor&subject=C769:%20capstone%20topic%20approval&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A)
+```{margin}  Which courses are these skills covered?
+Most notably Intro to Data Science -C749. Other courses which may apply depending on your project are Machine Learning -C753, Data Analysis with R -C751, and Data Wranglging -D309. C749 covers skills which meet the minimum requirements, but the introductory inferential statitsics covered may be insufficient in multivariable, categorical, or non-parametric methods are needed. So choose your project accordingly. BUT the true asset of a Data *Ananlysis* graduate, is the ability to adapt, learn, and problem solve. Something you've done plenty of and should expect to do your entire career.    
 ```
 
-## Jim Ashe
+In cases when that happens, your D195 instructor will help direct you to the correct resource. But given the broad range of approaches methods, languages, and libraries available to use, it should not be expected to find an available WGU expert on everything. We recommend reviewing available resources *before* investing time into your project and being aware that WGU resources might be limited when choosing tools outside the scope of those listed.
 
-:::{margin} Contact Info
-📞 <a href="tel:+13854284209"> (385) 428-4209</a> </br>
-📧 [jim.ashe@wgu.edu](mailto:jim.ashe@wgu.edu?subject=C769%20capstone&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A) </br>
-📅 [Schedule an Appointment](https://timetrade.com/app/wgu-mentoring/workflows/WGU100/schedule/?resourceId=005a000000CAi7dAAD&locationId=course_mentoring&appointmentTypeGroupId=CM&questionId__course_code=C769) </br>
-<table _ngcontent-stv-c382="" class="margin--bottom--10"><caption _ngcontent-stv-c382="" class="visually-hidden"> Office hours for Jim Ashe </caption><tr _ngcontent-stv-c382="" class="ng-star-inserted"><th _ngcontent-stv-c382="" class="text--right"><span _ngcontent-stv-c382="" class="table-row"><b _ngcontent-stv-c382="">MON</b></span></th><td _ngcontent-stv-c382=""><div _ngcontent-stv-c382="" class="margin--left ng-star-inserted"><span _ngcontent-stv-c382="">5:00 PM</span> to <span _ngcontent-stv-c382="">8:30 PM </span></div><!----></td></tr><tr _ngcontent-stv-c382="" class="ng-star-inserted"><th _ngcontent-stv-c382="" class="text--right"><span _ngcontent-stv-c382="" class="table-row"><b _ngcontent-stv-c382="">TUE</b></span></th><td _ngcontent-stv-c382=""><div _ngcontent-stv-c382="" class="margin--left ng-star-inserted"><span _ngcontent-stv-c382="">5:00 PM</span> to <span _ngcontent-stv-c382="">8:30 PM </span></div><!----></td></tr><tr _ngcontent-stv-c382="" class="ng-star-inserted"><th _ngcontent-stv-c382="" class="text--right"><span _ngcontent-stv-c382="" class="table-row"><b _ngcontent-stv-c382="">WED</b></span></th><td _ngcontent-stv-c382=""><div _ngcontent-stv-c382="" class="margin--left ng-star-inserted"><span _ngcontent-stv-c382="">7:30 AM</span> to <span _ngcontent-stv-c382="">4:00 PM </span></div><!----></td></tr><tr _ngcontent-stv-c382="" class="ng-star-inserted"><th _ngcontent-stv-c382="" class="text--right"><span _ngcontent-stv-c382="" class="table-row"><b _ngcontent-stv-c382="">THU</b></span></th><td _ngcontent-stv-c382=""><div _ngcontent-stv-c382="" class="margin--left ng-star-inserted"><span _ngcontent-stv-c382="">7:30 AM</span> to <span _ngcontent-stv-c382="">4:00 PM </span></div><!----></td></tr><tr _ngcontent-stv-c382="" class="ng-star-inserted"><th _ngcontent-stv-c382="" class="text--right"><span _ngcontent-stv-c382="" class="table-row"><b _ngcontent-stv-c382="">FRI</b></span></th><td _ngcontent-stv-c382=""><div _ngcontent-stv-c382="" class="margin--left ng-star-inserted"><span _ngcontent-stv-c382="">7:30 AM</span> to <span _ngcontent-stv-c382="">4:00 PM </span></div><!----></td></tr><tr _ngcontent-stv-c382="" class="ng-star-inserted"><th _ngcontent-stv-c382="" class="text--right"><span _ngcontent-stv-c382="" class="table-row"><b _ngcontent-stv-c382="">SAT</b></span></th><td _ngcontent-stv-c382=""><div _ngcontent-stv-c382="" class="margin--left ng-star-inserted"><span _ngcontent-stv-c382="">9:30 AM</span> to <span _ngcontent-stv-c382="">4:00 PM </span></div><!----></td></tr><!----></table>
+## Who to contact?
+
+::::{card-carousel} 2
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: ./ci_d195.html
+
+**D195 Faculty**
+^^^
+
+```{image} ./url_images/virtual_meeting1.jpg
+:height: 100
+:alt: A person in a video conference on their laptop with a CI. 
+```
+
+Understanding the project<br>
+Revising returned projects<br>
+Topic approval<br>
+Planning & resources
++++
+D195 CI page {fas}`arrow-right`
 :::
 
-```{image} ./url_images/jim_ashe-a.jpg
-:alt: Jim Ashe
-:height: 200px
-:align: center
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: ./ci_other.html
+
+**DMDA, Math, & Software Faculty**
+^^^
+
+```{image} ./url_images/debug1.jpg
+:height: 100
+:alt: A magnifying glass looking at code sees "error."
 ```
 
-Dr. James Ashe is a dedicated maths, computer science, and statistics teacher with over 20 years of experience teaching in an online, large university, small college, HBCU, and community college setting. In 2016 he joined WGU to help students in the newly created Math Center. In 2018 Jim joined IT to contribute to the new Computer Science program. Currently, he supports the IT, data analytics, and computer science capstone. Though his research studied abstract objects, experimentation, creating examples, and producing necessitated a lot of coding. It was here that he developed a love for programming and computer science. He has a Ph.D. and MS in mathematics from the University of Tennessee and a BS in history with a minor in art from East Tennessee State University. Jim and his wife reside in Asheville, NC, with their four children, four cats, a dog, and an undetermined number of chickens. In his nonexistent spare time, he enjoys reading and kayaking.
+Debugging Python and Java <br>
+Data processing <br>
+Data Analytics <br>
+Statistics, Math, & ML
+
++++
+DMDA, Math, & Software CI page {fas}`arrow-right`
+:::
+
+::::
+
+Always practice professional communication:
+
+* Use your WGU email (we may not receive emails from outside WGU).
+* Provide a subject, your capstone course (we support all IT college capstones), and your program mentor's name (if not in your signature).
+* Clearly state your questions or requests. When contacting non-D195 faculty, provide context and limit questions to the scope of their expertise.
