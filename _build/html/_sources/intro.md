@@ -81,6 +81,9 @@ Task 3 details {fas}`arrow-right`
 
 ## Start Here
 
+Watch the following video:
+<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=12aa277b-6d29-4bef-916e-b07601467409&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 First, understand the project's requirements. What they are -and what they aren't. If you aren't sure, contact your [assigned course faculty](ci_page). The keys to a passing project are:
 
 1. A research question or organizational need.
