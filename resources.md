@@ -190,9 +190,6 @@ Get the best writing help from the writing experts: [WGU Writing Center](https:/
 ::::{grid-item}
 :columns: 7
 
-#### Webinar Recordings
-
-- [Open session August, 17 2023](https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6645d045-8e5f-4c35-8dea-b0770106abb3)
 
 **Open Office Hours with Dr. Ashe (D195/D502)**
 
@@ -203,6 +200,10 @@ Please join this "come and go" session for all data analytics capstone-related q
 ::::
 :::::
 ::::::
+
+#### Webinar Recordings
+
+- [Open session August, 17 2023](https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6645d045-8e5f-4c35-8dea-b0770106abb3)
 
 #### Writing Center Live Events
 
