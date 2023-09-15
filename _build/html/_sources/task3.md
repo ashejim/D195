@@ -12,10 +12,6 @@ For task 3, you will need to include a short Panopto video walking through your 
 
 If you've followed our advice of completing the analysis before writing the proposal, Task 3 will mostly involve updating Task 2 to fit the Task 3 template and creating a summary video. If not, conduct your analysis now. Variances between Tasks 2 and 3 are allowed and may be appropriate if the analysis outcomes differ from what was expected.
 
-:::{warning} ...and that's as far as I got.
-🚧 This site is under construction!! Refer to the [Task 2 template](resources:task2) for guidance on the remaining sections. 👷🏽‍♀️
-:::
-
 ## Writing Task 3
 
 **Almost time to graduate!** Write your proposal following **Task 2: Project Proposal template**:
