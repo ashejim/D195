@@ -1,0 +1,37 @@
+#!/bin/sh
+set -e
+
+SWTPM_LOCALCA_DIR=/var/lib/swtpm-localca
+
+case "$1" in
+	configure)
+		# creating swtpm group if he isn't already there
+		if ! getent group swtpm >/dev/null; then
+			addgroup --system swtpm
+		fi
+
+		# creating swtpm user if he isn't already there
+		if ! getent passwd swtpm >/dev/null; then
+			adduser --system --ingroup swtpm --shell /bin/false \
+			    --home /var/lib/swtpm --no-create-home \
+			    --gecos "virtual TPM software stack" \
+			    swtpm
+		fi
+
+		if ! [ -d $SWTPM_LOCALCA_DIR ]; then
+			mkdir -p $SWTPM_LOCALCA_DIR
+			chown swtpm:root $SWTPM_LOCALCA_DIR
+			chmod 0750 $SWTPM_LOCALCA_DIR
+		fi
+
+	;;
+	abort-upgrade|abort-remove|abort-deconfigure)
+	;;
+
+	*)
+		echo "postinst called with unknown argument \`$1'" >&2
+		exit 1
+	;;
+esac
+
+

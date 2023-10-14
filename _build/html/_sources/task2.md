@@ -50,7 +50,7 @@ Task 2 is written as a proposal. However, parts C of task 2 and F of task 3 requ
 
 Though more of an initial time investment, the analysis must be done at some point. Doing it first allows Task 2 to be written to known (rather than anticipated) results and allows Task 3 to be completed by (mostly) rewriting Task 2.
 
-:::{wanring}
+:::{warning}
 Throughout this page, we will be assuming you have completed the data analysis.
 :::
 
@@ -231,17 +231,19 @@ https://pradyunsg.me/furo/reference/admonitions/ -->
 
 #### B5: Resources & Costs
 
-Include a list of all necessary resources and the approximate cost of each resource.
+Include a list of all necessary resources and the approximate cost of each resource. The budget must include estimated costs for *hardware*, *software*, and *work hours*.
 
 :::{admonition} Example
 :class: hint
 
-1. Item 1: $1000
-2. Item 2: No cost
-3. Item 3: $100
+1. Hardware item: $1000
+2. Software item 1: No cost
+3. Software item 2: No cost
+4. 10 work hours: $500 (10 hours at $50 per hour)
+5. $\dots$
 :::
 
-Be realistic as possible when estimating costs. However, this is not a business project and values are not rigorously assessed. The minimum number of listed items is two.
+Be realistic as possible when estimating costs. However, this is not a business project and values are not rigorously assessed. The minimum number of listed items is three.
 
 #### B6: Criteria for Success
 
@@ -249,7 +251,7 @@ Provide specific objective means of assessing success. You should base these cri
 
 ### C: Design of Data Analytics Solution
 
-In this part, you will discuss the details of your data analytics solution targetting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus we recommend completing at least a rough outline of this part before investing time in parts A and B.
+In this part, you will discuss the details of your data analytics solution targeting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus, we recommend completing at least a rough outline of this part before investing time in parts A and B.
 
 (task2:C1)=
 
@@ -330,7 +332,7 @@ Describe any necessary precautions (D5A). In cases where an item is not relevant
 
 It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions!
 
-Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
+Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly.com icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
 
 :::{warning}
 Students have reported missed mistakes when using the Google Doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.
@@ -348,7 +350,7 @@ Get the best writing help from the writing experts: [WGU Writing Center](https:/
 
 If you have specific questions or concerns -yes. However, in most cases, it's best just to submit. What suffices as “sufficient detail” is highly subjective. We can always tell you to add more, but if you've done your best to fulfill the requirements, submit it and let them tell you which (if any) parts need to be rewritten. At best, it passes; at worst, we address the issues cited by the evaluator -and then it passes. Responding to the more narrow focus of the evaluator's comments is generally easier than overworking the entire project.
 
-You have *unlimited* submissions but limited time. And, typically this is the best and most efficient approach. 
+You have *unlimited* submissions but limited time. And, typically this is the best and most efficient approach.
 
 ### How long should task 2 be? Is there a page length required?
 
@@ -360,7 +362,7 @@ You have unlimited submissions (as with all WGU performance assessments). Furthe
 
 ### I can't find sources for section A3, *Summary of Published Works*. What can I do?
 
-You are likely overinterpreting what's required. Rarely are submissions sent back because cited works are unsuitable. You can use any referenceable work created by a professional which can be *related* to your project -it does not need to align with your project entirely. For example, an article about your chosen analytical method or tools would suffice.
+You are likely over interpreting what's required. Rarely are submissions sent back because cited works are unsuitable. You can use any referenceable work created by a professional which can be *related* to your project -it does not need to align with your project entirely. For example, an article about your chosen analytical method or tools would suffice.
 
 ### My task two was returned for *Sources* stating citations are missing, but I properly cited everything
 
