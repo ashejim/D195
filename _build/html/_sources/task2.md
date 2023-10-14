@@ -295,7 +295,7 @@ Practical significance refers to how meaningful your findings are in practical a
 
 #### C6: Visual Communication
 
-Task 3, the Project Report, must include graphic visualizations (at least two) for visually communicating elements of your project (see Task 3: G2). Describe a plan to include at least two visualizations of the data, statistical test(s), or model(s); and describe the tools you’ll use to generate the images.  
+Task 3, the Project Report, must include graphic visualizations (at least two) for visually communicating elements of your project (see Task 3: G2). Describe a plan to include at least two visualizations of the data, statistical test(s), or model(s). Specifically, name the types of graphs, what they will visualize, and the tools you’ll use to generate the images.
 
 ### D: Description of Dataset
 
