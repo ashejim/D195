@@ -1,0 +1,59 @@
+libosinfo
+=========
+
+libosinfo is a GObject based library API for managing information about
+operating systems, hypervisors and the (virtual) hardware devices they can
+support. It includes a database containing device metadata and provides APIs
+to match/identify optimal devices for deploying an operating system on a
+hypervisor. Via the magic of GObject Introspection, the API is available in all
+common programming languages with demos for javascript (GJS/Seed) and python
+(PyGObject). Vala bindings are also provided.
+
+libosinfo is Free Software and licenced under LGPLv2+.
+
+Information about the latest official releases can be found at:
+
+    https://libosinfo.org/download/
+
+Dependencies
+============
+
+- Required:
+  - meson >= 0.49.0
+  - gobject-2.0
+  - gio-2.0
+  - libxml-2.0
+  - libxslt-1.0
+
+- Optional:
+  - gobject-introspection
+  - Vala (build-time only)
+
+Patch submissions
+=================
+
+Patch submissions are welcomed from any interested contributor.
+
+The preferred way to submit patches for libosinfo is opening a
+Merge Request against:
+
+    https://gitlab.com/libosinfo/libosinfo
+
+General discussions can also happen at the mailing list:
+
+    https://www.redhat.com/mailman/listinfo/libosinfo
+
+For further information about libosinfo please consult the project
+homepage
+
+   https://libosinfo.org/
+
+Testing
+=======
+
+In order to test libosinfo, you should run:
+
+    $ meson build
+    $ ninja -C build check
+
+--End
