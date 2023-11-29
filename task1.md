@@ -1,10 +1,10 @@
 (task1)=
 
 # Task 1
-<!-- hack to open links in new tab -->
+<!-- hack to open links in new tab
 <head>
     <base target="_blank">
-</head>
+</head> -->
 
 (task1:chooseatopic)=
 
@@ -38,7 +38,7 @@ Task 1 is a preliminary exercise checking that your topic has the essential elem
 - **Listen:**
 IT Audio Series podcast [Choosing Your Topic](https://d2y36twrtb17ty.cloudfront.net/sessions/09c3d32b-1567-4636-88d6-ad5f01616619/3183eabf-4239-4e4a-ae20-ad5f01616620-8792ef88-6d24-43f6-9fe9-ad5f01619cc7.mp4?invocationId=0275eb54-33e0-eb11-8284-12c206d2fd2b); view the [transcript](https://www.wgu.edu/content/dam/western-governors/documents/it/audio-series/ChoosingYourTopic.docx). -->
 
-The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx) includes a wide range of completed projects to review. However, keep in mind that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these as examples of what's needed to meet the requirements. For a more down-to-earth example of what's required, [tasks 1-3 examples](resources: examples).
+To get an understanding of what's typically expected, review these [tasks 1-3 examples](resources:examples). Examples can also be found in the [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx) which includes a wide range of completed projects. However, keep in mind that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these to set expectations of what's needed to fulfill the requirements. For a more down-to-earth example of what's required, [tasks 1-3 examples](resources:examples).
 
 ### Data
 
@@ -140,6 +140,10 @@ In most cases, obtaining authorization can be avoided by masking or removing ide
 ### Do I need to set up an appointment to get approval?
 
 No. Usually, students email the approval form to their instructor. We then sign to form or follow up with questions. However, if you have questions about the requirements or difficulty choosing a topic, you are encouraged to set up an appointment with [your course instructor](ci_page). A 15-30 minute phone call can address most questions or concerns. If you do set up an appointment to discuss your approval form, please email it to the instructor before the appointment.
+
+### Are there any examples?
+
+Yes! See [D195 examples](resources:examples).
 
 ### What if I start writing task 2 and want to change things? Do I need to resubmit task 1?
 

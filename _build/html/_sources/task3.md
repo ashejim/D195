@@ -208,9 +208,13 @@ The most common reasons for returned task 3's:
 
 The first item is easily avoidable. Being cited for "insufficient details" is a matter of subjectivity, but it is also easy to fix -just add more details. Since Task 3 mostly implements the already passed plan of Task 2 -it is mostly already passed.
 
+### Are there any examples?
+
+Yes! See [D195 examples](resources:examples).
+
 ### How long should task 3 be?
 
-Review the [task 3 examples](resources:examples). As Task 3 mainly rewrites Task 2, but more succinctly, task 3 is typically shorter in length. However, there is no minimum page requirement, and they will assess Task 3 somewhat independently of Task 2.  
+Review the [task 3 examples](resources:examples). As Task 3 mainly rewrites Task 2, but more succinctly, task 3 is typically a little shorter. However, there is no minimum page requirement, and they will assess Task 3 somewhat independently of Task 2.  
 
 (task3:faq:timeline)=
 
