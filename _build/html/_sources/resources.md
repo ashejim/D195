@@ -18,25 +18,36 @@
 These examples are more on-par with average passing tasks. Use them as guidelines (every project is different) for what evaluators accept in fulfillment of the requirements.  
 
 `````{tab-set}
+
 ````{tab-item} Example set 1
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-b.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-b.pdf)  
-> Task 3: [Propject conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-b.pdf)
+This example uses a test for difference between means (two sample z-test) as its analytical method. 
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example.pdf)  
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example.pdf)
 ````
 ````{tab-item} Example set 2
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-c.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-c.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-c.pdf)
+This example uses a test for correlation as its analytical method. 
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_F_task1_correlation_test.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_F_task2_correlation_test.pdf)  
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_F_task3_correlation_test.pdf)
 ````
 ````{tab-item} Example set 3
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-d.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-d.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-d.pdf)
+This example uses a model as its analytical method. 
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_B_model_task1.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_B_model_task2.pdf)  
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_B_model_task3.pdf)
 ````
 ````{tab-item} Example set 4
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example-e.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example-e.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example-e.pdf)
+This example uses a statistical test and a model as its analytical methods. 
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task1.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task2.pdf)  
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task3.pdf)
+````
+````{tab-item} Example set 5
+This example uses a machine learning model as its analytical methods. 
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task1.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task2.pdf)  
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task3.pdf)
 ````
 `````
 
