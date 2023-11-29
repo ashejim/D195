@@ -60,7 +60,7 @@ Write your proposal following **Task 2: Project Proposal template**:
 > [Task 2: the Proposal template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/Ee2j1-f4p_pLp-v-sA6XpkYBRSlZ8pMxBsGAv6_YRsELOw?e=9dkG8a)
 <!-- > TODO: using OneDrive link as the doc is still in development. Eventually will replace the link with a relative link to the repo. -->
 
-To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not great, projects. Individual sections should be written to individually meet their respective rubric section requirements.
+To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not the greatest, projects. Individual sections should be written to individually meet their respective rubric section requirements.
 
 :::{tip}
 Sections are assessed independently against the rubric requirements, i.e., when evaluating a section, the evaluator will *check for the fulfillment of the requirements within that section*. They *don't* assess writing style. You can (and sometimes must) reuse content from other areas as needed. It's not about writing something fun to read -it's about demonstrating that the competencies as defined by the rubric requirements are met.
@@ -190,7 +190,7 @@ Each goal, objective, and deliverable should align with each other, the project 
            - Deliverable 1.2.1: The deliverable for this objective is …
 :::
 
-Also, see part B1 of these [examples](resouces).
+Also, see part B1 of these [examples](resources:examples).
 
 #### B2: Scope of Project
 
@@ -351,6 +351,10 @@ Get the best writing help from the writing experts: [WGU Writing Center](https:/
 If you have specific questions or concerns -yes. However, in most cases, it's best just to submit. What suffices as “sufficient detail” is highly subjective. We can always tell you to add more, but if you've done your best to fulfill the requirements, submit it and let them tell you which (if any) parts need to be rewritten. At best, it passes; at worst, we address the issues cited by the evaluator -and then it passes. Responding to the more narrow focus of the evaluator's comments is generally easier than overworking the entire project.
 
 You have *unlimited* submissions but limited time. And, typically this is the best and most efficient approach.
+
+### Are there any examples?
+
+Yes! See [D195 examples](resources:examples).
 
 ### How long should task 2 be? Is there a page length required?
 
