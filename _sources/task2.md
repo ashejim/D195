@@ -249,6 +249,8 @@ Be realistic as possible when estimating costs. However, this is not a business 
 
 Provide specific objective means of assessing success. You should base these criteria on successful execution and correct interpretation of your methods -not the results. It is acceptable that a test fails to find results statistically significant provided *the conclusion and methods are appropriate.*
 
+The criteria can be metrics, but also can be project-related task that can be counted as having been completed. See B.6 of the [Task 2 examples](resources:examples).
+
 ### C: Design of Data Analytics Solution
 
 In this part, you will discuss the details of your data analytics solution targeting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus, we recommend completing at least a rough outline of this part before investing time in parts A and B.

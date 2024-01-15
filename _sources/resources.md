@@ -21,9 +21,9 @@ These examples are more on-par with average passing tasks. Use them as guideline
 
 ````{tab-item} Example set 1
 This example uses a test for difference between means (two sample z-test) as its analytical method. 
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task1_example.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task2_example.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_task3_example.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_example_task1.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_example_task2.pdf)  
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_example_task3.pdf)
 ````
 ````{tab-item} Example set 2
 This example uses a test for correlation as its analytical method. 
@@ -50,6 +50,10 @@ This example uses a machine learning model as its analytical methods.
 > Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task3.pdf)
 ````
 `````
+
+:::{tip}
+If you see `Unable to render code block` when attempting to view the examples, open the link using Firefox or download and view it with your favorite viewer.  
+:::
 
 (resources:examples:excellence)=
 
