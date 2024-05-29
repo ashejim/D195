@@ -23,8 +23,13 @@ bibtex_bibfiles:
 
 # In _config.yml
 sphinx:
+  extra_extensions:
+    - sphinx_jupyterbook_latex
   config:
     bibtex_reference_style: author_year
+
+# parse:
+#   myst_enable_extensions:
 
 # Information about where the book exists on the web
 repository:

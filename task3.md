@@ -172,9 +172,9 @@ The video should provide a bird’s-eye view of your project. Giving context for
 
 The viewer should be able to watch the video and understand your project’s purpose and main argument. Then, for step 2, bring your code (or software analysis) on screen and step through how you conducted your analysis. Unfortunately, we don’t have an example video. However, the video is rarely rejected -unless it’s missing step 2 above.  
 
-In section H of your Task 3 documentation, provide a *link* to your Panopto video.
+After recording the video, upload it to the Panopto drop box and retrieve its URL. In section H of your Task 3 documentation, provide the URL link to your Panopto video. You also copy and paste the URL into the 'Links' options when submitting Task 3.
 
-- You are required to use Panopto, and you need to first request access, [Panopto Access](https://wgu.hosted.panopto.com/). Gaining permission may take up to 48 hours. 
+- You are required to use Panopto, and you need to first request access, [Panopto Access](https://wgu.hosted.panopto.com/). Gaining permission may take up to 48 hours.
 
 - Recordings typically include only the presenter's voice. Showing your face is *not* required. If you need special accommodations, please contact Assessment Services and alert your assigned course faculty.  
 

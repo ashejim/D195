@@ -238,6 +238,7 @@ You can search [WGU's library](https://wgu.libguides.com/friendly.php?s=library)
 :::
 
 (resources:general:welcomeemail)=
+
 ### Welcome email
 
 We've tried to provide everything you need here on this website as a more complete and readily available resource than the "welcome email," i.e., the *non-automated* introductory email from your assigned course instructor containing the tips and resources needed to get started in the right direction. However, we often get asked for the email, and I suppose this website would be incomplete without it. So here is an example of a "welcome email."
