@@ -278,14 +278,14 @@ Identify the tools, e.g., IDE, languages, libraries, etc., which will be used to
 For each **statistical test**, provide the following information (C4):
 
 - A null hypothesis (the opposite of your hypothesis).
-- The planned statistical test.
+- The name of the proposed statistical test, e.g., 1-sample t-test, Chi-square, correlation, etc.
 - The metric(s) generated from that test (e.g., a t-stat) from which probability (the $p$-value) is derived.
 - The alpha value (denoted $\alpha$; usually 1% or 5%) that will be used to determine statistical significance (e.g., if $\alpha = .05$ and $p$-value $= .025$ then the null hypothesis will be rejected and there is sufficient evidence to support the hypothesis).  
 
 For each **model**, provide the following information (C4):
 
 - The type of model, e.g., supervised regression, supervised classification, etc.  
-- The algorithm(s) to be used to develop the model.
+- The name of the proposed model, e.g., linear regression, logistic regression, Bayesian, CNN, etc.
 - The metric(s) to be used to assess performance.  
 - The benchmark to which the above metric(s) will be compared to determine the success of the model(s), e.g., “If the correlation coefficient is $\geq .6$, the model will be considered successful…”  
 
