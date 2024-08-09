@@ -42,13 +42,18 @@ To get an understanding of what's typically expected, review these [tasks 1-3 ex
 
 ### Data
 
-You can’t perform data analysis without data. You will need to find and choose your own data:
+You can’t perform data analysis without data. You will need to find and choose your own data. Any open source data set is freely available for use. The IRB policy only applies to data collected by you.
 
-- [**Kaggle.com**](https://www.kaggle.com/datasets)
+- [Kaggle.com](https://www.kaggle.com/datasets)
+- [OpenML](https://openml.org/search?type=data&sort=runs&status=active). [Importing OpenML data](https://www.openml.org/apis)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [Data.gov](https://data.gov/)
-- More [here](https://careerfoundry.com/en/blog/data-analytics/where-to-find-free-datasets/) and [here](https://medium.com/analytics-vidhya/top-100-open-source-datasets-for-data-science-cd5a8d67cc3d)
 - Simulated data
+- Python library built-in datasets:  
+  - [sklearn's data sets](https://scikit-learn.org/stable/datasets.html) (these can be imported directly into your code)
+  - PyTorch's built-in datasets: [images](https://pytorch.org/vision/stable/datasets.html), [texts](https://pytorch.org/text/stable/datasets.html), and [audio](https://pytorch.org/audio/stable/datasets.html)
+  - [Tensorflow datasets](https://www.tensorflow.org/datasets)
+- More [here](https://careerfoundry.com/en/blog/data-analytics/where-to-find-free-datasets/) and [here](https://medium.com/analytics-vidhya/top-100-open-source-datasets-for-data-science-cd5a8d67cc3d)
 
 ```{note}
 *No minimal data complexity or processing is required.* Choosing data which needs less processing or simplifying a dataset (you don't have to use it al; indeed, sometimes you shouldn't) can make the project technically more accessible.  
@@ -104,6 +109,7 @@ Once you've decided on a topic, complete the approval form following the templat
 <!-- TODO: CHECK THIS LINK -->
 
 > [D195 Topic Approval Form](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EfZJnryZZ5dAmAfUJ-e-3PYB6BKp_9D6J0_qO5GGuej_pg?e=Gd976P)
+
 <!-- > [D195 Topic Approval Form](./resources/D195_task_1_topic_approval_form.docx) -->
 
 Include a rough outline of your research question or organizational need, supporting inferential method or model, and implementation. **Email the completed form to** **[your course instructor](ci_page)** who will either approve it with their signature or provide feedback.

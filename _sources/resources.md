@@ -65,10 +65,25 @@ The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.
 
 (resources:task1:task1template)=
 
-### Topic Approval Form Template
+### Data
 
-<!-- > [![Topic Approval Form](https://github.com/ashejim/C769/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D) -->
-> [D195 Topic Approval Form](./resources/D195_Topic_Approval_Form.docx)
+Any open source data set is freely available for use. The IRB policy only applies to data collected by you.
+
+- [Kaggle.com](https://www.kaggle.com/datasets)
+- [OpenML](https://openml.org/search?type=data&sort=runs&status=active). [Importing OpenML data](https://www.openml.org/apis)
+- [Google Dataset Search](https://datasetsearch.research.google.com/)
+- [Data.gov](https://data.gov/)
+- More [here](https://careerfoundry.com/en/blog/data-analytics/where-to-find-free-datasets/) and [here](https://medium.com/analytics-vidhya/top-100-open-source-datasets-for-data-science-cd5a8d67cc3d)
+- Simulated data
+- Python library built-in datasets:  
+  - [sklearn's data sets](https://scikit-learn.org/stable/datasets.html) (these can be imported directly into your code)
+  - PyTorch's built-in datasets: [images](https://pytorch.org/vision/stable/datasets.html), [texts](https://pytorch.org/text/stable/datasets.html), and [audio](https://pytorch.org/audio/stable/datasets.html)
+  - [Tensorflow datasets](https://www.tensorflow.org/datasets)
+
+### Topic Approval Form Template
+<!-- > [D195 Topic Approval Form](./resources/D195_Topic_Approval_Form.docx) -->
+
+> [D195 Topic Approval Form](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EfZJnryZZ5dAmAfUJ-e-3PYB6BKp_9D6J0_qO5GGuej_pg?e=Gd976P)
 
 ### Waiver Form
 
