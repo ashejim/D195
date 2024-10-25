@@ -4,7 +4,7 @@
 **Nothing on this website is an official WGU resource developed by the WGU product development.** See your COS page to review the official resources.
 :::
 
-# Welcome to D195!
+# Welcome to D195 and D502!
 
 :::{margin} Wait why is <s>Managment</s>?
 This is a data analytics project. While data management skills will be helpful and often needed, the rubric only requires data management as indirectly determined by the needs of your data analysis.
