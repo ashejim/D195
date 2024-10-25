@@ -254,22 +254,24 @@ You can search [WGU's library](https://wgu.libguides.com/friendly.php?s=library)
 
 (resources:general:welcomeemail)=
 
-### Welcome email
+### Welcome Email
 
 We've tried to provide everything you need here on this website as a more complete and readily available resource than the "welcome email," i.e., the *non-automated* introductory email from your assigned course instructor containing the tips and resources needed to get started in the right direction. However, we often get asked for the email, and I suppose this website would be incomplete without it. So here is an example of a "welcome email."
 
 ```{admonition} A Welcome Email
-Welcome to D195! Please review our [D195 website](https://ashejim.github.io/D195/intro.html) to get almost everything you need. The capstone can be very similar to a combination of tasks 1 and 2 from the [Intro to Data Analysis& Practical Statistics (Udacity Data Analyst nanodegree part 1/5)](https://learn.udacity.com/nanodegrees/nd002-wgu-1) course you passed in fullfilment of the C749 -Intro to Data Science course. Additionally, review these [task 1, task 2, and task 3 examples](resources: examples). 
-Your first step is choosing a topic.
+Welcome to D195/D502! Please review the [D195/D502 Website](https://ashejim.github.io/D195/intro.html) (D502 is the newer and nearly indentical version of D195). 
 
-1. Review the Proposal (task 2) and Conclusion Report(task 3) rubric requirements found on your D195 COS page, particularly C of task 2 and F of task 3; review the [task 1, task 2, and task 3 examples](resources: examples). Consider an argument supportable using a statistical significance; listen to [C964/D195 Statistical Significance](https://d2y36twrtb17ty.cloudfront.net/sessions/d8c9630b-274a-4879-bf27-ae2a011e3dbd/ec782192-a9bf-459f-b091-ae2a011e3dc8-8a3dfb1b-4294-4074-9d33-ae2a011e752c.mp4?invocationId=abd666da-b37f-ec11-828b-12b1cb861383) in the [WGU IT Audio series](https://www.wgu.edu/online-it-degrees/it-audio-series.html#close).
-2. Choose your dataset first; avoid proposing a project for which you do not yet have data, and avoid choosing a dataset before understanding the Task 2 and 3 requirements. A popular place for datasets is [kaggle.com](https://www.kaggle.com/datasets). You will need to make an argument supporting a hypothesis using appropriate data analytic methods; consider an idea supportable with hypothesis testing, e.g., claims about correlations, means, proportions, etc., as using statistical significance best fits the requirements. 
-3. Explore your data before settling on a topic. It is also advisable to complete your data analysis before completing the Proposal (task 2) as you won't need to anticipate results. Furthermore, completing task 3 and aligning it to task 2 will be easier. 
-4. Compose your Topic Approval Form using the [D195 Topic Approval Form](https://github.com/ashejim/D195/blob/main/resources/D195_Topic_Approval_Form.docx) and send it to your [assigned course instructor](ci_page). If more information is needed, I'll let you know. Use this   task 1 example as a guide to the expected detail.
-5.Submit the Topic Approval Form (signed by your assigned instruictor).
+The critical requirement of the capstone is applying a model or statistical test as done in your machine learning and statistics courses. Review [Task 2 section C4](https://ashejim.github.io/D195/task2.html#c4-c4a-methods-metrics-to-evaluate-statistical-significance) and watch:
 
-Let us know if you have any questions. Emails are best (and fastest) for specific questions -appointments for general discussions. Though whatever your preference is fine.
+<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=12aa277b-6d29-4bef-916e-b07601467409&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="336" width="600" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
+And review these [examples](https://ashejim.github.io/D195/resources.html#examples). Your first step is choosing a topic.
+
+1. *Choose your dataset.* Review the [Task 1 guide page](https://ashejim.github.io/D195/task1.html) and the [Proposal (task 2)](https://ashejim.github.io/D195/task2.html) requirements (particularly [section C4](https://ashejim.github.io/D195/task2.html#c4-c4a-methods-metrics-to-evaluate-statistical-significance) requiring a model or test). You will need to support a hypothesis using a model or statistical test. So, choose data suitable for a method you are comfortable with. A popular place for datasets is kaggle.com.
+2. *Explore the data* before settling on a topic. Complete your data analysis before completing the Proposal (task 2), as you won't need to anticipate results. Furthermore, completing task 3 and aligning with task 2 will be easier. 
+3. *Submit Task 1.* Compose your Topic Approval Form using the [Topic Approval Form Template](https://ashejim.github.io/D195/task1.html#topic-approval) and send it to your assigned course intsructor. If more information is needed, we'll let you know. Submit the Topic Approval Form (signed by any D195/D502 CI). You only need the waiver form if using proprietary data or information.
+
+Let us know if you have any questions. Emails are best (and fastest) for specific questions -appointments for general discussions. Though whatever your preference is fine. Here you can find all [D195/D502 CI contact information](https://ashejim.github.io/D195/ci_d195.html).
 ```
 
 (resources:general: pacing)=
