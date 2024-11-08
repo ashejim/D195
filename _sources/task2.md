@@ -57,7 +57,7 @@ Throughout this page, we will be assuming you have completed the data analysis.
 ## Write Task 2
 
 Write your proposal following **Task 2: Project Proposal template**:
-> [Task 2: the Proposal template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/Ee2j1-f4p_pLp-v-sA6XpkYBRSlZ8pMxBsGAv6_YRsELOw?e=9dkG8a)
+> [Task 2: the Proposal template](https://1drv.ms/w/s!Av4KQnJfiBxmgqVWgpkLPEi_AnrNLQ?e=emh2fI)
 <!-- > TODO: using OneDrive link as the doc is still in development. Eventually will replace the link with a relative link to the repo. -->
 
 To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not the greatest, projects. Individual sections should be written to individually meet their respective rubric section requirements.
