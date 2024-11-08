@@ -15,7 +15,7 @@ If you've followed our advice of completing the analysis before writing the prop
 ## Writing Task 3
 
 **Almost time to graduate!** Write your proposal following **Task 2: Project Proposal template**:
-> [Task 3: the Conclusion template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXd665BhwxJPrzjy35_4pLoB3oQ-2saTvR8B8V5eGKsaPA?e=OWwVw8)
+> [Task 3: the Conclusion template](https://1drv.ms/w/s!Av4KQnJfiBxmhI0PUpFbs9MHRlZY7A?e=1RZ6i6)
 > <!-- > TODO: using OneDrive link as the doc is still in development. Eventually will replace the link with a relative link to the repo. -->
 
 To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not great, projects. Individual sections should be written to individually meet their respective rubric section requirements.

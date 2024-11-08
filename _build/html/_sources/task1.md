@@ -108,7 +108,7 @@ Once you've decided on a topic, complete the approval form following the templat
 <!-- > [![Task 1 example](https://github.com/ashejim/C964/blob/main/url_images/example_task1-a.png?raw=true#image-thumb)](https://github.com/ashejim/C964/blob/main/resources/example_task1-a.pdf) -->
 <!-- TODO: CHECK THIS LINK -->
 
-> [D195 Topic Approval Form](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EfZJnryZZ5dAmAfUJ-e-3PYB6BKp_9D6J0_qO5GGuej_pg?e=Gd976P)
+> [D195 Topic Approval Form](https://1drv.ms/w/s!Av4KQnJfiBxmhI0Q1vuAGcetB5UdFg?e=1gyubA)
 
 <!-- > [D195 Topic Approval Form](./resources/D195_task_1_topic_approval_form.docx) -->
 
@@ -138,7 +138,8 @@ In most cases, obtaining authorization can be avoided by masking or removing ide
 
 <!-- > [![Waiver Form](https://github.com/ashejim/C769/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7) -->
 
-> [D195 Waiver Form](./resources/D195_waiver_form.docx)
+> [D195 Waiver Form](https://1drv.ms/w/s!Av4KQnJfiBxmgsFqcRinq2h4XBjFrw?e=KHpX5q)
+<!-- > [D195 Waiver Form](./resources/D195_waiver_form.docx) -->
 
 (task1:faq)=
 
