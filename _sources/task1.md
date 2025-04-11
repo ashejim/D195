@@ -83,7 +83,7 @@ Statistically significant results can be found by applying an appropriate infere
 - Comparison tests, e.g., a hypothesis test showing two means are different.
 - Estimating parameters, e.g., a confidence interval estimating a mean.
 
-Inferential statistical methods and testing for statistical significance are covered in [C749 Intro to Data Analysis & Practical Statistics](https://learn.udacity.com/nanodegrees/nd002-wgu-1). For a brief overview, listen to [C964/D195 Statistical Significance](https://d2y36twrtb17ty.cloudfront.net/sessions/d8c9630b-274a-4879-bf27-ae2a011e3dbd/ec782192-a9bf-459f-b091-ae2a011e3dc8-8a3dfb1b-4294-4074-9d33-ae2a011e752c.mp4?invocationId=abd666da-b37f-ec11-828b-12b1cb861383) in the [WGU IT Audio series](https://www.wgu.edu/online-it-degrees/it-audio-series.html#close).
+Inferential statistical methods and testing for statistical significance are covered in [C749 Intro to Data Analysis & Practical Statistics](https://learn.udacity.com/nanodegrees/nd002-wgu-1). For a brief overview, listen to [C964/D502 Statistical Significance](https://d2y36twrtb17ty.cloudfront.net/sessions/d8c9630b-274a-4879-bf27-ae2a011e3dbd/ec782192-a9bf-459f-b091-ae2a011e3dc8-8a3dfb1b-4294-4074-9d33-ae2a011e752c.mp4?invocationId=abd666da-b37f-ec11-828b-12b1cb861383) in the [WGU IT Audio series](https://www.wgu.edu/online-it-degrees/it-audio-series.html#close).
 <!-- Add a stat sign video -->
 
 #### Models
@@ -108,14 +108,12 @@ Once you've decided on a topic, complete the approval form following the templat
 <!-- > [![Task 1 example](https://github.com/ashejim/C964/blob/main/url_images/example_task1-a.png?raw=true#image-thumb)](https://github.com/ashejim/C964/blob/main/resources/example_task1-a.pdf) -->
 <!-- TODO: CHECK THIS LINK -->
 
-> [D195 Topic Approval Form](https://1drv.ms/w/s!Av4KQnJfiBxmhI0Q1vuAGcetB5UdFg?e=1gyubA)
-
-<!-- > [D195 Topic Approval Form](./resources/D195_task_1_topic_approval_form.docx) -->
+> [D502 Topic Approval Form](https://1drv.ms/w/s!Av4KQnJfiBxmhI0Q1vuAGcetB5UdFg?e=1gyubA)
 
 Include a rough outline of your research question or organizational need, supporting inferential method or model, and implementation. **Email the completed form to** **[your course instructor](ci_page)** who will either approve it with their signature or provide feedback.
 
 ```{note}
-The topic approval form must be *signed by a* *[D195 course instructor](ci_page)*. Forms without a signature are automatically returned without further review.  
+The topic approval form must be *signed by a* *[D502 course instructor](ci_page)*. Forms without a signature are automatically returned without further review.  
 ```
 
 Directly emailing your assigned course instructor is the fastest and often best way to get a signature. Whether emailing [ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=my%20course%20instructor&subject=C769:%20capstone%20topic%20approval&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A) or your CI directly, always practice professional communication:
@@ -138,8 +136,7 @@ In most cases, obtaining authorization can be avoided by masking or removing ide
 
 <!-- > [![Waiver Form](https://github.com/ashejim/C769/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7) -->
 
-> [D195 Waiver Form](https://1drv.ms/w/s!Av4KQnJfiBxmgsFqcRinq2h4XBjFrw?e=KHpX5q)
-<!-- > [D195 Waiver Form](./resources/D195_waiver_form.docx) -->
+> [D502 Waiver Form](https://1drv.ms/w/s!Av4KQnJfiBxmgsFqcRinq2h4XBjFrw?e=KHpX5q)
 
 (task1:faq)=
 
@@ -151,7 +148,7 @@ No. Usually, students email the approval form to their instructor. We then sign 
 
 ### Are there any examples?
 
-Yes! See [D195 examples](resources:examples).
+Yes! See [D502 examples](resources:examples).
 
 ### What if I start writing task 2 and want to change things? Do I need to resubmit task 1?
 
@@ -176,7 +173,7 @@ You have unlimited attempts. However, incomplete submissions or submissions sign
  
 ### Can I get the "welcome email?"
 
-Yes, contact your assigned course instructor or see the sample [welcome email](resources:general:welcomeemail) in the [D195 Resources section](resources).
+Yes, contact your assigned course instructor or see the sample [welcome email](resources:general:welcomeemail) in the [D502 Resources section](resources).
 
 <!-- ### Are there any cohorts? I don't see where to sign-up on my COS page.
 

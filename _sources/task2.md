@@ -356,7 +356,7 @@ You have *unlimited* submissions but limited time. And, typically this is the be
 
 ### Are there any examples?
 
-Yes! See [D195 examples](resources:examples).
+Yes! See [D502 examples](resources:examples).
 
 ### How long should task 2 be? Is there a page length required?
 
