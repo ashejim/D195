@@ -210,7 +210,7 @@ The first item is easily avoidable. Being cited for "insufficient details" is a 
 
 ### Are there any examples?
 
-Yes! See [D195 examples](resources:examples).
+Yes! See [D502 examples](resources:examples).
 
 ### How long should task 3 be?
 
