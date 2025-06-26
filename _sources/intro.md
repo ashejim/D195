@@ -1,16 +1,12 @@
-:::{warning}
-🚧 This site is under construction! If something makes sense, then it's probably good advice. If not, it's probably unfinished, unreviewed, or just plain nonsense. *I haven't even had time to proofread anything. 👷🏽‍♀️
 
-**Nothing on this website is an official WGU resource developed by the WGU product development.** See your COS page to review the official resources.
-:::
 
 # Welcome to D195 and D502!
 
-:::{margin} Wait why is <s>Managment</s>?
-This is a data analytics project. While data management skills will be helpful and often needed, the rubric only requires data management as indirectly determined by the needs of your data analysis.
+:::{margin} Wait why is Managment in the D195 Course Title?
+This is a data analytics project. While data management skills will be helpful and often needed, the rubric only requires data management as indirectly determined by the needs of your data analysis. D195 is called Data Analytics and Management. D502 is simply called Data Analytics. They are essentially the same course.
 :::
 
-Welcome! For the Data Analytics and <s>Management</s> capstone project, you’ll first propose a research question OR organizational need for which your data analysis will provide a solution, and then you conduct the analysis and present your results. The problem, the solution, and the presentation as a final product are up to you! The capstone allows you to demonstrate the application of skills collected throughout the BSDMDA program.
+Welcome! For the Data Analytics capstone project, you’ll first propose a research question OR organizational need for which your data analysis will provide a solution, and then you conduct the analysis and present your results. The problem, the solution, and the presentation as a final product are up to you! The capstone allows you to demonstrate the application of skills collected throughout the BSDMDA program.
 
 
 The capstone includes three parts:
