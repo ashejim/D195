@@ -16,42 +16,45 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-
-  
-  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/my_css.css?v=7801b114" />
   
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=5eb1bb1e"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
@@ -67,6 +70,7 @@
     <link rel="prev" title="Task 1" href="task1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -82,19 +86,8 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-primary-sidebar-checkbox"/>
-  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-secondary-sidebar-checkbox"/>
-  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="search.html"
       method="get">
@@ -102,7 +95,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -110,8 +102,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -127,7 +119,8 @@
       
       
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -157,21 +150,17 @@
     
     
     <img src="_static/emp_rule_logo.png" class="logo__image only-light" alt="D195 Data Analytics Capstone - Home"/>
-    <script>document.write(`<img src="_static/emp_rule_logo.png" class="logo__image only-dark" alt="D195 Data Analytics Capstone - Home"/>`);</script>
+    <img src="_static/emp_rule_logo.png" class="logo__image only-dark pst-js-only" alt="D195 Data Analytics Capstone - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
- <script>
- document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -187,10 +176,10 @@
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Task 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="task3.html">Task 3</a></li>
 <li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="ci_page.html">Course Faculty</a><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="ci_page.html">Course Faculty</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="ci_d195.html">Course Faculty</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ci_other.html">DMDA, Software, and other Course Faculty</a></li>
-</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
+</ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="support_this_page.html">Help Support this Website</a></li>
 </ul>
@@ -201,9 +190,14 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -333,7 +327,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -347,25 +341,17 @@
 
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
-  </button>
-`);
-</script>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
 </div></div>
@@ -509,9 +495,9 @@ document.write(`
 <h2>Write Task 2<a class="headerlink" href="#write-task-2" title="Link to this heading">#</a></h2>
 <p>Write your proposal following <strong>Task 2: Project Proposal template</strong>:</p>
 <blockquote>
-<div><p><a class="reference external" href="https://1drv.ms/w/s!Av4KQnJfiBxmgqVWgpkLPEi_AnrNLQ?e=emh2fI">Task 2: the Proposal template</a></p>
+<div><p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQDujXFLHXJZR59yY1adR_6BAeD_O9YByi43nEjE_CaQXyw?e=Zwk5bP">Task 2 Template (docx)</a></p>
+<p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQBXAlNSURokQ5bzGgQ-WFNhAYqg3wS29H3Bul-iLM2tMpk?e=SjdTqW">Task 2 Template (odt)</a></p>
 </div></blockquote>
-<!-- > TODO: using OneDrive link as the doc is still in development. Eventually will replace the link with a relative link to the repo. -->
 <p>To gauge the level of detail evaluators typically expect, see the <a class="reference internal" href="resources.html#resources-examples"><span class="std std-ref">task 2 examples</span></a> - passing, albeit not the greatest, projects. Individual sections should be written to individually meet their respective rubric section requirements.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -522,7 +508,7 @@ document.write(`
 <p>The Proposal Overview summarizes one question or organizational need that you intend to answer by collecting and analyzing a set of data. Think of it as a summary meant to be read by upper management or a general audience.</p>
 <p>This part introduces and summarizes a thesis (A1), a literature review (A3), a problem (A2), and your solution (A4 &amp; A5). This section can establish a roadmap for the rest of the paper, but if you write it first expect the need to revisit and revise it once other sections are complete. Remember to keep the introduction concise but informative, providing enough information to clearly meet the requirements of individual sections.</p>
 <section id="a1-research-question-or-organizational-need">
-<span id="task1-a1"></span><h4>A1: Research Question or Organizational Need<a class="headerlink" href="#a1-research-question-or-organizational-need" title="Link to this heading">#</a></h4>
+<span id="task2-a1"></span><h4>A1: Research Question or Organizational Need<a class="headerlink" href="#a1-research-question-or-organizational-need" title="Link to this heading">#</a></h4>
 <p>Much of Tasks 2 and 3 must align with this section. Particularly the rigorous method from part C. After investigating your data, you may need to adjust from what was provided in <a class="reference internal" href="task1.html#task1"><span class="std std-ref">Task 1</span></a>. Making changes from Task 1 is acceptable (and somewhat expected) without resubmitting Task 1. However, we recommend contacting your <a class="reference internal" href="ci_page.html"><span class="doc std std-doc">assigned course instructor</span></a> if significant changes are necessary.</p>
 <section id="research-question-or-organizational-need">
 <h5>Research Question OR Organizational Need?<a class="headerlink" href="#research-question-or-organizational-need" title="Link to this heading">#</a></h5>
@@ -539,7 +525,7 @@ document.write(`
 <p>A good research question should also be interesting, relevant, and novel. However, these characteristics are not directly or indirectly assessed as the capstone is meant to demonstrate proficiencies in analysis -not scientific research. Particularly do not worry about the novelty of projects as we have no shareable list of previous topics or investigated datasets.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Many of the rubric requirements must align with A1. Particularly <a class="reference internal" href="#task2:C"><span class="xref myst">part C</span></a>](task2:C). If you’ve followed the recommendation of first completing the analysis, your research question can be directly related to your <a class="reference internal" href="#task2-c1"><span class="std std-ref">hypothesis</span></a></p>
+<p>Many of the rubric requirements must align with A1. Particularly <a class="reference internal" href="#task2-c"><span class="std std-ref">part C</span></a>. If you’ve followed the recommendation of first completing the analysis, your research question can be directly related to your <a class="reference internal" href="#task2-c1"><span class="std std-ref">hypothesis</span></a></p>
 </div>
  <!--TODO HERE  -->
 <!-- :::{sidebar} Watch 
@@ -554,7 +540,7 @@ document.write(`
 </section>
 <section id="a3-a3a-summary-of-works-project-relation">
 <span id="task2-a3"></span><h4>A3 &amp; A3A: Summary of Works &amp; Project Relation<a class="headerlink" href="#a3-a3a-summary-of-works-project-relation" title="Link to this heading">#</a></h4>
-<p>Think of this section as a literature review where you summarize a work (A3) and then relate it to your project (A3A). They need only connect to an aspect of your project; they don’t need to align with it entirely. You can use anything created by an industry professional, e.g., online articles, whitepapers, technical documentation, etc. Most importantly, you must have <strong>three</strong> different works cited following <a class="reference internal" href="#task2:grammar"><span class="xref myst">APA guidelines</span></a> using in-text citations, e.g., (Author, year). Typically, papers cite sources as needed, but for evaluation purposes, they added this section to demonstrate research.</p>
+<p>Think of this section as a literature review where you summarize a work (A3) and then relate it to your project (A3A). They need only connect to an aspect of your project; they don’t need to align with it entirely. You can use anything created by an industry professional, e.g., online articles, whitepapers, technical documentation, etc. Most importantly, you must have <strong>three</strong> different works cited following <a class="reference internal" href="#task2-grammar"><span class="std std-ref">APA guidelines</span></a> using in-text citations, e.g., (Author, year). Typically, papers cite sources as needed, but for evaluation purposes, they added this section to demonstrate research.</p>
 <ol class="arabic simple">
 <li><p><strong>Review a work.</strong> For example, online articles, blogs, case studies, white papers, videos, etc.</p></li>
 <li><p><strong>Summarize the work.</strong> Simply tell your reader what’s in the resource you reviewed, no need to offer an opinion or analyze it -simply summarize the content. We recommend 1-2 paragraphs per work.</p></li>
@@ -579,14 +565,14 @@ alt = "A short animated image demonstrating how to add WGU's library to google.s
 </section>
 <section id="a4-summary-of-data-analytics-solution">
 <span id="task2-a4"></span><h4>A4: Summary of Data Analytics Solution<a class="headerlink" href="#a4-summary-of-data-analytics-solution" title="Link to this heading">#</a></h4>
-<p>Summarize the proposed solution. Include a summary of the analytic method(s) and its implementation summarized in <a class="reference internal" href="#task2:B3"><span class="xref myst">B3</span></a> and detailed in <a class="reference internal" href="#task2:C4"><span class="xref myst">C4</span></a>. Detail how the solution:</p>
+<p>Summarize the proposed solution. Include a summary of the analytic method(s) and its implementation summarized in <a class="reference internal" href="#task2-b3"><span class="std std-ref">B3</span></a> and detailed in <a class="reference internal" href="#task2-c4"><span class="std std-ref">C4</span></a>. Detail how the solution:</p>
 <ul class="simple">
 <li><p>Will be realistically implemented.</p></li>
 <li><p>Address the research question or organizational need.</p></li>
 </ul>
 </section>
 <section id="a5-benefits-support-of-decision-making-process">
-<span id="task1-a5"></span><h4>A5: Benefits &amp; Support of Decision-Making Process<a class="headerlink" href="#a5-benefits-support-of-decision-making-process" title="Link to this heading">#</a></h4>
+<span id="task2-a5"></span><h4>A5: Benefits &amp; Support of Decision-Making Process<a class="headerlink" href="#a5-benefits-support-of-decision-making-process" title="Link to this heading">#</a></h4>
 <p>Describe how the solution from A4 will:</p>
 <ul class="simple">
 <li><p>Provide a benefit and why.</p></li>
@@ -597,7 +583,7 @@ alt = "A short animated image demonstrating how to add WGU's library to google.s
 </section>
 <section id="b-data-analytics-project-plan">
 <span id="task2-b"></span><h3>B: Data Analytics Project Plan<a class="headerlink" href="#b-data-analytics-project-plan" title="Link to this heading">#</a></h3>
-<p>In this part, you will discuss the design details of your data analytics solution. Think of it as a business plan for <a class="reference internal" href="#task2:C"><span class="xref myst">part C</span></a> targeting middle management.</p>
+<p>In this part, you will discuss the design details of your data analytics solution. Think of it as a business plan for <a class="reference internal" href="#task2-c"><span class="std std-ref">part C</span></a> targeting middle management.</p>
 <section id="b1-goals-objectives-deliverables">
 <span id="task2-b1"></span><h4>B1: Goals, Objectives, &amp; Deliverables<a class="headerlink" href="#b1-goals-objectives-deliverables" title="Link to this heading">#</a></h4>
 <p><strong>Goals</strong> and <strong>objectives</strong> are very similar. Goals are broader, defining the end you are trying to achieve (e.g., improving customer service). You need at least one goal. Objectives are more specific, often measurable steps supporting the goal (e.g., real-time inventory updates for customers). Goals and objectives can be considered high-level and mid-management tasks, respectively. <strong>Deliverables</strong> are tangible tasks completed supporting the objectives (e.g., an inventory status screen reporting real-time inventory to customers).</p>
@@ -638,13 +624,13 @@ You must include at least <em>one</em> specific item outside the project’s sco
 </div>
 </section>
 <section id="b3-standard-methodology">
-<h4>B3: Standard Methodology<a class="headerlink" href="#b3-standard-methodology" title="Link to this heading">#</a></h4>
+<span id="task2-b3"></span><h4>B3: Standard Methodology<a class="headerlink" href="#b3-standard-methodology" title="Link to this heading">#</a></h4>
 <p>The methodology is the process you will follow when implementing your solution. Include specific details to adequately describe the steps that will take place in each phase. In this section, you must:</p>
 <ol class="arabic simple">
 <li><p>Identify a “standard” methodology used to plan the project, e.g., Waterfall or ADDIE.</p></li>
 <li><p>Describe the project steps to be completed in each phase of the methodology, e.g., analysis, design, etc.</p></li>
 </ol>
-<p>The second step provides a detailed implementation plan also outlined in <a class="reference internal" href="#task2:A2"><span class="xref myst">section A2</span></a>. If using a less-known methodology, relate it to a “standard” one.</p>
+<p>The second step provides a detailed implementation plan also outlined in <a class="reference internal" href="#task2-a2"><span class="std std-ref">section A2</span></a>. If using a less-known methodology, relate it to a “standard” one.</p>
 </section>
 <section id="b4-timeline-milestones">
 <h4>B4: Timeline &amp; Milestones<a class="headerlink" href="#b4-timeline-milestones" title="Link to this heading">#</a></h4>
@@ -704,7 +690,7 @@ https://pradyunsg.me/furo/reference/admonitions/ -->
 </section>
 </section>
 <section id="c-design-of-data-analytics-solution">
-<h3>C: Design of Data Analytics Solution<a class="headerlink" href="#c-design-of-data-analytics-solution" title="Link to this heading">#</a></h3>
+<span id="task2-c"></span><h3>C: Design of Data Analytics Solution<a class="headerlink" href="#c-design-of-data-analytics-solution" title="Link to this heading">#</a></h3>
 <p>In this part, you will discuss the details of your data analytics solution targeting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus, we recommend completing at least a rough outline of this part before investing time in parts A and B.</p>
 <section id="c1-hypothesis">
 <span id="task2-c1"></span><h4>C1: Hypothesis<a class="headerlink" href="#c1-hypothesis" title="Link to this heading">#</a></h4>
@@ -720,7 +706,7 @@ https://pradyunsg.me/furo/reference/admonitions/ -->
 <p>Identify the tools, e.g., IDE, languages, libraries, etc., which will be used to complete the analytical method(s) described in section C2.</p>
 </section>
 <section id="c4-c4a-methods-metrics-to-evaluate-statistical-significance">
-<h4>C4 &amp; C4A: Methods &amp; Metrics to Evaluate Statistical Significance<a class="headerlink" href="#c4-c4a-methods-metrics-to-evaluate-statistical-significance" title="Link to this heading">#</a></h4>
+<span id="task2-c4"></span><h4>C4 &amp; C4A: Methods &amp; Metrics to Evaluate Statistical Significance<a class="headerlink" href="#c4-c4a-methods-metrics-to-evaluate-statistical-significance" title="Link to this heading">#</a></h4>
 <p>For each <strong>statistical test</strong>, provide the following information (C4):</p>
 <ul class="simple">
 <li><p>A null hypothesis (the opposite of your hypothesis).</p></li>
@@ -778,14 +764,14 @@ https://pradyunsg.me/furo/reference/admonitions/ -->
 </section>
 </section>
 <section id="grammar-sources-and-apa">
-<h3>Grammar, Sources, and APA<a class="headerlink" href="#grammar-sources-and-apa" title="Link to this heading">#</a></h3>
+<span id="task2-grammar"></span><h3>Grammar, Sources, and APA<a class="headerlink" href="#grammar-sources-and-apa" title="Link to this heading">#</a></h3>
 <p>It’s easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions!</p>
-<p>Check your grammar using <a class="reference external" href="https://www.grammarly.com/">Grammarly.com</a> <img alt="grammarly.com icon" src="https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon" /> (it’s what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in <em>Professional Communication</em>. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.</p>
+<p>Check your grammar using the <a class="reference external" href="https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355">Grammarly for Education</a> <img alt="grammarly.com icon" src="https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon" />; this grammar checker is the preferred tool. Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in <em>Professional Communication</em>. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Students have reported missed mistakes when using the Google Doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.</p>
 </div>
-<p>Sources and format should follow <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524">APA guidelines</a>. Avoid reference errors by using the <a class="reference external" href="https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5">MS Word Reference Tool</a> to create and manage references and review this guide on how to <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333">Avoid Common APA errors</a>.</p>
+<p>Sources and format should follow APA guidelines; see <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524">I Need Help with APA Style</a>. Avoid reference errors by using the <a class="reference external" href="https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5">MS Word Reference Tool</a> to create and manage references and review this guide on how to <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333">Avoid Common APA Errors</a>.</p>
 <p>Get the best writing help from the writing experts: <a class="reference external" href="https://my.wgu.edu/success-centers/writing-center">WGU Writing Center</a>. While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&amp;A sessions. See a list of upcoming events here: <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860">Writing Center Live Events</a>.</p>
 </section>
 </section>
@@ -847,8 +833,7 @@ https://pradyunsg.me/furo/reference/admonitions/ -->
    theme="github-light"
    label="💬 comment"
    crossorigin="anonymous"
-/>
-</section>
+/></section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -906,14 +891,16 @@ https://pradyunsg.me/furo/reference/admonitions/ -->
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav class="bd-toc-nav page-toc">
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#do-the-analysis-now">Do the Analysis Now!</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#write-task-2">Write Task 2</a><ul class="nav section-nav flex-column">
@@ -1018,8 +1005,8 @@ By Dr. Jim Ashe
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>

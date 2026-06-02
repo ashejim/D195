@@ -38,7 +38,7 @@ The Proposal -a detailed paper outlining your question/problem and planned data 
 
 </div> -->
 
-(task2: do_the_analysis_now)=
+(task2:do_the_analysis_now)=
 
 ## Do the Analysis Now!
 
@@ -57,8 +57,9 @@ Throughout this page, we will be assuming you have completed the data analysis.
 ## Write Task 2
 
 Write your proposal following **Task 2: Project Proposal template**:
-> [Task 2: the Proposal template](https://1drv.ms/w/s!Av4KQnJfiBxmgqVWgpkLPEi_AnrNLQ?e=emh2fI)
-<!-- > TODO: using OneDrive link as the doc is still in development. Eventually will replace the link with a relative link to the repo. -->
+> {{ task2_temp }}
+>
+> {{ task2_temp_odt }}
 
 To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not the greatest, projects. Individual sections should be written to individually meet their respective rubric section requirements.
 
@@ -74,7 +75,7 @@ The Proposal Overview summarizes one question or organizational need that you in
 
 This part introduces and summarizes a thesis (A1), a literature review (A3), a problem (A2), and your solution (A4 & A5). This section can establish a roadmap for the rest of the paper, but if you write it first expect the need to revisit and revise it once other sections are complete. Remember to keep the introduction concise but informative, providing enough information to clearly meet the requirements of individual sections.
 
-(task1: A1)=
+(task2:A1)=
 
 #### A1: Research Question or Organizational Need
 
@@ -95,7 +96,7 @@ A research question should identify what your analysis plans to discover. For th
 A good research question should also be interesting, relevant, and novel. However, these characteristics are not directly or indirectly assessed as the capstone is meant to demonstrate proficiencies in analysis -not scientific research. Particularly do not worry about the novelty of projects as we have no shareable list of previous topics or investigated datasets.
 
 :::{note}
-Many of the rubric requirements must align with A1. Particularly [part C](task2:C)](task2:C). If you've followed the recommendation of first completing the analysis, your research question can be directly related to your [hypothesis](task2:C1)  
+Many of the rubric requirements must align with A1. Particularly [part C](task2:C). If you've followed the recommendation of first completing the analysis, your research question can be directly related to your [hypothesis](task2:C1)  
 :::
 
  <!--TODO HERE  -->
@@ -105,13 +106,13 @@ Many of the rubric requirements must align with A1. Particularly [part C](task2:
 </iframe>
 ::: -->
 
-(task2: A2)=
+(task2:A2)=
 
 #### A2: Context & Background
 
 Briefly detail the project's background and provide enough context making the purpose of your project clear.
 
-(task2: A3)=
+(task2:A3)=
 
 #### A3 & A3A: Summary of Works & Project Relation
 
@@ -122,7 +123,7 @@ Think of this section as a literature review where you summarize a work (A3) and
 3. **Relate the work to your project.** Following the summary, describe how the work expands the context of the problem or supports the implementation solution.
 4. **Include an APA style in-text citation,** e.g., (Author, year); follow  [APA guidelines and use the MS reference tool] see (task2:grammar)
 
-- [WGU's library](https://wgu.libguides.com/friendly.php?s=library)
+- {{ wgu_library }}
 - [google.scholar.com](https://scholar.google.com/)
 
 :::{tip}
@@ -130,14 +131,14 @@ Stuck? Return to this section later. You will likely collect sources while condu
 :::
 
 :::{tip}
-You can search [WGU's library](https://wgu.libguides.com/friendly.php?s=library) and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' 
+You can search {{ wgu_library }} and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' 
 and then add WGU and other libraries.
 
 <img src="https://github.com/ashejim/C769/blob/main/url_images/google_scholar_demo.gif?raw=true" height="300px" 
 alt = "A short animated image demonstrating how to add WGU's library to google.scholar.com"/>
 :::
 
-(task2: A4)=
+(task2:A4)=
 
 #### A4: Summary of Data Analytics Solution
 
@@ -146,7 +147,7 @@ Summarize the proposed solution. Include a summary of the analytic method(s) and
 - Will be realistically implemented.
 - Address the research question or organizational need.
 
-(task1: A5)=
+(task2:A5)=
 
 #### A5: Benefits & Support of Decision-Making Process
 
@@ -204,6 +205,8 @@ Describe:
 You must include at least *one* specific item outside the project's scope. Overlooking this is one of the most common reasons for returns.
 :::
 
+(task2:B3)=
+
 #### B3: Standard Methodology
 
 The methodology is the process you will follow when implementing your solution. Include specific details to adequately describe the steps that will take place in each phase. In this section, you must:
@@ -251,6 +254,8 @@ Provide specific objective means of assessing success. You should base these cri
 
 The criteria can be metrics, but also can be project-related task that can be counted as having been completed. See B.6 of the [Task 2 examples](resources:examples).
 
+(task2:C)=
+
 ### C: Design of Data Analytics Solution
 
 In this part, you will discuss the details of your data analytics solution targeting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus, we recommend completing at least a rough outline of this part before investing time in parts A and B.
@@ -272,6 +277,8 @@ Identify (C2) and justify (C2A) each statistical test or model which will suppor
 #### C3: Tools & Environment
 
 Identify the tools, e.g., IDE, languages, libraries, etc., which will be used to complete the analytical method(s) described in section C2.
+
+(task2:C4)=
 
 #### C4 & C4A: Methods & Metrics to Evaluate Statistical Significance
 
@@ -330,19 +337,21 @@ Specifically, address how each of the following relates to your data and project
 
 Describe any necessary precautions (D5A). In cases where an item is not relevant, you must explain why. You only need to discuss measures for handling human data if you collected that data
 
+(task2:grammar)=
+
 ### Grammar, Sources, and APA
 
 It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions!
 
-Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly.com icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
+Check your grammar using the {{ grammarly_edu }} ![grammarly.com icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon); this grammar checker is the preferred tool. Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
 
 :::{warning}
 Students have reported missed mistakes when using the Google Doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.
 :::
 
-Sources and format should follow [APA guidelines](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524). Avoid reference errors by using the [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5) to create and manage references and review this guide on how to [Avoid Common APA errors](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333).
+Sources and format should follow APA guidelines; see {{ apa_help }}. Avoid reference errors by using the [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5) to create and manage references and review this guide on how to {{ apa_common_errors }}.
 
-Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860).
+Get the best writing help from the writing experts: {{ writing_center }}. While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions. See a list of upcoming events here: {{ writing_center_live_events }}.
 
 (task2:faq)=
 

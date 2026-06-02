@@ -9,13 +9,15 @@
 
 - **[Your Course Instructor](ci_page)**
 
-- **[ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=Assigned%20course%20instructor&subject=C769&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A)**
+- **[ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=Assigned%20course%20instructor&subject=D502&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A)**
 
 (resources:examples)=
 
 ## Examples
 
 These examples are more on-par with average passing tasks. Use them as guidelines (every project is different) for what evaluators accept in fulfillment of the requirements.  
+<!-- TODO: The Task 1 example PDFs below show the OLD approval form; regenerate them from the new 4-box form (Data / Analytical Method / Research Question or Organizational Need / Student Certification) once available. -->
+
 
 `````{tab-set}
 
@@ -59,7 +61,7 @@ If you see `Unable to render code block` when attempting to view the examples, o
 
 ### Excellence Archive
 
-The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx) includes a wide range of completed projects. When reviewing archived capstones, keep in mind that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these as examples of what's needed to meet the requirements. For a more down-to-earth example of what's required, see the above [Examples](resources:examples) section.
+The {{ excellence_archive }} includes a wide range of completed projects. When reviewing archived capstones, keep in mind that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these as examples of what's needed to meet the requirements. For a more down-to-earth example of what's required, see the above [Examples](resources:examples) section.
 
 ## Task 1 Resources
 
@@ -81,14 +83,17 @@ Any open source data set is freely available for use. The IRB policy only applie
   - [Tensorflow datasets](https://www.tensorflow.org/datasets)
 
 ### Topic Approval Form Template
-<!-- > [D195 Topic Approval Form](./resources/D195_Topic_Approval_Form.docx) -->
 
-> [D195 Topic Approval Form](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EfZJnryZZ5dAmAfUJ-e-3PYB6BKp_9D6J0_qO5GGuej_pg?e=Gd976P)
+> {{ task1_temp }}
+>
+> {{ task1_temp_odt }}
 
-### Waiver Form
+### Restricted Information Authorization Form
 
 <!-- > [![Waiver Form](https://github.com/ashejim/C769/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7)  -->
-> [D195 Waiver Form](./resources/D195_waiver_form.docx)
+> {{ waiver_form }}
+>
+> {{ waiver_form_odt }}
 
 (resources:task1:overviewvideo)=
 ### Overview Video
@@ -115,7 +120,9 @@ See the [Examples](resources:examples) and [Excellence Archive](resources:exampl
 
 Write your proposal following **Task 2: The Proposal template**:
 <!-- > [![Topic Approval Form](https://github.com/ashejim/C769/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D) -->
-> [D195 Task 2 Template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/Ee2j1-f4p_pLp-v-sA6XpkYBRSlZ8pMxBsGAv6_YRsELOw?e=s4odpt)
+> {{ task2_temp }}
+>
+> {{ task2_temp_odt }}
 
 (resources:task2:task2example)=
 
@@ -135,7 +142,7 @@ See the [Examples](resources:examples) and [Excellence Archive](resources:exampl
 
 Inferential statistical methods and testing for statistical significance are covered in [C749 Intro to Data Analysis & Practical Statistics](https://learn.udacity.com/nanodegrees/nd002-wgu-1).
 
-For a brief overview of statistical significance, listen to [C964/D195 Statistical Significance](https://d2y36twrtb17ty.cloudfront.net/sessions/d8c9630b-274a-4879-bf27-ae2a011e3dbd/ec782192-a9bf-459f-b091-ae2a011e3dc8-8a3dfb1b-4294-4074-9d33-ae2a011e752c.mp4?invocationId=abd666da-b37f-ec11-828b-12b1cb861383) in the [WGU IT Audio series](https://www.wgu.edu/online-it-degrees/it-audio-series.html#close).
+For a brief overview of statistical significance, listen to {{ stat_significance_audio }} in the {{ it_audio_series }}.
 
 Though it's for the computer science capstone which has different requirements, examples of data processing, graphing, and model development (not statistical significance) can be found here:
 
@@ -148,7 +155,9 @@ Though it's for the computer science capstone which has different requirements, 
 
 ### Task 3 Template
 
-> [D195 Task 3 Template](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXd665BhwxJPrzjy35_4pLoB3oQ-2saTvR8B8V5eGKsaPA?e=hPwYxq)
+> {{ task3_temp }}
+>
+> {{ task3_temp_odt }}
 
 ### Task 3 Examples
 
@@ -163,32 +172,32 @@ See the [Examples](resources:examples) and [Excellence Archive](resources:exampl
 
 ## Grammar, Sources, and APA
 
-- [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon)
+- {{ grammarly_edu }} ![grammarly_icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon)
 - [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5)
-- [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center)
-- [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860)
-- [APA resource hub](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524)
-- [Guide to Avoiding Common APA errors](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333).
+- {{ writing_center }}
+- {{ writing_center_live_events }}
+- {{ apa_help }}
+- {{ apa_common_errors }}.
 
 (resources:general:grammar:grammarly)=
 
 ### Grammarly.com
 
-Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
+Check your grammar using the {{ grammarly_edu }} ![grammarly_icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon); this grammar checker is the preferred tool. Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
 
 :::{warning}
 Students have reported missed mistakes when using the Google doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.
 :::
 
-Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass, they can help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q & A sessions covering a variety of topics which include general writing and grammar help. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860) 
+Get the best writing help from the writing experts: {{ writing_center }}. While Writing Center Instructors cannot say whether a task will pass, they can help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q & A sessions covering a variety of topics which include general writing and grammar help. See a list of upcoming events here: {{ writing_center_live_events }} 
 
 (resources:general:grammar:sources)=
 
 ### Sources and APA formatting
 
-Sources and format should follow [APA guidelines](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524). Avoid reference errors by using the [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5) to create and manage references and review this guide on how to [Avoid Common APA errors](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333).
+Sources and format should follow APA guidelines; see {{ apa_help }}. Avoid reference errors by using the [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5) to create and manage references and review this guide on how to {{ apa_common_errors }}.
 
-Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions covering a variety of topics including APA citations and formatting. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860).
+Get the best writing help from the writing experts: {{ writing_center }}. While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions covering a variety of topics including APA citations and formatting. See a list of upcoming events here: {{ writing_center_live_events }}.
 
 (resources:general)=
 
@@ -197,7 +206,7 @@ Get the best writing help from the writing experts: [WGU Writing Center](https:/
 ### Student Resources
 
 - [Student Resource Hub](https://resource-hub.wgu.edu/)
-- [Writing Center](https://my.wgu.edu/success-centers/writing-center)
+- {{ writing_center }}
 - [Writing Center Knowledge Base](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/tkb-p/C770_kb)
 - [WGU Math Center](https://my.wgu.edu/success-centers/math-center). The Math Center is [$e^{2\pi i}$](https://www.wolframalpha.com/input/?i=e%5E%282*pi*i%29)!
 
@@ -237,17 +246,17 @@ Please join this "come and go" session for all data analytics capstone-related q
 
 #### Writing Center Live Events
 
-The Writing Center offers live Q&A sessions covering a variety of topics such as citing sources with APA, avoiding plagiarism, hacks, strategies, tools, etc. Session dates and topics are updated monthly. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860)
+The Writing Center offers live Q&A sessions covering a variety of topics such as citing sources with APA, avoiding plagiarism, hacks, strategies, tools, etc. Session dates and topics are updated monthly. See a list of upcoming events here: {{ writing_center_live_events }}
 
 (resources:general:libraries)=
 
 ### Libraries
 
-- [WGU's library](https://wgu.libguides.com/friendly.php?s=library)
+- {{ wgu_library }}
 - [google.scholar.com](https://scholar.google.com/) 
 
 :::{tip}
-You can search [WGU's library](https://wgu.libguides.com/friendly.php?s=library) and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' and then add WGU and other libraries.
+You can search {{ wgu_library }} and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' and then add WGU and other libraries.
 
 <img src="./_images/google_scholar_demo.gif" height="200px" alt = "short moive demonstraiting how to use google.scholar.com." />
 :::
@@ -269,7 +278,7 @@ And review these [examples](https://ashejim.github.io/D195/resources.html#exampl
 
 1. *Choose your dataset.* Review the [Task 1 guide page](https://ashejim.github.io/D195/task1.html) and the [Proposal (task 2)](https://ashejim.github.io/D195/task2.html) requirements (particularly [section C4](https://ashejim.github.io/D195/task2.html#c4-c4a-methods-metrics-to-evaluate-statistical-significance) requiring a model or test). You will need to support a hypothesis using a model or statistical test. So, choose data suitable for a method you are comfortable with. A popular place for datasets is kaggle.com.
 2. *Explore the data* before settling on a topic. Complete your data analysis before completing the Proposal (task 2), as you won't need to anticipate results. Furthermore, completing task 3 and aligning with task 2 will be easier. 
-3. *Submit Task 1.* Compose your Topic Approval Form using the [Topic Approval Form Template](https://ashejim.github.io/D195/task1.html#topic-approval) and send it to your assigned course intsructor. If more information is needed, we'll let you know. Submit the Topic Approval Form (signed by any D195/D502 CI). You only need the waiver form if using proprietary data or information.
+3. *Submit Task 1.* Compose your Topic Approval Form using the [Topic Approval Form Template](https://ashejim.github.io/D195/task1.html#submitting-the-approval-form) and submit it directly to Assessments as your Task 1. Your course instructor will either pass it or return it with comments for revision — there's no longer an email-and-sign step. You only need the Restricted Information Authorization Form if using restricted or proprietary data or information.
 
 Let us know if you have any questions. Emails are best (and fastest) for specific questions -appointments for general discussions. Though whatever your preference is fine. Here you can find all [D195/D502 CI contact information](https://ashejim.github.io/D195/ci_d195.html).
 ```

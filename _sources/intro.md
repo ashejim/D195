@@ -11,7 +11,7 @@ Welcome! For the Data Analytics capstone project, you’ll first propose a resea
 
 The capstone includes three parts:
 
-1. **Task One:** Get course instructor topic approval -a preliminary step to ensure you start in the right direction.
+1. **Task One:** Submit a short topic approval form to Assessments -a preliminary step to ensure you start in the right direction. Your course instructor will pass it or return it with comments.
 2. **Task two:** The Proposal -a detailed paper describing your research question or organizational need, the planned supporting analysis (e.g., statistical test(s) or model(s)), and the practical significance of your project. Different sections target general and technical audiences.
 3. **Task three:** The Conclusion Report -an overview video and detailed paper presenting the concluded data analysis project from task two. Most of task three repeats task two.
 
@@ -78,7 +78,7 @@ Task 3 details {fas}`arrow-right`
 ## Start Here
 
 Watch the following video:
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=12aa277b-6d29-4bef-916e-b07601467409&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+{{ intro_video }}
 
 First, understand the project's requirements. What they are -and what they aren't. If you aren't sure, contact your [assigned course faculty](ci_page). The keys to a passing project are:
 
