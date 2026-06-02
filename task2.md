@@ -57,8 +57,9 @@ Throughout this page, we will be assuming you have completed the data analysis.
 ## Write Task 2
 
 Write your proposal following **Task 2: Project Proposal template**:
-> [Task 2: the Proposal template](https://1drv.ms/w/s!Av4KQnJfiBxmgqVWgpkLPEi_AnrNLQ?e=emh2fI)
-<!-- > TODO: using OneDrive link as the doc is still in development. Eventually will replace the link with a relative link to the repo. -->
+> {{ task2_temp }}
+>
+> {{ task2_temp_odt }}
 
 To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples) - passing, albeit not the greatest, projects. Individual sections should be written to individually meet their respective rubric section requirements.
 
@@ -122,7 +123,7 @@ Think of this section as a literature review where you summarize a work (A3) and
 3. **Relate the work to your project.** Following the summary, describe how the work expands the context of the problem or supports the implementation solution.
 4. **Include an APA style in-text citation,** e.g., (Author, year); follow  [APA guidelines and use the MS reference tool] see (task2:grammar)
 
-- [WGU's library](https://wgu.libguides.com/friendly.php?s=library)
+- {{ wgu_library }}
 - [google.scholar.com](https://scholar.google.com/)
 
 :::{tip}
@@ -130,7 +131,7 @@ Stuck? Return to this section later. You will likely collect sources while condu
 :::
 
 :::{tip}
-You can search [WGU's library](https://wgu.libguides.com/friendly.php?s=library) and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' 
+You can search {{ wgu_library }} and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' 
 and then add WGU and other libraries.
 
 <img src="https://github.com/ashejim/C769/blob/main/url_images/google_scholar_demo.gif?raw=true" height="300px" 
@@ -334,15 +335,15 @@ Describe any necessary precautions (D5A). In cases where an item is not relevant
 
 It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions!
 
-Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly.com icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
+Check your grammar using the {{ grammarly_edu }} ![grammarly.com icon](https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon); this grammar checker is the preferred tool. Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
 
 :::{warning}
 Students have reported missed mistakes when using the Google Doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.
 :::
 
-Sources and format should follow [APA guidelines](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524). Avoid reference errors by using the [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5) to create and manage references and review this guide on how to [Avoid Common APA errors](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333).
+Sources and format should follow APA guidelines; see {{ apa_help }}. Avoid reference errors by using the [MS Word Reference Tool](https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5) to create and manage references and review this guide on how to {{ apa_common_errors }}.
 
-Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860).
+Get the best writing help from the writing experts: {{ writing_center }}. While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&A sessions. See a list of upcoming events here: {{ writing_center_live_events }}.
 
 (task2:faq)=
 

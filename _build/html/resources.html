@@ -16,42 +16,45 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-
-  
-  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/my_css.css?v=7801b114" />
   
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=5eb1bb1e"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
@@ -67,6 +70,7 @@
     <link rel="prev" title="Task 3" href="task3.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -82,19 +86,8 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-primary-sidebar-checkbox"/>
-  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-secondary-sidebar-checkbox"/>
-  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="search.html"
       method="get">
@@ -102,7 +95,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -110,8 +102,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -127,7 +119,8 @@
       
       
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -157,21 +150,17 @@
     
     
     <img src="_static/emp_rule_logo.png" class="logo__image only-light" alt="D195 Data Analytics Capstone - Home"/>
-    <script>document.write(`<img src="_static/emp_rule_logo.png" class="logo__image only-dark" alt="D195 Data Analytics Capstone - Home"/>`);</script>
+    <img src="_static/emp_rule_logo.png" class="logo__image only-dark pst-js-only" alt="D195 Data Analytics Capstone - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
- <script>
- document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -187,10 +176,10 @@
 <li class="toctree-l1"><a class="reference internal" href="task2.html">Task 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="task3.html">Task 3</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Resources</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="ci_page.html">Course Faculty</a><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="ci_page.html">Course Faculty</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="ci_d195.html">Course Faculty</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ci_other.html">DMDA, Software, and other Course Faculty</a></li>
-</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
+</ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="support_this_page.html">Help Support this Website</a></li>
 </ul>
@@ -201,9 +190,14 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -333,7 +327,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -347,25 +341,17 @@
 
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
-  </button>
-`);
-</script>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
 </div></div>
@@ -395,7 +381,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-1-resources">Task 1 Resources</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data">Data</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#topic-approval-form-template">Topic Approval Form Template</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#waiver-form">Waiver Form</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#restricted-information-authorization-form">Restricted Information Authorization Form</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-video">Overview Video</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#task-1-examples">Task 1 Examples</a></li>
 </ul>
@@ -449,11 +435,12 @@ document.write(`
 </head>
 <ul class="simple">
 <li><p><strong><a class="reference internal" href="ci_page.html"><span class="doc std std-doc">Your Course Instructor</span></a></strong></p></li>
-<li><p><strong><a class="reference external" href="mailto:ugcapstoneit&#37;&#52;&#48;wgu&#46;edu?cc=Assigned%20course%20instructor&amp;amp;subject=C769&amp;amp;body=Your%20name%20and%20question%20here&#46;%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address&#46;%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A">ugcapstoneit<span>&#64;</span>wgu<span>&#46;</span>edu</a></strong></p></li>
+<li><p><strong><a class="reference external" href="mailto:ugcapstoneit&#37;&#52;&#48;wgu&#46;edu?cc=Assigned%20course%20instructor&amp;amp;subject=D502&amp;amp;body=Your%20name%20and%20question%20here&#46;%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address&#46;%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A">ugcapstoneit<span>&#64;</span>wgu<span>&#46;</span>edu</a></strong></p></li>
 </ul>
 <section id="examples">
 <span id="resources-examples"></span><h2>Examples<a class="headerlink" href="#examples" title="Link to this heading">#</a></h2>
 <p>These examples are more on-par with average passing tasks. Use them as guidelines (every project is different) for what evaluators accept in fulfillment of the requirements.</p>
+<!-- TODO: The Task 1 example PDFs below show the OLD approval form; regenerate them from the new 4-box form (Data / Analytical Method / Research Question or Organizational Need / Student Certification) once available. -->
 <div class="sd-tab-set docutils">
 <input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
 <label class="sd-tab-label" for="sd-tab-item-0">
@@ -538,16 +525,17 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 </section>
 <section id="topic-approval-form-template">
 <h3>Topic Approval Form Template<a class="headerlink" href="#topic-approval-form-template" title="Link to this heading">#</a></h3>
-<!-- > [D195 Topic Approval Form](./resources/D195_Topic_Approval_Form.docx) -->
 <blockquote>
-<div><p><a class="reference external" href="https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EfZJnryZZ5dAmAfUJ-e-3PYB6BKp_9D6J0_qO5GGuej_pg?e=Gd976P">D195 Topic Approval Form</a></p>
+<div><p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQC3dT4wjmvFTbrpRldYDabpAYxREb-TPqfFDhR49mTH32E?e=v1HqUB">Topic Approval Form Template (docx)</a></p>
+<p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQASdD3EjcRlRKCcWat21Q0IAZI7yPqF9MxbAMotiBdVHqg?e=gqgWK0">Topic Approval Form Template (odt)</a></p>
 </div></blockquote>
 </section>
-<section id="waiver-form">
-<h3>Waiver Form<a class="headerlink" href="#waiver-form" title="Link to this heading">#</a></h3>
+<section id="restricted-information-authorization-form">
+<h3>Restricted Information Authorization Form<a class="headerlink" href="#restricted-information-authorization-form" title="Link to this heading">#</a></h3>
 <!-- > [![Waiver Form](https://github.com/ashejim/C769/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7)  -->
 <blockquote>
-<div><p><a class="reference download internal" download="" href="_downloads/f38ec6dde4208d3dcf438df9a12d393c/D195_waiver_form.docx"><span class="xref download myst">D195 Waiver Form</span></a></p>
+<div><p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQDj42k24KcZQaDUIs_4Rcz7Af5TwH1Yi4q0oWRuQvBbwuQ?e=hkJgsA">Restricted Information Authorization Form (docx)</a></p>
+<p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQCXJWzmD0BHR7rcsHdU9-BKAQGdNUK7QUzBRw_cq9qJYBs?e=e4ck0J">Restricted Information Authorization Form (odt)</a></p>
 </div></blockquote>
 </section>
 <section id="overview-video">
@@ -573,7 +561,8 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 <p>Write your proposal following <strong>Task 2: The Proposal template</strong>:</p>
 <!-- > [![Topic Approval Form](https://github.com/ashejim/C769/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D) -->
 <blockquote>
-<div><p><a class="reference external" href="https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/Ee2j1-f4p_pLp-v-sA6XpkYBRSlZ8pMxBsGAv6_YRsELOw?e=s4odpt">D195 Task 2 Template</a></p>
+<div><p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQDujXFLHXJZR59yY1adR_6BAeD_O9YByi43nEjE_CaQXyw?e=Zwk5bP">Task 2 Template (docx)</a></p>
+<p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQBXAlNSURokQ5bzGgQ-WFNhAYqg3wS29H3Bul-iLM2tMpk?e=SjdTqW">Task 2 Template (odt)</a></p>
 </div></blockquote>
 </section>
 <section id="task-2-examples">
@@ -590,7 +579,7 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 <section id="data-analysis">
 <h3>Data Analysis<a class="headerlink" href="#data-analysis" title="Link to this heading">#</a></h3>
 <p>Inferential statistical methods and testing for statistical significance are covered in <a class="reference external" href="https://learn.udacity.com/nanodegrees/nd002-wgu-1">C749 Intro to Data Analysis &amp; Practical Statistics</a>.</p>
-<p>For a brief overview of statistical significance, listen to <a class="reference external" href="https://d2y36twrtb17ty.cloudfront.net/sessions/d8c9630b-274a-4879-bf27-ae2a011e3dbd/ec782192-a9bf-459f-b091-ae2a011e3dc8-8a3dfb1b-4294-4074-9d33-ae2a011e752c.mp4?invocationId=abd666da-b37f-ec11-828b-12b1cb861383">C964/D195 Statistical Significance</a> in the <a class="reference external" href="https://www.wgu.edu/online-it-degrees/it-audio-series.html#close">WGU IT Audio series</a>.</p>
+<p>For a brief overview of statistical significance, listen to <a class="reference external" href="https://d2y36twrtb17ty.cloudfront.net/sessions/d8c9630b-274a-4879-bf27-ae2a011e3dbd/ec782192-a9bf-459f-b091-ae2a011e3dc8-8a3dfb1b-4294-4074-9d33-ae2a011e752c.mp4?invocationId=abd666da-b37f-ec11-828b-12b1cb861383">Statistical Significance</a> in the <a class="reference external" href="https://www.wgu.edu/online-it-degrees/it-audio-series.html#close">WGU IT Audio series</a>.</p>
 <p>Though it’s for the computer science capstone which has different requirements, examples of data processing, graphing, and model development (not statistical significance) can be found here:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://ashejim.github.io/C964/task2_c/example_sup_class/sup_class_ex.html">Example: Supervised Classification Model</a></p></li>
@@ -603,7 +592,8 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 <section id="task-3-template">
 <span id="resources-task3"></span><h3>Task 3 Template<a class="headerlink" href="#task-3-template" title="Link to this heading">#</a></h3>
 <blockquote>
-<div><p><a class="reference external" href="https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXd665BhwxJPrzjy35_4pLoB3oQ-2saTvR8B8V5eGKsaPA?e=hPwYxq">D195 Task 3 Template</a></p>
+<div><p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQC56BmixAWiTa1Eh0Q9bmTTAVbbgkaT5YAjNw3TqB8cJ38?e=H5UxCI">Task 3 Template (docx)</a></p>
+<p><a class="reference external" href="https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQDCkwzu5FkuSpR4fLztnyfpAYiP0LVz_rWVeOapcQUc0QM?e=ALxKO7">Task 3 Template (odt)</a></p>
 </div></blockquote>
 </section>
 <section id="task-3-examples">
@@ -621,16 +611,16 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 <section id="grammar-sources-and-apa">
 <h2>Grammar, Sources, and APA<a class="headerlink" href="#grammar-sources-and-apa" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.grammarly.com/">Grammarly.com</a> <img alt="grammarly_icon" src="https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon" /></p></li>
+<li><p><a class="reference external" href="https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355">Grammarly for Education</a> <img alt="grammarly_icon" src="https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon" /></p></li>
 <li><p><a class="reference external" href="https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5">MS Word Reference Tool</a></p></li>
 <li><p><a class="reference external" href="https://my.wgu.edu/success-centers/writing-center">WGU Writing Center</a></p></li>
 <li><p><a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860">Writing Center Live Events</a></p></li>
-<li><p><a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524">APA resource hub</a></p></li>
-<li><p><a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333">Guide to Avoiding Common APA errors</a>.</p></li>
+<li><p><a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524">I Need Help with APA Style</a></p></li>
+<li><p><a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333">Avoid Common APA Errors</a>.</p></li>
 </ul>
 <section id="grammarly-com">
 <span id="resources-general-grammar-grammarly"></span><h3><a class="reference external" href="http://Grammarly.com">Grammarly.com</a><a class="headerlink" href="#grammarly-com" title="Link to this heading">#</a></h3>
-<p>Check your grammar using <a class="reference external" href="https://www.grammarly.com/">Grammarly.com</a> <img alt="grammarly_icon" src="https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon" /> (it’s what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in <em>Professional Communication</em>. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.</p>
+<p>Check your grammar using the <a class="reference external" href="https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355">Grammarly for Education</a> <img alt="grammarly_icon" src="https://github.com/ashejim/C769/blob/main/url_images/icon-grammarly.png?raw=true#icon" />; this grammar checker is the preferred tool. Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in <em>Professional Communication</em>. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Students have reported missed mistakes when using the Google doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.</p>
@@ -639,7 +629,7 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 </section>
 <section id="sources-and-apa-formatting">
 <span id="resources-general-grammar-sources"></span><h3>Sources and APA formatting<a class="headerlink" href="#sources-and-apa-formatting" title="Link to this heading">#</a></h3>
-<p>Sources and format should follow <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524">APA guidelines</a>. Avoid reference errors by using the <a class="reference external" href="https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5">MS Word Reference Tool</a> to create and manage references and review this guide on how to <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333">Avoid Common APA errors</a>.</p>
+<p>Sources and format should follow APA guidelines; see <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524">I Need Help with APA Style</a>. Avoid reference errors by using the <a class="reference external" href="https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references-17686589-4824-4940-9c69-342c289fa2a5">MS Word Reference Tool</a> to create and manage references and review this guide on how to <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/I-Need-Help-with-APA-Style/ta-p/33524?attachment-id=333">Avoid Common APA Errors</a>.</p>
 <p>Get the best writing help from the writing experts: <a class="reference external" href="https://my.wgu.edu/success-centers/writing-center">WGU Writing Center</a>. While Writing Center Instructors cannot say whether a task will pass (no one but your specific evaluator can), they will help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q&amp;A sessions covering a variety of topics including APA citations and formatting. See a list of upcoming events here: <a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860">Writing Center Live Events</a>.</p>
 </section>
 </section>
@@ -649,7 +639,7 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 <h3>Student Resources<a class="headerlink" href="#student-resources" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://resource-hub.wgu.edu/">Student Resource Hub</a></p></li>
-<li><p><a class="reference external" href="https://my.wgu.edu/success-centers/writing-center">Writing Center</a></p></li>
+<li><p><a class="reference external" href="https://my.wgu.edu/success-centers/writing-center">WGU Writing Center</a></p></li>
 <li><p><a class="reference external" href="https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/tkb-p/C770_kb">Writing Center Knowledge Base</a></p></li>
 <li><p><a class="reference external" href="https://my.wgu.edu/success-centers/math-center">WGU Math Center</a>. The Math Center is <a class="reference external" href="https://www.wolframalpha.com/input/?i=e%5E%282*pi*i%29"><span class="math notranslate nohighlight">\(e^{2\pi i}\)</span></a>!</p></li>
 </ul>
@@ -661,7 +651,8 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<a class="reference internal image-reference" href="_images/yield_sign1.jpg"><img alt="_images/yield_sign1.jpg" src="_images/yield_sign1.jpg" style="height: 150px;" /></a>
+<a class="reference internal image-reference" href="_images/yield_sign1.jpg"><img alt="_images/yield_sign1.jpg" src="_images/yield_sign1.jpg" style="height: 150px;" />
+</a>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
 <p class="sd-card-text"><strong>Open Office Hours with Dr. Ashe (D195/D502)</strong></p>
@@ -707,7 +698,7 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 <ol class="arabic simple">
 <li><p><em>Choose your dataset.</em> Review the <a class="reference external" href="https://ashejim.github.io/D195/task1.html">Task 1 guide page</a> and the <a class="reference external" href="https://ashejim.github.io/D195/task2.html">Proposal (task 2)</a> requirements (particularly <a class="reference external" href="https://ashejim.github.io/D195/task2.html#c4-c4a-methods-metrics-to-evaluate-statistical-significance">section C4</a> requiring a model or test). You will need to support a hypothesis using a model or statistical test. So, choose data suitable for a method you are comfortable with. A popular place for datasets is <a class="reference external" href="http://kaggle.com">kaggle.com</a>.</p></li>
 <li><p><em>Explore the data</em> before settling on a topic. Complete your data analysis before completing the Proposal (task 2), as you won’t need to anticipate results. Furthermore, completing task 3 and aligning with task 2 will be easier.</p></li>
-<li><p><em>Submit Task 1.</em> Compose your Topic Approval Form using the <a class="reference external" href="https://ashejim.github.io/D195/task1.html#topic-approval">Topic Approval Form Template</a> and send it to your assigned course intsructor. If more information is needed, we’ll let you know. Submit the Topic Approval Form (signed by any D195/D502 CI). You only need the waiver form if using proprietary data or information.</p></li>
+<li><p><em>Submit Task 1.</em> Compose your Topic Approval Form using the <a class="reference external" href="https://ashejim.github.io/D195/task1.html#submitting-the-approval-form">Topic Approval Form Template</a> and submit it directly to Assessments as your Task 1. Your course instructor will either pass it or return it with comments for revision — there’s no longer an email-and-sign step. You only need the Restricted Information Authorization Form if using restricted or proprietary data or information.</p></li>
 </ol>
 <p>Let us know if you have any questions. Emails are best (and fastest) for specific questions -appointments for general discussions. Though whatever your preference is fine. Here you can find all <a class="reference external" href="https://ashejim.github.io/D195/ci_d195.html">D195/D502 CI contact information</a>.</p>
 </div>
@@ -783,14 +774,16 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav class="bd-toc-nav page-toc">
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#excellence-archive">Excellence Archive</a></li>
@@ -799,7 +792,7 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/D195/blob
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-1-resources">Task 1 Resources</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data">Data</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#topic-approval-form-template">Topic Approval Form Template</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#waiver-form">Waiver Form</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#restricted-information-authorization-form">Restricted Information Authorization Form</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-video">Overview Video</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#task-1-examples">Task 1 Examples</a></li>
 </ul>
@@ -882,8 +875,8 @@ By Dr. Jim Ashe
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>
