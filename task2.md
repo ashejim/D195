@@ -38,7 +38,7 @@ The Proposal -a detailed paper outlining your question/problem and planned data 
 
 </div> -->
 
-(task2: do_the_analysis_now)=
+(task2:do_the_analysis_now)=
 
 ## Do the Analysis Now!
 
@@ -75,7 +75,7 @@ The Proposal Overview summarizes one question or organizational need that you in
 
 This part introduces and summarizes a thesis (A1), a literature review (A3), a problem (A2), and your solution (A4 & A5). This section can establish a roadmap for the rest of the paper, but if you write it first expect the need to revisit and revise it once other sections are complete. Remember to keep the introduction concise but informative, providing enough information to clearly meet the requirements of individual sections.
 
-(task1: A1)=
+(task2:A1)=
 
 #### A1: Research Question or Organizational Need
 
@@ -96,7 +96,7 @@ A research question should identify what your analysis plans to discover. For th
 A good research question should also be interesting, relevant, and novel. However, these characteristics are not directly or indirectly assessed as the capstone is meant to demonstrate proficiencies in analysis -not scientific research. Particularly do not worry about the novelty of projects as we have no shareable list of previous topics or investigated datasets.
 
 :::{note}
-Many of the rubric requirements must align with A1. Particularly [part C](task2:C)](task2:C). If you've followed the recommendation of first completing the analysis, your research question can be directly related to your [hypothesis](task2:C1)  
+Many of the rubric requirements must align with A1. Particularly [part C](task2:C). If you've followed the recommendation of first completing the analysis, your research question can be directly related to your [hypothesis](task2:C1)  
 :::
 
  <!--TODO HERE  -->
@@ -106,13 +106,13 @@ Many of the rubric requirements must align with A1. Particularly [part C](task2:
 </iframe>
 ::: -->
 
-(task2: A2)=
+(task2:A2)=
 
 #### A2: Context & Background
 
 Briefly detail the project's background and provide enough context making the purpose of your project clear.
 
-(task2: A3)=
+(task2:A3)=
 
 #### A3 & A3A: Summary of Works & Project Relation
 
@@ -138,7 +138,7 @@ and then add WGU and other libraries.
 alt = "A short animated image demonstrating how to add WGU's library to google.scholar.com"/>
 :::
 
-(task2: A4)=
+(task2:A4)=
 
 #### A4: Summary of Data Analytics Solution
 
@@ -147,7 +147,7 @@ Summarize the proposed solution. Include a summary of the analytic method(s) and
 - Will be realistically implemented.
 - Address the research question or organizational need.
 
-(task1: A5)=
+(task2:A5)=
 
 #### A5: Benefits & Support of Decision-Making Process
 
@@ -205,6 +205,8 @@ Describe:
 You must include at least *one* specific item outside the project's scope. Overlooking this is one of the most common reasons for returns.
 :::
 
+(task2:B3)=
+
 #### B3: Standard Methodology
 
 The methodology is the process you will follow when implementing your solution. Include specific details to adequately describe the steps that will take place in each phase. In this section, you must:
@@ -252,6 +254,8 @@ Provide specific objective means of assessing success. You should base these cri
 
 The criteria can be metrics, but also can be project-related task that can be counted as having been completed. See B.6 of the [Task 2 examples](resources:examples).
 
+(task2:C)=
+
 ### C: Design of Data Analytics Solution
 
 In this part, you will discuss the details of your data analytics solution targeting an expert audience -fellow data analysts. These sections contain the rigorous data analysis requirements of task 2. Thus, we recommend completing at least a rough outline of this part before investing time in parts A and B.
@@ -273,6 +277,8 @@ Identify (C2) and justify (C2A) each statistical test or model which will suppor
 #### C3: Tools & Environment
 
 Identify the tools, e.g., IDE, languages, libraries, etc., which will be used to complete the analytical method(s) described in section C2.
+
+(task2:C4)=
 
 #### C4 & C4A: Methods & Metrics to Evaluate Statistical Significance
 
@@ -330,6 +336,8 @@ Specifically, address how each of the following relates to your data and project
 - Ethical, legal, and regulatory compliance considerations.
 
 Describe any necessary precautions (D5A). In cases where an item is not relevant, you must explain why. You only need to discuss measures for handling human data if you collected that data
+
+(task2:grammar)=
 
 ### Grammar, Sources, and APA
 
