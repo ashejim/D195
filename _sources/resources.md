@@ -46,10 +46,10 @@ This example uses a statistical test and a model as its analytical methods.
 > Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task3.pdf)
 ````
 ````{tab-item} Example set 5
-This example uses a machine learning model as its analytical methods. 
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task2.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task3.pdf)
+This example uses a machine learning model and a stastical test. 
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_G_task1_ML_model.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_G_task2_ML_model.pdf)  
+> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_G_task3_ML_model.pdf)
 ````
 `````
 
