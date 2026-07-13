@@ -16,40 +16,50 @@
 ## Examples
 
 These examples are more on-par with average passing tasks. Use them as guidelines (every project is different) for what evaluators accept in fulfillment of the requirements.  
-<!-- TODO: The Task 1 example PDFs below show the OLD approval form; regenerate them from the new 4-box form (Data / Analytical Method / Research Question or Organizational Need / Student Certification) once available. -->
+<!-- TODO: Each tab's Task 1 example PDF still shows the OLD approval form. Each tab has a "\*" on its Task 1 link and a matching "\*" note under the links box. As you regenerate each example from the new 4-box form (Data / Analytical Method / Research Question or Organizational Need / Student Certification), swap that set's Task 1 link and delete that set's "\*" marker and note. -->
 
 
 `````{tab-set}
 
 ````{tab-item} Example set 1
 This example uses a test for difference between means (two sample z-test) as its analytical method. 
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_example_task1.pdf)  
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_example_task1.pdf)\*  
 > Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_example_task2.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_example_task3.pdf)
+> Task 3: [Project conclusion example](https://github.com/ashejim/D195/blob/main/resources/examples/D195_example_task3.pdf)
+
+\* *This Task 1 example uses the **old** topic approval form. Task 1 now uses the new 4-box approval form; see [Submitting the Approval Form](task1:topicapproval).*
 ````
 ````{tab-item} Example set 2
 This example uses a test for correlation as its analytical method. 
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_F_task1_correlation_test.pdf)  
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_F_task1_correlation_test.pdf)\*  
 > Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_F_task2_correlation_test.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_F_task3_correlation_test.pdf)
+> Task 3: [Project conclusion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_F_task3_correlation_test.pdf)
+
+\* *This Task 1 example uses the **old** topic approval form. Task 1 now uses the new 4-box approval form; see [Submitting the Approval Form](task1:topicapproval).*
 ````
 ````{tab-item} Example set 3
 This example uses a model as its analytical method. 
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_B_model_task1.pdf)  
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_B_model_task1.pdf)\*  
 > Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_B_model_task2.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_B_model_task3.pdf)
+> Task 3: [Project conclusion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_B_model_task3.pdf)
+
+\* *This Task 1 example uses the **old** topic approval form. Task 1 now uses the new 4-box approval form; see [Submitting the Approval Form](task1:topicapproval).*
 ````
 ````{tab-item} Example set 4
 This example uses a statistical test and a model as its analytical methods. 
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task1.pdf)  
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task1.pdf)\*  
 > Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task2.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task3.pdf)
+> Task 3: [Project conclusion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task3.pdf)
+
+\* *This Task 1 example uses the **old** topic approval form. Task 1 now uses the new 4-box approval form; see [Submitting the Approval Form](task1:topicapproval).*
 ````
 ````{tab-item} Example set 5
-This example uses a machine learning model as its analytical methods. 
-> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task2.pdf)  
-> Task 3: [Project conculsion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_C_test_and_model_task3.pdf)
+This example uses a machine learning model and a statistical test. 
+> Task 1: [Topic approval form example](https://github.com/ashejim/D195/blob/main/resources/examples/example_G_task1_ML_model.pdf)\*  
+> Task 2: [Project proposal example](https://github.com/ashejim/D195/blob/main/resources/examples/example_G_task2_ML_model.pdf)  
+> Task 3: [Project conclusion example](https://github.com/ashejim/D195/blob/main/resources/examples/example_G_task3_ML_model.pdf)
+
+\* *This Task 1 example uses the **old** topic approval form. Task 1 now uses the new 4-box approval form; see [Submitting the Approval Form](task1:topicapproval).*
 ````
 `````
 
